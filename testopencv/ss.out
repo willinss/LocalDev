@@ -266,3 +266,128 @@ INFO: loading config from /home/ncslab/Desktop/config.json
 2015-11-15 19:50:22 ERROR    [Errno 104] Connection reset by peer
 2015-11-15 19:50:32 ERROR    [Errno 104] Connection reset by peer
 2015-11-15 20:11:50 INFO     connecting dt.adsafeprotected.com:443 from 127.0.0.1:47355
+2015-11-15 20:17:44 INFO     connecting www.google.com.hk:443 from 127.0.0.1:47358
+2015-11-15 20:17:44 INFO     connecting apis.google.com:443 from 127.0.0.1:47360
+2015-11-15 20:17:44 INFO     connecting apis.google.com:443 from 127.0.0.1:47361
+2015-11-15 20:17:44 INFO     connecting www.google.com.hk:443 from 127.0.0.1:47362
+2015-11-15 20:17:44 INFO     connecting www.google.com.hk:443 from 127.0.0.1:47363
+2015-11-15 20:17:44 INFO     connecting www.google.com.hk:443 from 127.0.0.1:47364
+2015-11-15 20:17:44 INFO     connecting www.google.com.hk:443 from 127.0.0.1:47365
+2015-11-15 20:17:44 INFO     connecting www.google.com.hk:443 from 127.0.0.1:47366
+2015-11-15 20:17:44 INFO     connecting www.gstatic.com:443 from 127.0.0.1:47367
+2015-11-15 20:17:44 INFO     connecting www.gstatic.com:443 from 127.0.0.1:47368
+2015-11-15 20:17:49 INFO     connecting www.google.com:443 from 127.0.0.1:47380
+2015-11-15 20:17:49 INFO     connecting www.google.com.hk:80 from 127.0.0.1:47382
+2015-11-15 20:17:49 INFO     connecting www.google.com.hk:80 from 127.0.0.1:47383
+2015-11-15 20:17:50 INFO     connecting www.baidu.com:80 from 127.0.0.1:47386
+2015-11-15 20:17:50 INFO     connecting www.baidu.com:80 from 127.0.0.1:47388
+2015-11-15 20:17:50 INFO     connecting ssl.gstatic.com:443 from 127.0.0.1:47390
+2015-11-15 20:17:51 INFO     connecting suggestion.baidu.com:80 from 127.0.0.1:47392
+2015-11-15 20:17:54 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:00 INFO     connecting www.github.com:443 from 127.0.0.1:47397
+2015-11-15 20:18:00 INFO     connecting www.github.com:443 from 127.0.0.1:47399
+2015-11-15 20:18:01 INFO     connecting github.com:443 from 127.0.0.1:47405
+2015-11-15 20:18:01 INFO     connecting github.com:443 from 127.0.0.1:47406
+2015-11-15 20:18:02 INFO     connecting avatars3.githubusercontent.com:443 from 127.0.0.1:47409
+2015-11-15 20:18:02 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47411
+2015-11-15 20:18:02 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47413
+2015-11-15 20:18:02 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47415
+2015-11-15 20:18:02 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47417
+2015-11-15 20:18:03 INFO     connecting www.google-analytics.com:443 from 127.0.0.1:47419
+2015-11-15 20:18:03 INFO     connecting collector.githubapp.com:443 from 127.0.0.1:47421
+2015-11-15 20:18:03 INFO     connecting live.github.com:443 from 127.0.0.1:47423
+2015-11-15 20:18:03 INFO     connecting www.google-analytics.com:443 from 127.0.0.1:47425
+2015-11-15 20:18:03 INFO     connecting www.google-analytics.com:443 from 127.0.0.1:47427
+2015-11-15 20:18:03 INFO     connecting www.google-analytics.com:443 from 127.0.0.1:47429
+2015-11-15 20:18:03 INFO     connecting www.google-analytics.com:443 from 127.0.0.1:47431
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:04 INFO     connecting api.github.com:443 from 127.0.0.1:47433
+2015-11-15 20:18:11 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47438
+2015-11-15 20:18:11 INFO     connecting live.github.com:443 from 127.0.0.1:47440
+2015-11-15 20:18:13 INFO     connecting api.braintreegateway.com:443 from 127.0.0.1:47442
+2015-11-15 20:18:14 INFO     connecting checkout.paypal.com:443 from 127.0.0.1:47444
+2015-11-15 20:18:14 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:14 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:14 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:14 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:17 INFO     connecting github.com:443 from 127.0.0.1:47448
+2015-11-15 20:18:24 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:24 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:24 ERROR    [Errno 104] Connection reset by peer
+2015-11-15 20:18:52 INFO     connecting github.com:443 from 127.0.0.1:47450
+2015-11-15 20:18:53 INFO     connecting github.com:443 from 127.0.0.1:47452
+2015-11-15 20:18:53 INFO     connecting github.com:443 from 127.0.0.1:47454
+2015-11-15 20:18:53 INFO     connecting github.com:443 from 127.0.0.1:47456
+2015-11-15 20:18:53 INFO     connecting live.github.com:443 from 127.0.0.1:47458
+2015-11-15 20:18:54 INFO     connecting api.github.com:443 from 127.0.0.1:47460
+2015-11-15 20:19:56 INFO     connecting live.github.com:443 from 127.0.0.1:47467
+2015-11-15 20:21:00 INFO     connecting live.github.com:443 from 127.0.0.1:47477
+2015-11-15 20:22:03 INFO     connecting live.github.com:443 from 127.0.0.1:47484
+2015-11-15 20:23:06 INFO     connecting live.github.com:443 from 127.0.0.1:47492
+2015-11-15 20:24:09 INFO     connecting live.github.com:443 from 127.0.0.1:47498
+2015-11-15 20:24:25 INFO     connecting github.com:443 from 127.0.0.1:47500
+2015-11-15 20:24:25 INFO     connecting api.github.com:443 from 127.0.0.1:47502
+2015-11-15 20:24:25 INFO     connecting api.github.com:443 from 127.0.0.1:47503
+2015-11-15 20:24:25 INFO     connecting api.github.com:443 from 127.0.0.1:47504
+2015-11-15 20:24:25 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47505
+2015-11-15 20:24:25 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47506
+2015-11-15 20:24:25 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47507
+2015-11-15 20:24:25 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47508
+2015-11-15 20:24:25 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47509
+2015-11-15 20:24:25 INFO     connecting avatars3.githubusercontent.com:443 from 127.0.0.1:47510
+2015-11-15 20:24:25 INFO     connecting avatars3.githubusercontent.com:443 from 127.0.0.1:47511
+2015-11-15 20:24:25 INFO     connecting avatars3.githubusercontent.com:443 from 127.0.0.1:47512
+2015-11-15 20:24:25 INFO     connecting collector.githubapp.com:443 from 127.0.0.1:47513
+2015-11-15 20:24:25 INFO     connecting collector.githubapp.com:443 from 127.0.0.1:47514
+2015-11-15 20:24:25 INFO     connecting collector.githubapp.com:443 from 127.0.0.1:47515
+2015-11-15 20:24:25 INFO     connecting www.google-analytics.com:443 from 127.0.0.1:47516
+2015-11-15 20:24:26 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47532
+2015-11-15 20:24:26 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47534
+2015-11-15 20:24:26 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47536
+2015-11-15 20:24:26 INFO     connecting assets-cdn.github.com:443 from 127.0.0.1:47538
+2015-11-15 20:24:27 INFO     connecting github.com:443 from 127.0.0.1:47542
+2015-11-15 20:24:27 INFO     connecting live.github.com:443 from 127.0.0.1:47544
+2015-11-15 20:24:28 INFO     connecting api.github.com:443 from 127.0.0.1:47546
+2015-11-15 20:24:36 INFO     connecting live.github.com:443 from 127.0.0.1:47548
+2015-11-15 20:24:44 INFO     connecting github.com:443 from 127.0.0.1:47550
+2015-11-15 20:24:44 INFO     connecting github.com:443 from 127.0.0.1:47552
+2015-11-15 20:24:44 INFO     connecting github.com:443 from 127.0.0.1:47554
+2015-11-15 20:24:44 INFO     connecting github.com:443 from 127.0.0.1:47556
+2015-11-15 20:24:44 INFO     connecting github.com:443 from 127.0.0.1:47558
+2015-11-15 20:24:49 INFO     connecting live.github.com:443 from 127.0.0.1:47562
+2015-11-15 20:25:02 INFO     connecting github.com:443 from 127.0.0.1:47564
+2015-11-15 20:25:02 INFO     connecting github.com:443 from 127.0.0.1:47566
+2015-11-15 20:25:03 INFO     connecting api.github.com:443 from 127.0.0.1:47568
+2015-11-15 20:25:07 INFO     connecting live.github.com:443 from 127.0.0.1:47570
+2015-11-15 20:25:35 INFO     connecting github.com:443 from 127.0.0.1:47576
+2015-11-15 20:25:36 INFO     connecting live.github.com:443 from 127.0.0.1:47578
+2015-11-15 20:25:37 INFO     connecting api.github.com:443 from 127.0.0.1:47580
+2015-11-15 20:25:39 INFO     connecting clients1.google.com:443 from 127.0.0.1:47582
+2015-11-15 20:25:39 INFO     connecting live.github.com:443 from 127.0.0.1:47584
+2015-11-15 20:25:39 INFO     connecting api.braintreegateway.com:443 from 127.0.0.1:47586
+2015-11-15 20:25:39 INFO     connecting api.github.com:443 from 127.0.0.1:47588
+2015-11-15 20:25:53 INFO     connecting github.com:443 from 127.0.0.1:47590
+2015-11-15 20:25:55 INFO     connecting live.github.com:443 from 127.0.0.1:47592
+2015-11-15 20:25:56 INFO     connecting api.github.com:443 from 127.0.0.1:47594
+2015-11-15 20:26:59 INFO     connecting live.github.com:443 from 127.0.0.1:47596
+2015-11-15 20:28:09 INFO     connecting live.github.com:443 from 127.0.0.1:47599
+2015-11-15 20:29:19 INFO     connecting live.github.com:443 from 127.0.0.1:47601
+2015-11-15 20:30:30 INFO     connecting live.github.com:443 from 127.0.0.1:47604
+2015-11-15 20:31:33 INFO     connecting live.github.com:443 from 127.0.0.1:47606
+2015-11-15 20:32:37 INFO     connecting live.github.com:443 from 127.0.0.1:47608
+2015-11-15 20:33:41 INFO     connecting live.github.com:443 from 127.0.0.1:47610
+2015-11-15 20:34:45 INFO     connecting live.github.com:443 from 127.0.0.1:47612
+2015-11-15 20:35:48 INFO     connecting live.github.com:443 from 127.0.0.1:47614
+2015-11-15 20:36:52 INFO     connecting live.github.com:443 from 127.0.0.1:47616
+2015-11-15 20:37:56 INFO     connecting live.github.com:443 from 127.0.0.1:47620
+2015-11-15 20:39:00 INFO     connecting live.github.com:443 from 127.0.0.1:47622
+2015-11-15 20:40:04 INFO     connecting live.github.com:443 from 127.0.0.1:47624
+2015-11-15 20:41:08 INFO     connecting live.github.com:443 from 127.0.0.1:47626

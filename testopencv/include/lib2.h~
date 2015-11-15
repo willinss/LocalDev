@@ -1,8 +1,0 @@
-#ifndef _LIB2_H
-#define _LIB2_H
-
-void MatrixMultiply(Matrix3d,Matrix3d);
-
-#endif
-
-

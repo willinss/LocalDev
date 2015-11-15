@@ -1,6 +1,0 @@
-#ifndef _LIB1_H
-#define _LIB1_H
-
-void PrintMatrix(Matrix3d);
-
-#endif
