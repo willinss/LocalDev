@@ -1,0 +1,2 @@
+/usr/bin/ar cr libinclude.a  CMakeFiles/include.dir/lib1.cpp.o CMakeFiles/include.dir/lib2.cpp.o
+/usr/bin/ranlib libinclude.a

@@ -1,0 +1,846 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	298;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	301;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	304;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	307;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	310;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	313;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	316;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	320;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	291;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	297;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	300;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	303;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	306;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	309;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	313;"	d	file:
+AddSupportVector	LaRank.cpp	/^int LaRank::AddSupportVector(SupportPattern* x, int y, double g)$/;"	f	class:LaRank	signature:(SupportPattern* x, int y, double g)
+AddSupportVector	LaRank.h	/^	int AddSupportVector(SupportPattern* x, int y, double g);$/;"	p	class:LaRank	access:private	signature:(SupportPattern* x, int y, double g)
+Area	Rect.h	/^	inline T Area() const { return m_width * m_height; }$/;"	f	class:Rect	access:public	signature:() const
+BLACK	GraphUtils/GraphUtils.cpp	/^const CvScalar BLACK = CV_RGB(0,0,0);$/;"	v
+BudgetMaintenance	LaRank.cpp	/^void LaRank::BudgetMaintenance()$/;"	f	class:LaRank	signature:()
+BudgetMaintenance	LaRank.h	/^	void BudgetMaintenance();$/;"	p	class:LaRank	access:private	signature:()
+BudgetMaintenanceRemove	LaRank.cpp	/^void LaRank::BudgetMaintenanceRemove()$/;"	f	class:LaRank	signature:()
+BudgetMaintenanceRemove	LaRank.h	/^	void BudgetMaintenanceRemove();$/;"	p	class:LaRank	access:private	signature:()
+CMAKE_BINARY_DIR	GraphUtils/Makefile	/^CMAKE_BINARY_DIR = \/home\/ncslab\/Documents\/tracking\/strucklinux$/;"	m
+CMAKE_BINARY_DIR	Makefile	/^CMAKE_BINARY_DIR = \/home\/ncslab\/Documents\/tracking\/strucklinux$/;"	m
+CMAKE_COMMAND	GraphUtils/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	GraphUtils/Makefile	/^CMAKE_SOURCE_DIR = \/home\/ncslab\/Documents\/tracking\/strucklinux$/;"	m
+CMAKE_SOURCE_DIR	Makefile	/^CMAKE_SOURCE_DIR = \/home\/ncslab\/Documents\/tracking\/strucklinux$/;"	m
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	112;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	160;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	165;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	177;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	197;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	200;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	70;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	90;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	99;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	154;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	162;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	193;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	61;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	75;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	93;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	100;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	108;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	114;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	135;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	15;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	172;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	180;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	185;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	33;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	39;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	72;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	79;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	173;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	69;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	127;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	136;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	26;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	47;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	53;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	60;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	31;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	174;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	17;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	187;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	41;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	81;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	95;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	22;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	20;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+CONFIG_H	Config.h	29;"	d
+Chi2Kernel	Kernels.h	/^class Chi2Kernel : public Kernel$/;"	c	inherits:Kernel
+Chi2Kernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:Chi2Kernel	access:public	signature:(const Eigen::VectorXd& x) const
+Chi2Kernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:Chi2Kernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+ComputeDual	LaRank.cpp	/^double LaRank::ComputeDual() const$/;"	f	class:LaRank	signature:() const
+ComputeDual	LaRank.h	/^	double ComputeDual() const;$/;"	p	class:LaRank	access:private	signature:() const
+Config	Config.cpp	/^Config::Config(const std::string& path)$/;"	f	class:Config	signature:(const std::string& path)
+Config	Config.h	/^	Config() { SetDefaults(); }$/;"	f	class:Config	access:public	signature:()
+Config	Config.h	/^	Config(const std::string& path);$/;"	p	class:Config	access:public	signature:(const std::string& path)
+Config	Config.h	/^class Config$/;"	c
+Config::Config	Config.cpp	/^Config::Config(const std::string& path)$/;"	f	class:Config	signature:(const std::string& path)
+Config::Config	Config.h	/^	Config() { SetDefaults(); }$/;"	f	class:Config	access:public	signature:()
+Config::Config	Config.h	/^	Config(const std::string& path);$/;"	p	class:Config	access:public	signature:(const std::string& path)
+Config::FeatureKernelPair	Config.h	/^	struct FeatureKernelPair$/;"	s	class:Config	access:public
+Config::FeatureKernelPair::feature	Config.h	/^		FeatureType feature;$/;"	m	struct:Config::FeatureKernelPair	access:public
+Config::FeatureKernelPair::kernel	Config.h	/^		KernelType kernel;$/;"	m	struct:Config::FeatureKernelPair	access:public
+Config::FeatureKernelPair::params	Config.h	/^		std::vector<double> params;$/;"	m	struct:Config::FeatureKernelPair	access:public
+Config::FeatureName	Config.cpp	/^std::string Config::FeatureName(FeatureType f)$/;"	f	class:Config	signature:(FeatureType f)
+Config::FeatureName	Config.h	/^	static std::string FeatureName(FeatureType f);$/;"	p	class:Config	access:private	signature:(FeatureType f)
+Config::FeatureType	Config.h	/^	enum FeatureType$/;"	g	class:Config	access:public
+Config::KernelName	Config.cpp	/^std::string Config::KernelName(KernelType k)$/;"	f	class:Config	signature:(KernelType k)
+Config::KernelName	Config.h	/^	static std::string KernelName(KernelType k);$/;"	p	class:Config	access:private	signature:(KernelType k)
+Config::KernelType	Config.h	/^	enum KernelType$/;"	g	class:Config	access:public
+Config::SetDefaults	Config.cpp	/^void Config::SetDefaults()$/;"	f	class:Config	signature:()
+Config::SetDefaults	Config.h	/^	void SetDefaults();$/;"	p	class:Config	access:private	signature:()
+Config::debugMode	Config.h	/^	bool							debugMode;$/;"	m	class:Config	access:public
+Config::features	Config.h	/^	std::vector<FeatureKernelPair>	features;$/;"	m	class:Config	access:public
+Config::frameHeight	Config.h	/^	int								frameHeight;$/;"	m	class:Config	access:public
+Config::frameWidth	Config.h	/^	int								frameWidth;$/;"	m	class:Config	access:public
+Config::kFeatureTypeHaar	Config.h	/^		kFeatureTypeHaar,$/;"	e	enum:Config::FeatureType
+Config::kFeatureTypeHistogram	Config.h	/^		kFeatureTypeHistogram$/;"	e	enum:Config::FeatureType
+Config::kFeatureTypeRaw	Config.h	/^		kFeatureTypeRaw,$/;"	e	enum:Config::FeatureType
+Config::kKernelTypeChi2	Config.h	/^		kKernelTypeChi2$/;"	e	enum:Config::KernelType
+Config::kKernelTypeGaussian	Config.h	/^		kKernelTypeGaussian,$/;"	e	enum:Config::KernelType
+Config::kKernelTypeIntersection	Config.h	/^		kKernelTypeIntersection,$/;"	e	enum:Config::KernelType
+Config::kKernelTypeLinear	Config.h	/^		kKernelTypeLinear,$/;"	e	enum:Config::KernelType
+Config::operator <<	Config.h	/^	friend std::ostream& operator<< (std::ostream& out, const Config& conf);$/;"	p	class:Config	access:friend	signature:(std::ostream& out, const Config& conf)
+Config::quietMode	Config.h	/^	bool							quietMode;$/;"	m	class:Config	access:public
+Config::resultsPath	Config.h	/^	std::string						resultsPath;$/;"	m	class:Config	access:public
+Config::searchRadius	Config.h	/^	int								searchRadius;$/;"	m	class:Config	access:public
+Config::seed	Config.h	/^	int								seed;$/;"	m	class:Config	access:public
+Config::sequenceBasePath	Config.h	/^	std::string						sequenceBasePath;$/;"	m	class:Config	access:public
+Config::sequenceName	Config.h	/^	std::string						sequenceName;$/;"	m	class:Config	access:public
+Config::svmBudgetSize	Config.h	/^	int								svmBudgetSize;$/;"	m	class:Config	access:public
+Config::svmC	Config.h	/^	double							svmC;$/;"	m	class:Config	access:public
+DEC	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	324;"	d	file:
+DEC	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	317;"	d	file:
+DEFAULT	GraphUtils/GraphUtils.h	23;"	d
+DEFAULT	GraphUtils/GraphUtils.h	25;"	d
+Debug	LaRank.cpp	/^void LaRank::Debug()$/;"	f	class:LaRank	signature:()
+Debug	LaRank.h	/^	virtual void Debug();$/;"	p	class:LaRank	access:public	signature:()
+Debug	Tracker.cpp	/^void Tracker::Debug()$/;"	f	class:Tracker	signature:()
+Debug	Tracker.h	/^	void Debug();$/;"	p	class:Tracker	access:public	signature:()
+EQUALS	GraphUtils/Makefile	/^EQUALS = =$/;"	m
+EQUALS	Makefile	/^EQUALS = =$/;"	m
+Eval	Features.h	/^	inline const Eigen::VectorXd& Eval(const Sample& s) const$/;"	f	class:Features	access:public	signature:(const Sample& s) const
+Eval	Features.h	/^	virtual void Eval(const MultiSample& s, std::vector<Eigen::VectorXd>& featVecs)$/;"	f	class:Features	access:public	signature:(const MultiSample& s, std::vector<Eigen::VectorXd>& featVecs)
+Eval	HaarFeature.cpp	/^float HaarFeature::Eval(const Sample& s) const$/;"	f	class:HaarFeature	signature:(const Sample& s) const
+Eval	HaarFeature.h	/^	float Eval(const Sample& s) const;$/;"	p	class:HaarFeature	access:public	signature:(const Sample& s) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:Chi2Kernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:GaussianKernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:IntersectionKernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:LinearKernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:MultiKernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:Chi2Kernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:GaussianKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:IntersectionKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:LinearKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:MultiKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	Kernels.h	/^	virtual double Eval(const Eigen::VectorXd& x) const = 0;$/;"	p	class:Kernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	Kernels.h	/^	virtual double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const = 0;$/;"	p	class:Kernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	LaRank.cpp	/^void LaRank::Eval(const MultiSample& sample, std::vector<double>& results)$/;"	f	class:LaRank	signature:(const MultiSample& sample, std::vector<double>& results)
+Eval	LaRank.h	/^	virtual void Eval(const MultiSample& x, std::vector<double>& results);$/;"	p	class:LaRank	access:public	signature:(const MultiSample& x, std::vector<double>& results)
+Evaluate	LaRank.cpp	/^double LaRank::Evaluate(const Eigen::VectorXd& x, const FloatRect& y) const$/;"	f	class:LaRank	signature:(const Eigen::VectorXd& x, const FloatRect& y) const
+Evaluate	LaRank.h	/^	double Evaluate(const Eigen::VectorXd& x, const FloatRect& y) const;$/;"	p	class:LaRank	access:private	signature:(const Eigen::VectorXd& x, const FloatRect& y) const
+FEATURES_H	Features.h	29;"	d
+FeatureKernelPair	Config.h	/^	struct FeatureKernelPair$/;"	s	class:Config	access:public
+FeatureName	Config.cpp	/^std::string Config::FeatureName(FeatureType f)$/;"	f	class:Config	signature:(FeatureType f)
+FeatureName	Config.h	/^	static std::string FeatureName(FeatureType f);$/;"	p	class:Config	access:private	signature:(FeatureType f)
+FeatureType	Config.h	/^	enum FeatureType$/;"	g	class:Config	access:public
+Features	Features.cpp	/^Features::Features() :$/;"	f	class:Features	signature:()
+Features	Features.h	/^	Features();$/;"	p	class:Features	access:public	signature:()
+Features	Features.h	/^class Features$/;"	c
+Features::Eval	Features.h	/^	inline const Eigen::VectorXd& Eval(const Sample& s) const$/;"	f	class:Features	access:public	signature:(const Sample& s) const
+Features::Eval	Features.h	/^	virtual void Eval(const MultiSample& s, std::vector<Eigen::VectorXd>& featVecs)$/;"	f	class:Features	access:public	signature:(const MultiSample& s, std::vector<Eigen::VectorXd>& featVecs)
+Features::Features	Features.cpp	/^Features::Features() :$/;"	f	class:Features	signature:()
+Features::Features	Features.h	/^	Features();$/;"	p	class:Features	access:public	signature:()
+Features::GetCount	Features.h	/^	inline int GetCount() const { return m_featureCount; }$/;"	f	class:Features	access:public	signature:() const
+Features::SetCount	Features.cpp	/^void Features::SetCount(int c)$/;"	f	class:Features	signature:(int c)
+Features::SetCount	Features.h	/^	void SetCount(int c);$/;"	p	class:Features	access:protected	signature:(int c)
+Features::UpdateFeatureVector	Features.h	/^	virtual void UpdateFeatureVector(const Sample& s) = 0;$/;"	p	class:Features	access:protected	signature:(const Sample& s)
+Features::m_featVec	Features.h	/^	Eigen::VectorXd m_featVec;$/;"	m	class:Features	access:protected
+Features::m_featureCount	Features.h	/^	int m_featureCount;$/;"	m	class:Features	access:protected
+FloatRect	Rect.h	/^typedef Rect<float> FloatRect;$/;"	t
+GRAPH_UTILS_H	GraphUtils/GraphUtils.h	7;"	d
+GREY	GraphUtils/GraphUtils.cpp	/^const CvScalar GREY = CV_RGB(150,150,150);$/;"	v
+GaussianKernel	Kernels.h	/^	GaussianKernel(double sigma) : m_sigma(sigma) {}$/;"	f	class:GaussianKernel	access:public	signature:(double sigma)
+GaussianKernel	Kernels.h	/^class GaussianKernel : public Kernel$/;"	c	inherits:Kernel
+GaussianKernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:GaussianKernel	access:public	signature:(const Eigen::VectorXd& x) const
+GaussianKernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:GaussianKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+GaussianKernel::GaussianKernel	Kernels.h	/^	GaussianKernel(double sigma) : m_sigma(sigma) {}$/;"	f	class:GaussianKernel	access:public	signature:(double sigma)
+GaussianKernel::m_sigma	Kernels.h	/^	double m_sigma;$/;"	m	class:GaussianKernel	access:private
+GenerateSystematic	HaarFeatures.cpp	/^void HaarFeatures::GenerateSystematic()$/;"	f	class:HaarFeatures	signature:()
+GenerateSystematic	HaarFeatures.h	/^	void GenerateSystematic();$/;"	p	class:HaarFeatures	access:private	signature:()
+GetBB	Tracker.h	/^	inline const FloatRect& GetBB() const { return m_bb; }$/;"	f	class:Tracker	access:public	signature:() const
+GetCount	Features.h	/^	inline int GetCount() const { return m_featureCount; }$/;"	f	class:Features	access:public	signature:() const
+GetImage	ImageRep.h	/^	inline const cv::Mat& GetImage(int channel = 0) const { return m_images[channel]; }$/;"	f	class:ImageRep	access:public	signature:(int channel = 0) const
+GetImage	Sample.h	/^	inline const ImageRep& GetImage() const { return m_image; }$/;"	f	class:MultiSample	access:public	signature:() const
+GetImage	Sample.h	/^	inline const ImageRep& GetImage() const { return m_image; }$/;"	f	class:Sample	access:public	signature:() const
+GetROI	Sample.h	/^	inline const FloatRect& GetROI() const { return m_roi; }$/;"	f	class:Sample	access:public	signature:() const
+GetRect	ImageRep.h	/^	inline const IntRect& GetRect() const { return m_rect; }$/;"	f	class:ImageRep	access:public	signature:() const
+GetRects	Sample.h	/^	inline const std::vector<FloatRect>& GetRects() const { return m_rects; }$/;"	f	class:MultiSample	access:public	signature:() const
+GetSample	Sample.h	/^	inline Sample GetSample(int i) const { return Sample(m_image, m_rects[i]); }$/;"	f	class:MultiSample	access:public	signature:(int i) const
+HAAR_FEATURES_H	HaarFeatures.h	29;"	d
+HAAR_FEATURE_H	HaarFeature.h	29;"	d
+HEX	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	335;"	d	file:
+HEX	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+HISTOGRAM_FEATURES_H	HistogramFeatures.h	29;"	d
+HaarFeature	HaarFeature.cpp	/^HaarFeature::HaarFeature(const FloatRect& bb, int type) :$/;"	f	class:HaarFeature	signature:(const FloatRect& bb, int type)
+HaarFeature	HaarFeature.h	/^	HaarFeature(const FloatRect& bb, int type);$/;"	p	class:HaarFeature	access:public	signature:(const FloatRect& bb, int type)
+HaarFeature	HaarFeature.h	/^class HaarFeature$/;"	c
+HaarFeature::Eval	HaarFeature.cpp	/^float HaarFeature::Eval(const Sample& s) const$/;"	f	class:HaarFeature	signature:(const Sample& s) const
+HaarFeature::Eval	HaarFeature.h	/^	float Eval(const Sample& s) const;$/;"	p	class:HaarFeature	access:public	signature:(const Sample& s) const
+HaarFeature::HaarFeature	HaarFeature.cpp	/^HaarFeature::HaarFeature(const FloatRect& bb, int type) :$/;"	f	class:HaarFeature	signature:(const FloatRect& bb, int type)
+HaarFeature::HaarFeature	HaarFeature.h	/^	HaarFeature(const FloatRect& bb, int type);$/;"	p	class:HaarFeature	access:public	signature:(const FloatRect& bb, int type)
+HaarFeature::m_bb	HaarFeature.h	/^	FloatRect m_bb;$/;"	m	class:HaarFeature	access:private
+HaarFeature::m_factor	HaarFeature.h	/^	float m_factor;$/;"	m	class:HaarFeature	access:private
+HaarFeature::m_rects	HaarFeature.h	/^	std::vector<FloatRect> m_rects;$/;"	m	class:HaarFeature	access:private
+HaarFeature::m_weights	HaarFeature.h	/^	std::vector<float> m_weights;$/;"	m	class:HaarFeature	access:private
+HaarFeature::~HaarFeature	HaarFeature.cpp	/^HaarFeature::~HaarFeature()$/;"	f	class:HaarFeature	signature:()
+HaarFeature::~HaarFeature	HaarFeature.h	/^	~HaarFeature();$/;"	p	class:HaarFeature	access:public	signature:()
+HaarFeatures	HaarFeatures.cpp	/^HaarFeatures::HaarFeatures(const Config& conf)$/;"	f	class:HaarFeatures	signature:(const Config& conf)
+HaarFeatures	HaarFeatures.h	/^	HaarFeatures(const Config& conf);$/;"	p	class:HaarFeatures	access:public	signature:(const Config& conf)
+HaarFeatures	HaarFeatures.h	/^class HaarFeatures : public Features$/;"	c	inherits:Features
+HaarFeatures::GenerateSystematic	HaarFeatures.cpp	/^void HaarFeatures::GenerateSystematic()$/;"	f	class:HaarFeatures	signature:()
+HaarFeatures::GenerateSystematic	HaarFeatures.h	/^	void GenerateSystematic();$/;"	p	class:HaarFeatures	access:private	signature:()
+HaarFeatures::HaarFeatures	HaarFeatures.cpp	/^HaarFeatures::HaarFeatures(const Config& conf)$/;"	f	class:HaarFeatures	signature:(const Config& conf)
+HaarFeatures::HaarFeatures	HaarFeatures.h	/^	HaarFeatures(const Config& conf);$/;"	p	class:HaarFeatures	access:public	signature:(const Config& conf)
+HaarFeatures::UpdateFeatureVector	HaarFeatures.cpp	/^void HaarFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:HaarFeatures	signature:(const Sample& s)
+HaarFeatures::UpdateFeatureVector	HaarFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:HaarFeatures	access:private	signature:(const Sample& s)
+HaarFeatures::m_features	HaarFeatures.h	/^	std::vector<HaarFeature> m_features;$/;"	m	class:HaarFeatures	access:private
+Height	Rect.h	/^	inline T Height() const { return m_height; }$/;"	f	class:Rect	access:public	signature:() const
+Hist	ImageRep.cpp	/^void ImageRep::Hist(const IntRect& rRect, Eigen::VectorXd& h) const$/;"	f	class:ImageRep	signature:(const IntRect& rRect, Eigen::VectorXd& h) const
+Hist	ImageRep.h	/^	void Hist(const IntRect& rRect, Eigen::VectorXd& h) const;$/;"	p	class:ImageRep	access:public	signature:(const IntRect& rRect, Eigen::VectorXd& h) const
+HistogramFeatures	HistogramFeatures.cpp	/^HistogramFeatures::HistogramFeatures(const Config& conf)$/;"	f	class:HistogramFeatures	signature:(const Config& conf)
+HistogramFeatures	HistogramFeatures.h	/^	HistogramFeatures(const Config& conf);$/;"	p	class:HistogramFeatures	access:public	signature:(const Config& conf)
+HistogramFeatures	HistogramFeatures.h	/^class HistogramFeatures : public Features$/;"	c	inherits:Features
+HistogramFeatures::HistogramFeatures	HistogramFeatures.cpp	/^HistogramFeatures::HistogramFeatures(const Config& conf)$/;"	f	class:HistogramFeatures	signature:(const Config& conf)
+HistogramFeatures::HistogramFeatures	HistogramFeatures.h	/^	HistogramFeatures(const Config& conf);$/;"	p	class:HistogramFeatures	access:public	signature:(const Config& conf)
+HistogramFeatures::UpdateFeatureVector	HistogramFeatures.cpp	/^void HistogramFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:HistogramFeatures	signature:(const Sample& s)
+HistogramFeatures::UpdateFeatureVector	HistogramFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:HistogramFeatures	access:private	signature:(const Sample& s)
+ID_VOID_MAIN	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
+IMAGE_REP_H	ImageRep.h	29;"	d
+ImageRep	ImageRep.cpp	/^ImageRep::ImageRep(const Mat& image, bool computeIntegral, bool computeIntegralHist, bool colour) :$/;"	f	class:ImageRep	signature:(const Mat& image, bool computeIntegral, bool computeIntegralHist, bool colour)
+ImageRep	ImageRep.h	/^	ImageRep(const cv::Mat& rImage, bool computeIntegral, bool computeIntegralHists, bool colour = false);$/;"	p	class:ImageRep	access:public	signature:(const cv::Mat& rImage, bool computeIntegral, bool computeIntegralHists, bool colour = false)
+ImageRep	ImageRep.h	/^class ImageRep$/;"	c
+ImageRep::GetImage	ImageRep.h	/^	inline const cv::Mat& GetImage(int channel = 0) const { return m_images[channel]; }$/;"	f	class:ImageRep	access:public	signature:(int channel = 0) const
+ImageRep::GetRect	ImageRep.h	/^	inline const IntRect& GetRect() const { return m_rect; }$/;"	f	class:ImageRep	access:public	signature:() const
+ImageRep::Hist	ImageRep.cpp	/^void ImageRep::Hist(const IntRect& rRect, Eigen::VectorXd& h) const$/;"	f	class:ImageRep	signature:(const IntRect& rRect, Eigen::VectorXd& h) const
+ImageRep::Hist	ImageRep.h	/^	void Hist(const IntRect& rRect, Eigen::VectorXd& h) const;$/;"	p	class:ImageRep	access:public	signature:(const IntRect& rRect, Eigen::VectorXd& h) const
+ImageRep::ImageRep	ImageRep.cpp	/^ImageRep::ImageRep(const Mat& image, bool computeIntegral, bool computeIntegralHist, bool colour) :$/;"	f	class:ImageRep	signature:(const Mat& image, bool computeIntegral, bool computeIntegralHist, bool colour)
+ImageRep::ImageRep	ImageRep.h	/^	ImageRep(const cv::Mat& rImage, bool computeIntegral, bool computeIntegralHists, bool colour = false);$/;"	p	class:ImageRep	access:public	signature:(const cv::Mat& rImage, bool computeIntegral, bool computeIntegralHists, bool colour = false)
+ImageRep::Sum	ImageRep.cpp	/^int ImageRep::Sum(const IntRect& rRect, int channel) const$/;"	f	class:ImageRep	signature:(const IntRect& rRect, int channel) const
+ImageRep::Sum	ImageRep.h	/^	int Sum(const IntRect& rRect, int channel = 0) const;$/;"	p	class:ImageRep	access:public	signature:(const IntRect& rRect, int channel = 0) const
+ImageRep::m_channels	ImageRep.h	/^	int m_channels;$/;"	m	class:ImageRep	access:private
+ImageRep::m_images	ImageRep.h	/^	std::vector<cv::Mat> m_images;$/;"	m	class:ImageRep	access:private
+ImageRep::m_integralHistImages	ImageRep.h	/^	std::vector<cv::Mat> m_integralHistImages;$/;"	m	class:ImageRep	access:private
+ImageRep::m_integralImages	ImageRep.h	/^	std::vector<cv::Mat> m_integralImages;$/;"	m	class:ImageRep	access:private
+ImageRep::m_rect	ImageRep.h	/^	IntRect m_rect;$/;"	m	class:ImageRep	access:private
+Initialise	Tracker.cpp	/^void Tracker::Initialise(const cv::Mat& frame, FloatRect bb)$/;"	f	class:Tracker	signature:(const cv::Mat& frame, FloatRect bb)
+Initialise	Tracker.h	/^	void Initialise(const cv::Mat& frame, FloatRect bb);$/;"	p	class:Tracker	access:public	signature:(const cv::Mat& frame, FloatRect bb)
+IntRect	Rect.h	/^typedef Rect<int> IntRect;$/;"	t
+IntersectionKernel	Kernels.h	/^class IntersectionKernel : public Kernel$/;"	c	inherits:Kernel
+IntersectionKernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:IntersectionKernel	access:public	signature:(const Eigen::VectorXd& x) const
+IntersectionKernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:IntersectionKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+IsInitialised	Tracker.h	/^	inline bool IsInitialised() const { return m_initialised; }$/;"	f	class:Tracker	access:public	signature:() const
+IsInside	Rect.h	/^	bool IsInside(const Rect<T2>& rOther) const;$/;"	p	class:Rect	access:public	signature:(const Rect<T2>& rOther) const
+IsInside	Rect.h	/^bool Rect<T>::IsInside(const Rect<T2>& rOther) const$/;"	f	class:Rect	signature:(const Rect<T2>& rOther) const
+KERNELS_H	Kernels.h	29;"	d
+Kernel	Kernels.h	/^class Kernel$/;"	c
+Kernel::Eval	Kernels.h	/^	virtual double Eval(const Eigen::VectorXd& x) const = 0;$/;"	p	class:Kernel	access:public	signature:(const Eigen::VectorXd& x) const
+Kernel::Eval	Kernels.h	/^	virtual double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const = 0;$/;"	p	class:Kernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+KernelName	Config.cpp	/^std::string Config::KernelName(KernelType k)$/;"	f	class:Config	signature:(KernelType k)
+KernelName	Config.h	/^	static std::string KernelName(KernelType k);$/;"	p	class:Config	access:private	signature:(KernelType k)
+KernelType	Config.h	/^	enum KernelType$/;"	g	class:Config	access:public
+LARANK_H	LaRank.h	29;"	d
+LaRank	LaRank.cpp	/^LaRank::LaRank(const Config& conf, const Features& features, const Kernel& kernel) :$/;"	f	class:LaRank	signature:(const Config& conf, const Features& features, const Kernel& kernel)
+LaRank	LaRank.h	/^	LaRank(const Config& conf, const Features& features, const Kernel& kernel);$/;"	p	class:LaRank	access:public	signature:(const Config& conf, const Features& features, const Kernel& kernel)
+LaRank	LaRank.h	/^class LaRank$/;"	c
+LaRank::AddSupportVector	LaRank.cpp	/^int LaRank::AddSupportVector(SupportPattern* x, int y, double g)$/;"	f	class:LaRank	signature:(SupportPattern* x, int y, double g)
+LaRank::AddSupportVector	LaRank.h	/^	int AddSupportVector(SupportPattern* x, int y, double g);$/;"	p	class:LaRank	access:private	signature:(SupportPattern* x, int y, double g)
+LaRank::BudgetMaintenance	LaRank.cpp	/^void LaRank::BudgetMaintenance()$/;"	f	class:LaRank	signature:()
+LaRank::BudgetMaintenance	LaRank.h	/^	void BudgetMaintenance();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::BudgetMaintenanceRemove	LaRank.cpp	/^void LaRank::BudgetMaintenanceRemove()$/;"	f	class:LaRank	signature:()
+LaRank::BudgetMaintenanceRemove	LaRank.h	/^	void BudgetMaintenanceRemove();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::ComputeDual	LaRank.cpp	/^double LaRank::ComputeDual() const$/;"	f	class:LaRank	signature:() const
+LaRank::ComputeDual	LaRank.h	/^	double ComputeDual() const;$/;"	p	class:LaRank	access:private	signature:() const
+LaRank::Debug	LaRank.cpp	/^void LaRank::Debug()$/;"	f	class:LaRank	signature:()
+LaRank::Debug	LaRank.h	/^	virtual void Debug();$/;"	p	class:LaRank	access:public	signature:()
+LaRank::Eval	LaRank.cpp	/^void LaRank::Eval(const MultiSample& sample, std::vector<double>& results)$/;"	f	class:LaRank	signature:(const MultiSample& sample, std::vector<double>& results)
+LaRank::Eval	LaRank.h	/^	virtual void Eval(const MultiSample& x, std::vector<double>& results);$/;"	p	class:LaRank	access:public	signature:(const MultiSample& x, std::vector<double>& results)
+LaRank::Evaluate	LaRank.cpp	/^double LaRank::Evaluate(const Eigen::VectorXd& x, const FloatRect& y) const$/;"	f	class:LaRank	signature:(const Eigen::VectorXd& x, const FloatRect& y) const
+LaRank::Evaluate	LaRank.h	/^	double Evaluate(const Eigen::VectorXd& x, const FloatRect& y) const;$/;"	p	class:LaRank	access:private	signature:(const Eigen::VectorXd& x, const FloatRect& y) const
+LaRank::LaRank	LaRank.cpp	/^LaRank::LaRank(const Config& conf, const Features& features, const Kernel& kernel) :$/;"	f	class:LaRank	signature:(const Config& conf, const Features& features, const Kernel& kernel)
+LaRank::LaRank	LaRank.h	/^	LaRank(const Config& conf, const Features& features, const Kernel& kernel);$/;"	p	class:LaRank	access:public	signature:(const Config& conf, const Features& features, const Kernel& kernel)
+LaRank::Loss	LaRank.h	/^	inline double Loss(const FloatRect& y1, const FloatRect& y2) const$/;"	f	class:LaRank	access:private	signature:(const FloatRect& y1, const FloatRect& y2) const
+LaRank::MinGradient	LaRank.cpp	/^pair<int, double> LaRank::MinGradient(int ind)$/;"	f	class:LaRank	signature:(int ind)
+LaRank::MinGradient	LaRank.h	/^	std::pair<int, double> MinGradient(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+LaRank::Optimize	LaRank.cpp	/^void LaRank::Optimize()$/;"	f	class:LaRank	signature:()
+LaRank::Optimize	LaRank.h	/^	void Optimize();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::ProcessNew	LaRank.cpp	/^void LaRank::ProcessNew(int ind)$/;"	f	class:LaRank	signature:(int ind)
+LaRank::ProcessNew	LaRank.h	/^	void ProcessNew(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+LaRank::ProcessOld	LaRank.cpp	/^void LaRank::ProcessOld()$/;"	f	class:LaRank	signature:()
+LaRank::ProcessOld	LaRank.h	/^	void ProcessOld();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::RemoveSupportVector	LaRank.cpp	/^void LaRank::RemoveSupportVector(int ind)$/;"	f	class:LaRank	signature:(int ind)
+LaRank::RemoveSupportVector	LaRank.h	/^	void RemoveSupportVector(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+LaRank::RemoveSupportVectors	LaRank.h	/^	void RemoveSupportVectors(int ind1, int ind2);$/;"	p	class:LaRank	access:private	signature:(int ind1, int ind2)
+LaRank::Reprocess	LaRank.cpp	/^void LaRank::Reprocess()$/;"	f	class:LaRank	signature:()
+LaRank::Reprocess	LaRank.h	/^	void Reprocess();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::SMOStep	LaRank.cpp	/^void LaRank::SMOStep(int ipos, int ineg)$/;"	f	class:LaRank	signature:(int ipos, int ineg)
+LaRank::SMOStep	LaRank.h	/^	void SMOStep(int ipos, int ineg);$/;"	p	class:LaRank	access:private	signature:(int ipos, int ineg)
+LaRank::SupportPattern	LaRank.h	/^	struct SupportPattern$/;"	s	class:LaRank	access:private
+LaRank::SupportPattern::images	LaRank.h	/^		std::vector<cv::Mat> images;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportPattern::refCount	LaRank.h	/^		int refCount;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportPattern::x	LaRank.h	/^		std::vector<Eigen::VectorXd> x;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportPattern::y	LaRank.h	/^		int y;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportPattern::yv	LaRank.h	/^		std::vector<FloatRect> yv;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportVector	LaRank.h	/^	struct SupportVector$/;"	s	class:LaRank	access:private
+LaRank::SupportVector::b	LaRank.h	/^		double b;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SupportVector::g	LaRank.h	/^		double g;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SupportVector::image	LaRank.h	/^		cv::Mat image;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SupportVector::x	LaRank.h	/^		SupportPattern* x;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SupportVector::y	LaRank.h	/^		int y;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SwapSupportVectors	LaRank.cpp	/^void LaRank::SwapSupportVectors(int ind1, int ind2)$/;"	f	class:LaRank	signature:(int ind1, int ind2)
+LaRank::SwapSupportVectors	LaRank.h	/^	void SwapSupportVectors(int ind1, int ind2);$/;"	p	class:LaRank	access:private	signature:(int ind1, int ind2)
+LaRank::Update	LaRank.cpp	/^void LaRank::Update(const MultiSample& sample, int y)$/;"	f	class:LaRank	signature:(const MultiSample& sample, int y)
+LaRank::Update	LaRank.h	/^	virtual void Update(const MultiSample& x, int y);$/;"	p	class:LaRank	access:public	signature:(const MultiSample& x, int y)
+LaRank::UpdateDebugImage	LaRank.cpp	/^void LaRank::UpdateDebugImage()$/;"	f	class:LaRank	signature:()
+LaRank::UpdateDebugImage	LaRank.h	/^	void UpdateDebugImage();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::m_C	LaRank.h	/^	double m_C;$/;"	m	class:LaRank	access:private
+LaRank::m_K	LaRank.h	/^	Eigen::MatrixXd m_K;$/;"	m	class:LaRank	access:private
+LaRank::m_config	LaRank.h	/^	const Config& m_config;$/;"	m	class:LaRank	access:private
+LaRank::m_debugImage	LaRank.h	/^	cv::Mat m_debugImage;$/;"	m	class:LaRank	access:private
+LaRank::m_features	LaRank.h	/^	const Features& m_features;$/;"	m	class:LaRank	access:private
+LaRank::m_kernel	LaRank.h	/^	const Kernel& m_kernel;$/;"	m	class:LaRank	access:private
+LaRank::m_sps	LaRank.h	/^	std::vector<SupportPattern*> m_sps;$/;"	m	class:LaRank	access:private
+LaRank::m_svs	LaRank.h	/^	std::vector<SupportVector*> m_svs;$/;"	m	class:LaRank	access:private
+LaRank::~LaRank	LaRank.cpp	/^LaRank::~LaRank()$/;"	f	class:LaRank	signature:()
+LaRank::~LaRank	LaRank.h	/^	~LaRank();$/;"	p	class:LaRank	access:public	signature:()
+LinearKernel	Kernels.h	/^class LinearKernel : public Kernel$/;"	c	inherits:Kernel
+LinearKernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:LinearKernel	access:public	signature:(const Eigen::VectorXd& x) const
+LinearKernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:LinearKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Loss	LaRank.h	/^	inline double Loss(const FloatRect& y1, const FloatRect& y2) const$/;"	f	class:LaRank	access:private	signature:(const FloatRect& y1, const FloatRect& y2) const
+MULTI_FEATURES_H	MultiFeatures.h	29;"	d
+M_PI	Sampler.cpp	30;"	d	file:
+MinGradient	LaRank.cpp	/^pair<int, double> LaRank::MinGradient(int ind)$/;"	f	class:LaRank	signature:(int ind)
+MinGradient	LaRank.h	/^	std::pair<int, double> MinGradient(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+MultiFeatures	MultiFeatures.cpp	/^MultiFeatures::MultiFeatures(const vector<Features*>& features) :$/;"	f	class:MultiFeatures	signature:(const vector<Features*>& features)
+MultiFeatures	MultiFeatures.h	/^	MultiFeatures(const std::vector<Features*>& features);$/;"	p	class:MultiFeatures	access:public	signature:(const std::vector<Features*>& features)
+MultiFeatures	MultiFeatures.h	/^class MultiFeatures : public Features$/;"	c	inherits:Features
+MultiFeatures::MultiFeatures	MultiFeatures.cpp	/^MultiFeatures::MultiFeatures(const vector<Features*>& features) :$/;"	f	class:MultiFeatures	signature:(const vector<Features*>& features)
+MultiFeatures::MultiFeatures	MultiFeatures.h	/^	MultiFeatures(const std::vector<Features*>& features);$/;"	p	class:MultiFeatures	access:public	signature:(const std::vector<Features*>& features)
+MultiFeatures::UpdateFeatureVector	MultiFeatures.cpp	/^void MultiFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:MultiFeatures	signature:(const Sample& s)
+MultiFeatures::UpdateFeatureVector	MultiFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:MultiFeatures	access:private	signature:(const Sample& s)
+MultiFeatures::m_features	MultiFeatures.h	/^	std::vector<Features*> m_features;$/;"	m	class:MultiFeatures	access:private
+MultiKernel	Kernels.h	/^	MultiKernel(const std::vector<Kernel*>& kernels, const std::vector<int>& featureCounts) :$/;"	f	class:MultiKernel	access:public	signature:(const std::vector<Kernel*>& kernels, const std::vector<int>& featureCounts)
+MultiKernel	Kernels.h	/^class MultiKernel : public Kernel$/;"	c	inherits:Kernel
+MultiKernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:MultiKernel	access:public	signature:(const Eigen::VectorXd& x) const
+MultiKernel::Eval	Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:MultiKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+MultiKernel::MultiKernel	Kernels.h	/^	MultiKernel(const std::vector<Kernel*>& kernels, const std::vector<int>& featureCounts) :$/;"	f	class:MultiKernel	access:public	signature:(const std::vector<Kernel*>& kernels, const std::vector<int>& featureCounts)
+MultiKernel::m_counts	Kernels.h	/^	std::vector<int> m_counts;	$/;"	m	class:MultiKernel	access:private
+MultiKernel::m_kernels	Kernels.h	/^	std::vector<Kernel*> m_kernels;$/;"	m	class:MultiKernel	access:private
+MultiKernel::m_n	Kernels.h	/^	int m_n;$/;"	m	class:MultiKernel	access:private
+MultiKernel::m_norm	Kernels.h	/^	double m_norm;$/;"	m	class:MultiKernel	access:private
+MultiSample	Sample.h	/^	MultiSample(const ImageRep& image, const std::vector<FloatRect>& rects) :$/;"	f	class:MultiSample	access:public	signature:(const ImageRep& image, const std::vector<FloatRect>& rects)
+MultiSample	Sample.h	/^class MultiSample$/;"	c
+MultiSample::GetImage	Sample.h	/^	inline const ImageRep& GetImage() const { return m_image; }$/;"	f	class:MultiSample	access:public	signature:() const
+MultiSample::GetRects	Sample.h	/^	inline const std::vector<FloatRect>& GetRects() const { return m_rects; }$/;"	f	class:MultiSample	access:public	signature:() const
+MultiSample::GetSample	Sample.h	/^	inline Sample GetSample(int i) const { return Sample(m_image, m_rects[i]); }$/;"	f	class:MultiSample	access:public	signature:(int i) const
+MultiSample::MultiSample	Sample.h	/^	MultiSample(const ImageRep& image, const std::vector<FloatRect>& rects) :$/;"	f	class:MultiSample	access:public	signature:(const ImageRep& image, const std::vector<FloatRect>& rects)
+MultiSample::m_image	Sample.h	/^	const ImageRep& m_image;$/;"	m	class:MultiSample	access:private
+MultiSample::m_rects	Sample.h	/^	std::vector<FloatRect> m_rects;$/;"	m	class:MultiSample	access:private
+Optimize	LaRank.cpp	/^void LaRank::Optimize()$/;"	f	class:LaRank	signature:()
+Optimize	LaRank.h	/^	void Optimize();$/;"	p	class:LaRank	access:private	signature:()
+Overlap	Rect.h	/^	float Overlap(const Rect<T2>& rOther) const;$/;"	p	class:Rect	access:public	signature:(const Rect<T2>& rOther) const
+Overlap	Rect.h	/^float Rect<T>::Overlap(const Rect<T2>& rOther) const$/;"	f	class:Rect	signature:(const Rect<T2>& rOther) const
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	212;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	215;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	218;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	224;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	227;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	230;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	233;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	236;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	239;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	242;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	245;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	248;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	251;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	254;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	257;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	260;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	263;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	266;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	269;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	272;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	275;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	278;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	281;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	284;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	287;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	205;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	211;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	217;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	220;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	223;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	226;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	235;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	238;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	241;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	247;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	250;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	253;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	256;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	259;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	262;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	265;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	268;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	271;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	274;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	280;"	d	file:
+PixelSamples	Sampler.cpp	/^vector<FloatRect> Sampler::PixelSamples(FloatRect centre, int radius, bool halfSample)$/;"	f	class:Sampler	signature:(FloatRect centre, int radius, bool halfSample)
+PixelSamples	Sampler.h	/^	static std::vector<FloatRect> PixelSamples(FloatRect centre, int radius, bool halfSample = false);$/;"	p	class:Sampler	access:public	signature:(FloatRect centre, int radius, bool halfSample = false)
+ProcessNew	LaRank.cpp	/^void LaRank::ProcessNew(int ind)$/;"	f	class:LaRank	signature:(int ind)
+ProcessNew	LaRank.h	/^	void ProcessNew(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+ProcessOld	LaRank.cpp	/^void LaRank::ProcessOld()$/;"	f	class:LaRank	signature:()
+ProcessOld	LaRank.h	/^	void ProcessOld();$/;"	p	class:LaRank	access:private	signature:()
+RAW_FEATURES_H	RawFeatures.h	29;"	d
+RECT_H	Rect.h	29;"	d
+RM	GraphUtils/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RadialSamples	Sampler.cpp	/^vector<FloatRect> Sampler::RadialSamples(FloatRect centre, int radius, int nr, int nt)$/;"	f	class:Sampler	signature:(FloatRect centre, int radius, int nr, int nt)
+RadialSamples	Sampler.h	/^	static std::vector<FloatRect> RadialSamples(FloatRect centre, int radius, int nr, int nt);$/;"	p	class:Sampler	access:public	signature:(FloatRect centre, int radius, int nr, int nt)
+RawFeatures	RawFeatures.cpp	/^RawFeatures::RawFeatures(const Config& conf) :$/;"	f	class:RawFeatures	signature:(const Config& conf)
+RawFeatures	RawFeatures.h	/^	RawFeatures(const Config& conf);$/;"	p	class:RawFeatures	access:public	signature:(const Config& conf)
+RawFeatures	RawFeatures.h	/^class RawFeatures : public Features$/;"	c	inherits:Features
+RawFeatures::RawFeatures	RawFeatures.cpp	/^RawFeatures::RawFeatures(const Config& conf) :$/;"	f	class:RawFeatures	signature:(const Config& conf)
+RawFeatures::RawFeatures	RawFeatures.h	/^	RawFeatures(const Config& conf);$/;"	p	class:RawFeatures	access:public	signature:(const Config& conf)
+RawFeatures::UpdateFeatureVector	RawFeatures.cpp	/^void RawFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:RawFeatures	signature:(const Sample& s)
+RawFeatures::UpdateFeatureVector	RawFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:RawFeatures	access:private	signature:(const Sample& s)
+RawFeatures::m_patchImage	RawFeatures.h	/^	cv::Mat m_patchImage;$/;"	m	class:RawFeatures	access:private
+Rect	Rect.h	/^	Rect() :$/;"	f	class:Rect	access:public	signature:()
+Rect	Rect.h	/^	Rect(T xMin, T yMin, T width, T height) :$/;"	f	class:Rect	access:public	signature:(T xMin, T yMin, T width, T height)
+Rect	Rect.h	/^	Rect(const Rect<T2>& rOther) :$/;"	f	class:Rect	access:public	signature:(const Rect<T2>& rOther)
+Rect	Rect.h	/^class Rect$/;"	c
+Rect::Area	Rect.h	/^	inline T Area() const { return m_width * m_height; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::Height	Rect.h	/^	inline T Height() const { return m_height; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::IsInside	Rect.h	/^	bool IsInside(const Rect<T2>& rOther) const;$/;"	p	class:Rect	access:public	signature:(const Rect<T2>& rOther) const
+Rect::IsInside	Rect.h	/^bool Rect<T>::IsInside(const Rect<T2>& rOther) const$/;"	f	class:Rect	signature:(const Rect<T2>& rOther) const
+Rect::Overlap	Rect.h	/^	float Overlap(const Rect<T2>& rOther) const;$/;"	p	class:Rect	access:public	signature:(const Rect<T2>& rOther) const
+Rect::Overlap	Rect.h	/^float Rect<T>::Overlap(const Rect<T2>& rOther) const$/;"	f	class:Rect	signature:(const Rect<T2>& rOther) const
+Rect::Rect	Rect.h	/^	Rect() :$/;"	f	class:Rect	access:public	signature:()
+Rect::Rect	Rect.h	/^	Rect(T xMin, T yMin, T width, T height) :$/;"	f	class:Rect	access:public	signature:(T xMin, T yMin, T width, T height)
+Rect::Rect	Rect.h	/^	Rect(const Rect<T2>& rOther) :$/;"	f	class:Rect	access:public	signature:(const Rect<T2>& rOther)
+Rect::Set	Rect.h	/^	inline void Set(T xMin, T yMin, T width, T height)$/;"	f	class:Rect	access:public	signature:(T xMin, T yMin, T width, T height)
+Rect::SetHeight	Rect.h	/^	inline void SetHeight(T val) { m_height = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Rect::SetWidth	Rect.h	/^	inline void SetWidth(T val) { m_width = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Rect::SetXMin	Rect.h	/^	inline void SetXMin(T val) { m_xMin = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Rect::SetYMin	Rect.h	/^	inline void SetYMin(T val) { m_yMin = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Rect::Translate	Rect.h	/^	inline void Translate(T x, T y) { m_xMin += x; m_yMin += y; }$/;"	f	class:Rect	access:public	signature:(T x, T y)
+Rect::Width	Rect.h	/^	inline T Width() const { return m_width; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::XCentre	Rect.h	/^	inline float XCentre() const { return (float)m_xMin + (float)m_width \/ 2; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::XMax	Rect.h	/^	inline T XMax() const { return m_xMin + m_width; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::XMin	Rect.h	/^	inline T XMin() const { return m_xMin; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::YCentre	Rect.h	/^	inline float YCentre() const { return (float)m_yMin + (float)m_height \/ 2; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::YMax	Rect.h	/^	inline T YMax() const { return m_yMin + m_height; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::YMin	Rect.h	/^	inline T YMin() const { return m_yMin; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::m_height	Rect.h	/^	T m_height;$/;"	m	class:Rect	access:private
+Rect::m_width	Rect.h	/^	T m_width;$/;"	m	class:Rect	access:private
+Rect::m_xMin	Rect.h	/^	T m_xMin;$/;"	m	class:Rect	access:private
+Rect::m_yMin	Rect.h	/^	T m_yMin;$/;"	m	class:Rect	access:private
+Rect::operator <<	Rect.h	/^	friend std::ostream& operator <<(std::ostream &rOS, const Rect<T2>& rRect);$/;"	p	class:Rect	access:friend	signature:(std::ostream &rOS, const Rect<T2>& rRect)
+RemoveSupportVector	LaRank.cpp	/^void LaRank::RemoveSupportVector(int ind)$/;"	f	class:LaRank	signature:(int ind)
+RemoveSupportVector	LaRank.h	/^	void RemoveSupportVector(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+RemoveSupportVectors	LaRank.h	/^	void RemoveSupportVectors(int ind1, int ind2);$/;"	p	class:LaRank	access:private	signature:(int ind1, int ind2)
+Reprocess	LaRank.cpp	/^void LaRank::Reprocess()$/;"	f	class:LaRank	signature:()
+Reprocess	LaRank.h	/^	void Reprocess();$/;"	p	class:LaRank	access:private	signature:()
+Reset	Tracker.cpp	/^void Tracker::Reset()$/;"	f	class:Tracker	signature:()
+Reset	Tracker.h	/^	void Reset();$/;"	p	class:Tracker	access:public	signature:()
+SAMPLER_H	Sampler.h	29;"	d
+SAMPLE_H	Sample.h	29;"	d
+SHELL	GraphUtils/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SMOStep	LaRank.cpp	/^void LaRank::SMOStep(int ipos, int ineg)$/;"	f	class:LaRank	signature:(int ipos, int ineg)
+SMOStep	LaRank.h	/^	void SMOStep(int ipos, int ineg);$/;"	p	class:LaRank	access:private	signature:(int ipos, int ineg)
+SUFFIXES	GraphUtils/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	Makefile	/^SUFFIXES =$/;"	m
+Sample	Sample.h	/^	Sample(const ImageRep& image, const FloatRect& roi) :$/;"	f	class:Sample	access:public	signature:(const ImageRep& image, const FloatRect& roi)
+Sample	Sample.h	/^class Sample$/;"	c
+Sample::GetImage	Sample.h	/^	inline const ImageRep& GetImage() const { return m_image; }$/;"	f	class:Sample	access:public	signature:() const
+Sample::GetROI	Sample.h	/^	inline const FloatRect& GetROI() const { return m_roi; }$/;"	f	class:Sample	access:public	signature:() const
+Sample::Sample	Sample.h	/^	Sample(const ImageRep& image, const FloatRect& roi) :$/;"	f	class:Sample	access:public	signature:(const ImageRep& image, const FloatRect& roi)
+Sample::m_image	Sample.h	/^	const ImageRep& m_image;$/;"	m	class:Sample	access:private
+Sample::m_roi	Sample.h	/^	FloatRect m_roi;$/;"	m	class:Sample	access:private
+Sampler	Sampler.h	/^class Sampler$/;"	c
+Sampler::PixelSamples	Sampler.cpp	/^vector<FloatRect> Sampler::PixelSamples(FloatRect centre, int radius, bool halfSample)$/;"	f	class:Sampler	signature:(FloatRect centre, int radius, bool halfSample)
+Sampler::PixelSamples	Sampler.h	/^	static std::vector<FloatRect> PixelSamples(FloatRect centre, int radius, bool halfSample = false);$/;"	p	class:Sampler	access:public	signature:(FloatRect centre, int radius, bool halfSample = false)
+Sampler::RadialSamples	Sampler.cpp	/^vector<FloatRect> Sampler::RadialSamples(FloatRect centre, int radius, int nr, int nt)$/;"	f	class:Sampler	signature:(FloatRect centre, int radius, int nr, int nt)
+Sampler::RadialSamples	Sampler.h	/^	static std::vector<FloatRect> RadialSamples(FloatRect centre, int radius, int nr, int nt);$/;"	p	class:Sampler	access:public	signature:(FloatRect centre, int radius, int nr, int nt)
+Set	Rect.h	/^	inline void Set(T xMin, T yMin, T width, T height)$/;"	f	class:Rect	access:public	signature:(T xMin, T yMin, T width, T height)
+SetCount	Features.cpp	/^void Features::SetCount(int c)$/;"	f	class:Features	signature:(int c)
+SetCount	Features.h	/^	void SetCount(int c);$/;"	p	class:Features	access:protected	signature:(int c)
+SetDefaults	Config.cpp	/^void Config::SetDefaults()$/;"	f	class:Config	signature:()
+SetDefaults	Config.h	/^	void SetDefaults();$/;"	p	class:Config	access:private	signature:()
+SetHeight	Rect.h	/^	inline void SetHeight(T val) { m_height = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+SetWidth	Rect.h	/^	inline void SetWidth(T val) { m_width = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+SetXMin	Rect.h	/^	inline void SetXMin(T val) { m_xMin = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+SetYMin	Rect.h	/^	inline void SetYMin(T val) { m_yMin = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Sum	ImageRep.cpp	/^int ImageRep::Sum(const IntRect& rRect, int channel) const$/;"	f	class:ImageRep	signature:(const IntRect& rRect, int channel) const
+Sum	ImageRep.h	/^	int Sum(const IntRect& rRect, int channel = 0) const;$/;"	p	class:ImageRep	access:public	signature:(const IntRect& rRect, int channel = 0) const
+SupportPattern	LaRank.h	/^	struct SupportPattern$/;"	s	class:LaRank	access:private
+SupportVector	LaRank.h	/^	struct SupportVector$/;"	s	class:LaRank	access:private
+SwapSupportVectors	LaRank.cpp	/^void LaRank::SwapSupportVectors(int ind1, int ind2)$/;"	f	class:LaRank	signature:(int ind1, int ind2)
+SwapSupportVectors	LaRank.h	/^	void SwapSupportVectors(int ind1, int ind2);$/;"	p	class:LaRank	access:private	signature:(int ind1, int ind2)
+TRACKER_H	Tracker.h	29;"	d
+Track	Tracker.cpp	/^void Tracker::Track(const cv::Mat& frame)$/;"	f	class:Tracker	signature:(const cv::Mat& frame)
+Track	Tracker.h	/^	void Track(const cv::Mat& frame);$/;"	p	class:Tracker	access:public	signature:(const cv::Mat& frame)
+Tracker	Tracker.cpp	/^Tracker::Tracker(const Config& conf) :$/;"	f	class:Tracker	signature:(const Config& conf)
+Tracker	Tracker.h	/^	Tracker(const Config& conf);$/;"	p	class:Tracker	access:public	signature:(const Config& conf)
+Tracker	Tracker.h	/^class Tracker$/;"	c
+Tracker::Debug	Tracker.cpp	/^void Tracker::Debug()$/;"	f	class:Tracker	signature:()
+Tracker::Debug	Tracker.h	/^	void Debug();$/;"	p	class:Tracker	access:public	signature:()
+Tracker::GetBB	Tracker.h	/^	inline const FloatRect& GetBB() const { return m_bb; }$/;"	f	class:Tracker	access:public	signature:() const
+Tracker::Initialise	Tracker.cpp	/^void Tracker::Initialise(const cv::Mat& frame, FloatRect bb)$/;"	f	class:Tracker	signature:(const cv::Mat& frame, FloatRect bb)
+Tracker::Initialise	Tracker.h	/^	void Initialise(const cv::Mat& frame, FloatRect bb);$/;"	p	class:Tracker	access:public	signature:(const cv::Mat& frame, FloatRect bb)
+Tracker::IsInitialised	Tracker.h	/^	inline bool IsInitialised() const { return m_initialised; }$/;"	f	class:Tracker	access:public	signature:() const
+Tracker::Reset	Tracker.cpp	/^void Tracker::Reset()$/;"	f	class:Tracker	signature:()
+Tracker::Reset	Tracker.h	/^	void Reset();$/;"	p	class:Tracker	access:public	signature:()
+Tracker::Track	Tracker.cpp	/^void Tracker::Track(const cv::Mat& frame)$/;"	f	class:Tracker	signature:(const cv::Mat& frame)
+Tracker::Track	Tracker.h	/^	void Track(const cv::Mat& frame);$/;"	p	class:Tracker	access:public	signature:(const cv::Mat& frame)
+Tracker::Tracker	Tracker.cpp	/^Tracker::Tracker(const Config& conf) :$/;"	f	class:Tracker	signature:(const Config& conf)
+Tracker::Tracker	Tracker.h	/^	Tracker(const Config& conf);$/;"	p	class:Tracker	access:public	signature:(const Config& conf)
+Tracker::UpdateDebugImage	Tracker.cpp	/^void Tracker::UpdateDebugImage(const vector<FloatRect>& samples, const FloatRect& centre, const vector<double>& scores)$/;"	f	class:Tracker	signature:(const vector<FloatRect>& samples, const FloatRect& centre, const vector<double>& scores)
+Tracker::UpdateDebugImage	Tracker.h	/^	void UpdateDebugImage(const std::vector<FloatRect>& samples, const FloatRect& centre, const std::vector<double>& scores);$/;"	p	class:Tracker	access:private	signature:(const std::vector<FloatRect>& samples, const FloatRect& centre, const std::vector<double>& scores)
+Tracker::UpdateLearner	Tracker.cpp	/^void Tracker::UpdateLearner(const ImageRep& image)$/;"	f	class:Tracker	signature:(const ImageRep& image)
+Tracker::UpdateLearner	Tracker.h	/^	void UpdateLearner(const ImageRep& image);$/;"	p	class:Tracker	access:private	signature:(const ImageRep& image)
+Tracker::m_bb	Tracker.h	/^	FloatRect m_bb;$/;"	m	class:Tracker	access:private
+Tracker::m_config	Tracker.h	/^	const Config& m_config;$/;"	m	class:Tracker	access:private
+Tracker::m_debugImage	Tracker.h	/^	cv::Mat m_debugImage;$/;"	m	class:Tracker	access:private
+Tracker::m_features	Tracker.h	/^	std::vector<Features*> m_features;$/;"	m	class:Tracker	access:private
+Tracker::m_initialised	Tracker.h	/^	bool m_initialised;$/;"	m	class:Tracker	access:private
+Tracker::m_kernels	Tracker.h	/^	std::vector<Kernel*> m_kernels;$/;"	m	class:Tracker	access:private
+Tracker::m_needsIntegralHist	Tracker.h	/^	bool m_needsIntegralHist;$/;"	m	class:Tracker	access:private
+Tracker::m_needsIntegralImage	Tracker.h	/^	bool m_needsIntegralImage;$/;"	m	class:Tracker	access:private
+Tracker::m_pLearner	Tracker.h	/^	LaRank* m_pLearner;$/;"	m	class:Tracker	access:private
+Tracker::~Tracker	Tracker.cpp	/^Tracker::~Tracker()$/;"	f	class:Tracker	signature:()
+Tracker::~Tracker	Tracker.h	/^	~Tracker();$/;"	p	class:Tracker	access:public	signature:()
+Translate	Rect.h	/^	inline void Translate(T x, T y) { m_xMin += x; m_yMin += y; }$/;"	f	class:Rect	access:public	signature:(T x, T y)
+UCHAR	GraphUtils/GraphUtils.cpp	/^	typedef unsigned char UCHAR;$/;"	t	file:
+USE_HIGHGUI	GraphUtils/GraphUtils.cpp	6;"	d	file:
+Update	LaRank.cpp	/^void LaRank::Update(const MultiSample& sample, int y)$/;"	f	class:LaRank	signature:(const MultiSample& sample, int y)
+Update	LaRank.h	/^	virtual void Update(const MultiSample& x, int y);$/;"	p	class:LaRank	access:public	signature:(const MultiSample& x, int y)
+UpdateDebugImage	LaRank.cpp	/^void LaRank::UpdateDebugImage()$/;"	f	class:LaRank	signature:()
+UpdateDebugImage	LaRank.h	/^	void UpdateDebugImage();$/;"	p	class:LaRank	access:private	signature:()
+UpdateDebugImage	Tracker.cpp	/^void Tracker::UpdateDebugImage(const vector<FloatRect>& samples, const FloatRect& centre, const vector<double>& scores)$/;"	f	class:Tracker	signature:(const vector<FloatRect>& samples, const FloatRect& centre, const vector<double>& scores)
+UpdateDebugImage	Tracker.h	/^	void UpdateDebugImage(const std::vector<FloatRect>& samples, const FloatRect& centre, const std::vector<double>& scores);$/;"	p	class:Tracker	access:private	signature:(const std::vector<FloatRect>& samples, const FloatRect& centre, const std::vector<double>& scores)
+UpdateFeatureVector	Features.h	/^	virtual void UpdateFeatureVector(const Sample& s) = 0;$/;"	p	class:Features	access:protected	signature:(const Sample& s)
+UpdateFeatureVector	HaarFeatures.cpp	/^void HaarFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:HaarFeatures	signature:(const Sample& s)
+UpdateFeatureVector	HaarFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:HaarFeatures	access:private	signature:(const Sample& s)
+UpdateFeatureVector	HistogramFeatures.cpp	/^void HistogramFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:HistogramFeatures	signature:(const Sample& s)
+UpdateFeatureVector	HistogramFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:HistogramFeatures	access:private	signature:(const Sample& s)
+UpdateFeatureVector	MultiFeatures.cpp	/^void MultiFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:MultiFeatures	signature:(const Sample& s)
+UpdateFeatureVector	MultiFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:MultiFeatures	access:private	signature:(const Sample& s)
+UpdateFeatureVector	RawFeatures.cpp	/^void RawFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:RawFeatures	signature:(const Sample& s)
+UpdateFeatureVector	RawFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:RawFeatures	access:private	signature:(const Sample& s)
+UpdateLearner	Tracker.cpp	/^void Tracker::UpdateLearner(const ImageRep& image)$/;"	f	class:Tracker	signature:(const ImageRep& image)
+UpdateLearner	Tracker.h	/^	void UpdateLearner(const ImageRep& image);$/;"	p	class:Tracker	access:private	signature:(const ImageRep& image)
+VERBOSE	Config.h	35;"	d
+WHITE	GraphUtils/GraphUtils.cpp	/^const CvScalar WHITE = CV_RGB(255,255,255);$/;"	v
+Width	Rect.h	/^	inline T Width() const { return m_width; }$/;"	f	class:Rect	access:public	signature:() const
+XCentre	Rect.h	/^	inline float XCentre() const { return (float)m_xMin + (float)m_width \/ 2; }$/;"	f	class:Rect	access:public	signature:() const
+XMax	Rect.h	/^	inline T XMax() const { return m_xMin + m_width; }$/;"	f	class:Rect	access:public	signature:() const
+XMin	Rect.h	/^	inline T XMin() const { return m_xMin; }$/;"	f	class:Rect	access:public	signature:() const
+YCentre	Rect.h	/^	inline float YCentre() const { return (float)m_yMin + (float)m_height \/ 2; }$/;"	f	class:Rect	access:public	signature:() const
+YMax	Rect.h	/^	inline T YMax() const { return m_yMin + m_height; }$/;"	f	class:Rect	access:public	signature:() const
+YMin	Rect.h	/^	inline T YMin() const { return m_yMin; }$/;"	f	class:Rect	access:public	signature:() const
+_USE_MATH_DEFINES	Sampler.cpp	31;"	d	file:
+b	LaRank.h	/^		double b;$/;"	m	struct:LaRank::SupportVector	access:public
+bool	GraphUtils/GraphUtils.h	/^	typedef int bool;$/;"	t
+countGraph	GraphUtils/GraphUtils.cpp	/^int countGraph = 0;	\/\/ Used by 'getGraphColor()'$/;"	v
+customGraphColor	GraphUtils/GraphUtils.cpp	/^CvScalar customGraphColor;$/;"	v
+debugMode	Config.h	/^	bool							debugMode;$/;"	m	class:Config	access:public
+drawFloatGraph	GraphUtils/GraphUtils.cpp	/^IplImage* drawFloatGraph(const float *arraySrc, int nArrayLength, IplImage *imageDst, float minV, float maxV, int width, int height, char *graphLabel, bool showScale)$/;"	f	signature:(const float *arraySrc, int nArrayLength, IplImage *imageDst, float minV, float maxV, int width, int height, char *graphLabel, bool showScale)
+drawFloatGraph	GraphUtils/GraphUtils.h	/^IplImage* drawFloatGraph(const float *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), float minV DEFAULT(0.0), float maxV DEFAULT(0.0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true));$/;"	p	signature:(const float *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), float minV DEFAULT(0.0), float maxV DEFAULT(0.0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true))
+drawIntGraph	GraphUtils/GraphUtils.cpp	/^IplImage* drawIntGraph(const int *arraySrc, int nArrayLength, IplImage *imageDst, int minV, int maxV, int width, int height, char *graphLabel, bool showScale)$/;"	f	signature:(const int *arraySrc, int nArrayLength, IplImage *imageDst, int minV, int maxV, int width, int height, char *graphLabel, bool showScale)
+drawIntGraph	GraphUtils/GraphUtils.h	/^IplImage* drawIntGraph(const int *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), int minV DEFAULT(0), int maxV DEFAULT(0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true));$/;"	p	signature:(const int *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), int minV DEFAULT(0), int maxV DEFAULT(0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true))
+drawUCharGraph	GraphUtils/GraphUtils.cpp	/^IplImage* drawUCharGraph(const uchar *arraySrc, int nArrayLength, IplImage *imageDst, int minV, int maxV, int width, int height, char *graphLabel, bool showScale)$/;"	f	signature:(const uchar *arraySrc, int nArrayLength, IplImage *imageDst, int minV, int maxV, int width, int height, char *graphLabel, bool showScale)
+drawUCharGraph	GraphUtils/GraphUtils.h	/^IplImage* drawUCharGraph(const uchar *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), int minV DEFAULT(0), int maxV DEFAULT(0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true));$/;"	p	signature:(const uchar *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), int minV DEFAULT(0), int maxV DEFAULT(0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true))
+false	GraphUtils/GraphUtils.h	19;"	d
+feature	Config.h	/^		FeatureType feature;$/;"	m	struct:Config::FeatureKernelPair	access:public
+features	Config.h	/^	std::vector<FeatureKernelPair>	features;$/;"	m	class:Config	access:public
+frameHeight	Config.h	/^	int								frameHeight;$/;"	m	class:Config	access:public
+frameWidth	Config.h	/^	int								frameWidth;$/;"	m	class:Config	access:public
+g	LaRank.h	/^		double g;$/;"	m	struct:LaRank::SupportVector	access:public
+getGraphColor	GraphUtils/GraphUtils.cpp	/^CvScalar getGraphColor(void)$/;"	f	signature:(void)
+image	LaRank.h	/^		cv::Mat image;$/;"	m	struct:LaRank::SupportVector	access:public
+images	LaRank.h	/^		std::vector<cv::Mat> images;$/;"	m	struct:LaRank::SupportPattern	access:public
+info_arch	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_version	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+kFeatureTypeHaar	Config.h	/^		kFeatureTypeHaar,$/;"	e	enum:Config::FeatureType
+kFeatureTypeHistogram	Config.h	/^		kFeatureTypeHistogram$/;"	e	enum:Config::FeatureType
+kFeatureTypeRaw	Config.h	/^		kFeatureTypeRaw,$/;"	e	enum:Config::FeatureType
+kKernelTypeChi2	Config.h	/^		kKernelTypeChi2$/;"	e	enum:Config::KernelType
+kKernelTypeGaussian	Config.h	/^		kKernelTypeGaussian,$/;"	e	enum:Config::KernelType
+kKernelTypeIntersection	Config.h	/^		kKernelTypeIntersection,$/;"	e	enum:Config::KernelType
+kKernelTypeLinear	Config.h	/^		kKernelTypeLinear,$/;"	e	enum:Config::KernelType
+kLiveBoxHeight	main.cpp	/^static const int kLiveBoxHeight = 80;$/;"	v	file:
+kLiveBoxWidth	main.cpp	/^static const int kLiveBoxWidth = 80;$/;"	v	file:
+kMaxSVs	LaRank.cpp	/^static const int kMaxSVs = 2000; \/\/ TODO (only used when no budget)$/;"	v	file:
+kNumBins	HistogramFeatures.cpp	/^static const int kNumBins = 16;$/;"	v	file:
+kNumBins	ImageRep.cpp	/^static const int kNumBins = 16;$/;"	v	file:
+kNumCellsX	HistogramFeatures.cpp	/^static const int kNumCellsX = 3;$/;"	v	file:
+kNumCellsY	HistogramFeatures.cpp	/^static const int kNumCellsY = 3;$/;"	v	file:
+kNumLevels	HistogramFeatures.cpp	/^static const int kNumLevels = 4;$/;"	v	file:
+kPatchSize	RawFeatures.cpp	/^static const int kPatchSize = 16;$/;"	v	file:
+kSystematicFeatureCount	HaarFeatures.cpp	/^static const int kSystematicFeatureCount = 192;$/;"	v	file:
+kTileSize	LaRank.cpp	/^static const int kTileSize = 30;$/;"	v	file:
+kernel	Config.h	/^		KernelType kernel;$/;"	m	struct:Config::FeatureKernelPair	access:public
+m_C	LaRank.h	/^	double m_C;$/;"	m	class:LaRank	access:private
+m_K	LaRank.h	/^	Eigen::MatrixXd m_K;$/;"	m	class:LaRank	access:private
+m_bb	HaarFeature.h	/^	FloatRect m_bb;$/;"	m	class:HaarFeature	access:private
+m_bb	Tracker.h	/^	FloatRect m_bb;$/;"	m	class:Tracker	access:private
+m_channels	ImageRep.h	/^	int m_channels;$/;"	m	class:ImageRep	access:private
+m_config	LaRank.h	/^	const Config& m_config;$/;"	m	class:LaRank	access:private
+m_config	Tracker.h	/^	const Config& m_config;$/;"	m	class:Tracker	access:private
+m_counts	Kernels.h	/^	std::vector<int> m_counts;	$/;"	m	class:MultiKernel	access:private
+m_debugImage	LaRank.h	/^	cv::Mat m_debugImage;$/;"	m	class:LaRank	access:private
+m_debugImage	Tracker.h	/^	cv::Mat m_debugImage;$/;"	m	class:Tracker	access:private
+m_factor	HaarFeature.h	/^	float m_factor;$/;"	m	class:HaarFeature	access:private
+m_featVec	Features.h	/^	Eigen::VectorXd m_featVec;$/;"	m	class:Features	access:protected
+m_featureCount	Features.h	/^	int m_featureCount;$/;"	m	class:Features	access:protected
+m_features	HaarFeatures.h	/^	std::vector<HaarFeature> m_features;$/;"	m	class:HaarFeatures	access:private
+m_features	LaRank.h	/^	const Features& m_features;$/;"	m	class:LaRank	access:private
+m_features	MultiFeatures.h	/^	std::vector<Features*> m_features;$/;"	m	class:MultiFeatures	access:private
+m_features	Tracker.h	/^	std::vector<Features*> m_features;$/;"	m	class:Tracker	access:private
+m_height	Rect.h	/^	T m_height;$/;"	m	class:Rect	access:private
+m_image	Sample.h	/^	const ImageRep& m_image;$/;"	m	class:MultiSample	access:private
+m_image	Sample.h	/^	const ImageRep& m_image;$/;"	m	class:Sample	access:private
+m_images	ImageRep.h	/^	std::vector<cv::Mat> m_images;$/;"	m	class:ImageRep	access:private
+m_initialised	Tracker.h	/^	bool m_initialised;$/;"	m	class:Tracker	access:private
+m_integralHistImages	ImageRep.h	/^	std::vector<cv::Mat> m_integralHistImages;$/;"	m	class:ImageRep	access:private
+m_integralImages	ImageRep.h	/^	std::vector<cv::Mat> m_integralImages;$/;"	m	class:ImageRep	access:private
+m_kernel	LaRank.h	/^	const Kernel& m_kernel;$/;"	m	class:LaRank	access:private
+m_kernels	Kernels.h	/^	std::vector<Kernel*> m_kernels;$/;"	m	class:MultiKernel	access:private
+m_kernels	Tracker.h	/^	std::vector<Kernel*> m_kernels;$/;"	m	class:Tracker	access:private
+m_n	Kernels.h	/^	int m_n;$/;"	m	class:MultiKernel	access:private
+m_needsIntegralHist	Tracker.h	/^	bool m_needsIntegralHist;$/;"	m	class:Tracker	access:private
+m_needsIntegralImage	Tracker.h	/^	bool m_needsIntegralImage;$/;"	m	class:Tracker	access:private
+m_norm	Kernels.h	/^	double m_norm;$/;"	m	class:MultiKernel	access:private
+m_pLearner	Tracker.h	/^	LaRank* m_pLearner;$/;"	m	class:Tracker	access:private
+m_patchImage	RawFeatures.h	/^	cv::Mat m_patchImage;$/;"	m	class:RawFeatures	access:private
+m_rect	ImageRep.h	/^	IntRect m_rect;$/;"	m	class:ImageRep	access:private
+m_rects	HaarFeature.h	/^	std::vector<FloatRect> m_rects;$/;"	m	class:HaarFeature	access:private
+m_rects	Sample.h	/^	std::vector<FloatRect> m_rects;$/;"	m	class:MultiSample	access:private
+m_roi	Sample.h	/^	FloatRect m_roi;$/;"	m	class:Sample	access:private
+m_sigma	Kernels.h	/^	double m_sigma;$/;"	m	class:GaussianKernel	access:private
+m_sps	LaRank.h	/^	std::vector<SupportPattern*> m_sps;$/;"	m	class:LaRank	access:private
+m_svs	LaRank.h	/^	std::vector<SupportVector*> m_svs;$/;"	m	class:LaRank	access:private
+m_weights	HaarFeature.h	/^	std::vector<float> m_weights;$/;"	m	class:HaarFeature	access:private
+m_width	Rect.h	/^	T m_width;$/;"	m	class:Rect	access:private
+m_xMin	Rect.h	/^	T m_xMin;$/;"	m	class:Rect	access:private
+m_yMin	Rect.h	/^	T m_yMin;$/;"	m	class:Rect	access:private
+main	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+myvector	main.cpp	/^vector<int> myvector;$/;"	v
+newregion	main.cpp	/^bool newregion = false;$/;"	v
+onMouse	main.cpp	/^void onMouse(int event, int x, int y, int, void*)$/;"	f	signature:(int event, int x, int y, int, void*)
+operator <<	Config.cpp	/^ostream& operator<< (ostream& out, const Config& conf)$/;"	f	signature:(ostream& out, const Config& conf)
+operator <<	Config.h	/^	friend std::ostream& operator<< (std::ostream& out, const Config& conf);$/;"	p	class:Config	access:friend	signature:(std::ostream& out, const Config& conf)
+operator <<	Rect.h	/^	friend std::ostream& operator <<(std::ostream &rOS, const Rect<T2>& rRect);$/;"	p	class:Rect	access:friend	signature:(std::ostream &rOS, const Rect<T2>& rRect)
+operator <<	Rect.h	/^std::ostream& operator <<(std::ostream &rOS, const Rect<T>& rRect)$/;"	f	signature:(std::ostream &rOS, const Rect<T>& rRect)
+originMouse	main.cpp	/^Point originMouse;$/;"	v
+params	Config.h	/^		std::vector<double> params;$/;"	m	struct:Config::FeatureKernelPair	access:public
+quietMode	Config.h	/^	bool							quietMode;$/;"	m	class:Config	access:public
+rectangle	main.cpp	/^void rectangle(Mat& rMat, const FloatRect& rRect, const Scalar& rColour)$/;"	f	signature:(Mat& rMat, const FloatRect& rRect, const Scalar& rColour)
+refCount	LaRank.h	/^		int refCount;$/;"	m	struct:LaRank::SupportPattern	access:public
+resultsPath	Config.h	/^	std::string						resultsPath;$/;"	m	class:Config	access:public
+searchRadius	Config.h	/^	int								searchRadius;$/;"	m	class:Config	access:public
+seed	Config.h	/^	int								seed;$/;"	m	class:Config	access:public
+selectObject	main.cpp	/^bool selectObject = false;$/;"	v
+selectionRegion	main.cpp	/^IntRect selectionRegion;$/;"	v
+sequenceBasePath	Config.h	/^	std::string						sequenceBasePath;$/;"	m	class:Config	access:public
+sequenceName	Config.h	/^	std::string						sequenceName;$/;"	m	class:Config	access:public
+setCustomGraphColor	GraphUtils/GraphUtils.cpp	/^void setCustomGraphColor(int R, int B, int G)$/;"	f	signature:(int R, int B, int G)
+setCustomGraphColor	GraphUtils/GraphUtils.h	/^void setCustomGraphColor(int R, int B, int G);$/;"	p	signature:(int R, int B, int G)
+setGraphColor	GraphUtils/GraphUtils.cpp	/^void setGraphColor(int index)$/;"	f	signature:(int index)
+setGraphColor	GraphUtils/GraphUtils.h	/^void setGraphColor(int index DEFAULT(0));$/;"	p	signature:(int index DEFAULT(0))
+showFloatGraph	GraphUtils/GraphUtils.cpp	/^void showFloatGraph(const char *name, const float *arraySrc, int nArrayLength, int delay_ms, IplImage *background)$/;"	f	signature:(const char *name, const float *arraySrc, int nArrayLength, int delay_ms, IplImage *background)
+showFloatGraph	GraphUtils/GraphUtils.h	/^void showFloatGraph(const char *name, const float *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0));$/;"	p	signature:(const char *name, const float *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0))
+showImage	GraphUtils/GraphUtils.cpp	/^void showImage(const IplImage *img, int delay_ms, char *name)$/;"	f	signature:(const IplImage *img, int delay_ms, char *name)
+showImage	GraphUtils/GraphUtils.h	/^void showImage(const IplImage *img, int delay_ms DEFAULT(0), char *name DEFAULT(0));$/;"	p	signature:(const IplImage *img, int delay_ms DEFAULT(0), char *name DEFAULT(0))
+showIntGraph	GraphUtils/GraphUtils.cpp	/^void showIntGraph(const char *name, const int *arraySrc, int nArrayLength, int delay_ms, IplImage *background)$/;"	f	signature:(const char *name, const int *arraySrc, int nArrayLength, int delay_ms, IplImage *background)
+showIntGraph	GraphUtils/GraphUtils.h	/^void showIntGraph(const char *name, const int *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0));$/;"	p	signature:(const char *name, const int *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0))
+showUCharGraph	GraphUtils/GraphUtils.cpp	/^void showUCharGraph(const char *name, const uchar *arraySrc, int nArrayLength, int delay_ms, IplImage *background)$/;"	f	signature:(const char *name, const uchar *arraySrc, int nArrayLength, int delay_ms, IplImage *background)
+showUCharGraph	GraphUtils/GraphUtils.h	/^void showUCharGraph(const char *name, const uchar *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0));$/;"	p	signature:(const char *name, const uchar *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0))
+sprintf_s	GraphUtils/GraphUtils.cpp	28;"	d	file:
+startTrack	main.cpp	/^bool startTrack = false;$/;"	v
+svmBudgetSize	Config.h	/^	int								svmBudgetSize;$/;"	m	class:Config	access:public
+svmC	Config.h	/^	double							svmC;$/;"	m	class:Config	access:public
+trackObject	main.cpp	/^int trackObject = 0;$/;"	v
+true	GraphUtils/GraphUtils.h	18;"	d
+usingCustomGraphColor	GraphUtils/GraphUtils.cpp	/^int usingCustomGraphColor = 0;$/;"	v
+x	LaRank.h	/^		SupportPattern* x;$/;"	m	struct:LaRank::SupportVector	access:public
+x	LaRank.h	/^		std::vector<Eigen::VectorXd> x;$/;"	m	struct:LaRank::SupportPattern	access:public
+y	LaRank.h	/^		int y;$/;"	m	struct:LaRank::SupportPattern	access:public
+y	LaRank.h	/^		int y;$/;"	m	struct:LaRank::SupportVector	access:public
+yv	LaRank.h	/^		std::vector<FloatRect> yv;$/;"	m	struct:LaRank::SupportPattern	access:public
+~HaarFeature	HaarFeature.cpp	/^HaarFeature::~HaarFeature()$/;"	f	class:HaarFeature	signature:()
+~HaarFeature	HaarFeature.h	/^	~HaarFeature();$/;"	p	class:HaarFeature	access:public	signature:()
+~LaRank	LaRank.cpp	/^LaRank::~LaRank()$/;"	f	class:LaRank	signature:()
+~LaRank	LaRank.h	/^	~LaRank();$/;"	p	class:LaRank	access:public	signature:()
+~Tracker	Tracker.cpp	/^Tracker::~Tracker()$/;"	f	class:Tracker	signature:()
+~Tracker	Tracker.h	/^	~Tracker();$/;"	p	class:Tracker	access:public	signature:()

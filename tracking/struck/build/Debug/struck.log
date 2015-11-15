@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/10/24 17:11:43。
+     1>项目“D:\track\struck\struck.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ID:\track\eigen2.0.17 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"build/Debug\\" /Fd"build/Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\track\struck\struck.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\track\struck\struck.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\track\struck\struck.lib" /MACHINE:X86 /SAFESEH build/Debug\Config.obj
+         build/Debug\Features.obj
+         build/Debug\HaarFeature.obj
+         build/Debug\HaarFeatures.obj
+         build/Debug\HistogramFeatures.obj
+         build/Debug\ImageRep.obj
+         build/Debug\LaRank.obj
+         build/Debug\main.obj
+         build/Debug\MultiFeatures.obj
+         build/Debug\RawFeatures.obj
+         build/Debug\Sampler.obj
+         build/Debug\Tracker.obj
+         build/Debug\GraphUtils.obj
+         struck.vcxproj -> D:\track\struck\struck.exe
+     1>已完成生成项目“D:\track\struck\struck.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.37

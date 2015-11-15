@@ -1,0 +1,2 @@
+/usr/bin/ar cr libGraphUtils.a  CMakeFiles/GraphUtils.dir/GraphUtils.cpp.o
+/usr/bin/ranlib libGraphUtils.a

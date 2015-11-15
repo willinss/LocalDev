@@ -1,0 +1,2 @@
+/home/ncslab/Documents/testopencv/CMakeFiles/execute.dir
+/home/ncslab/Documents/testopencv/include/CMakeFiles/include.dir
