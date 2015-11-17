@@ -10,10 +10,10 @@
 #include <stdio.h>
 #include <string.h>
 #include "DJI_Pro_Sample.h"
-#include <cv.h>
-#include <highgui.h>
+#include <opencv/cv.h>
+#include <opencv/highgui.h>
 #include <pthread.h>
-
+#include "ImageThread.h"
 
 using namespace cv;
 using namespace std;
@@ -47,26 +47,27 @@ static void Display_Main_Menu(void)
 
 void *CameraShow(void *argc)
 { 
-    CvCapture *capture;
-    IplImage *frame;
-    capture = cvCreateCameraCapture(0);
-    cvNamedWindow("Webcam",1);
-
-    while(1)
-    {
+//    CvCapture *capture;
+//    IplImage *frame;
+//    capture = cvCreateCameraCapture(0);
+//    cvNamedWindow("Webcam",1);
+//    while(1)
+//    {
 //        printf("camera\n");
-        frame = cvQueryFrame(capture);
-        if(!frame)
-        {
-            printf("no frame to show\n");
-            break;
-        }
-        cvShowImage("Webcam",frame);
-        if(cvWaitKey(20)>=0)break;
-    }
+//        frame = cvQueryFrame(capture);
+//        if(!frame)
+//        {
+//            printf("no frame to show\n");
+//            break;
+//        }
+//        cvShowImage("Webcam",frame);
+//        if(cvWaitKey(20)>=0)break;
+//    }
+    ImageThread();
+
     printf("\nthread quit\n");
-    cvReleaseCapture(&capture);
-    cvDestroyWindow("Webcam");
+//    cvReleaseCapture(&capture);
+//    cvDestroyWindow("Webcam");
     pthread_exit(0);
 }
 int main(int argc,char **argv)

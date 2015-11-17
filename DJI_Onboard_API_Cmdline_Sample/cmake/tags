@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	Makefile	/^CFLAGS = -Wall -O3 -DPLATFORM_LINUX -DTINYXML_CFG -Isrc\/ -I\/src\/DJI_LIB -I\/usr\/local\/include\/opencv2 -I\/src\/struck -I\/usr\/local\/include\/Eigen$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -lpthread$/;"	m
+OBJECTS	Makefile	/^OBJECTS = main.o DJI_Pro_App.o DJI_Pro_Hw.o DJI_Pro_Link.o DJI_Pro_Sample.o DJI_Pro_Codec.o DJI_Pro_Rmu.o tinyxml2.o Config.o Features.o GraphUtils.o HaarFeature.o HaarFeatures.o HistogramFeatures.o ImageRep.o LaRank.o MultiFeatures.o RawFeatures.o Sampler.o Tracker.o $/;"	m
+TARGET	Makefile	/^TARGET = ..\/output\/DJI_Onboard_API_Cmdline_Test$/;"	m

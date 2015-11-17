@@ -59,11 +59,15 @@ Accept	tinyxml2.h	/^    virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	
 Accept	tinyxml2.h	/^    virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLText	access:public	signature:( XMLVisitor* visitor ) const
 Accept	tinyxml2.h	/^    virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( XMLVisitor* visitor ) const
 Activate_API_Thread_Func	DJI_LIB/DJI_Pro_App.cpp	/^static void * Activate_API_Thread_Func(void * arg)$/;"	f	file:	signature:(void * arg)
+AddSupportVector	struck/LaRank.cpp	/^int LaRank::AddSupportVector(SupportPattern* x, int y, double g)$/;"	f	class:LaRank	signature:(SupportPattern* x, int y, double g)
+AddSupportVector	struck/LaRank.h	/^	int AddSupportVector(SupportPattern* x, int y, double g);$/;"	p	class:LaRank	access:private	signature:(SupportPattern* x, int y, double g)
 Alloc	tinyxml2.h	/^    virtual void* Alloc() = 0;$/;"	p	class:tinyxml2::MemPool	access:public	signature:()
 Alloc	tinyxml2.h	/^    virtual void* Alloc() {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
+Area	struck/Rect.h	/^	inline T Area() const { return m_width * m_height; }$/;"	f	class:Rect	access:public	signature:() const
 Attribute	tinyxml2.cpp	/^const char* XMLElement::Attribute( const char* name, const char* value ) const$/;"	f	class:tinyxml2::XMLElement	signature:( const char* name, const char* value ) const
 Attribute	tinyxml2.h	/^    const char* Attribute( const char* name, const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const char* name, const char* value=0 ) const
 BACK_TO_TABLES	DJI_LIB/DJI_Pro_Codec.cpp	36;"	d	file:
+BLACK	struck/GraphUtils.cpp	/^const CvScalar BLACK = CV_RGB(0,0,0);$/;"	v
 BUF_SIZE	tinyxml2.h	/^        BUF_SIZE = 200$/;"	e	enum:tinyxml2::XMLPrinter::__anon7
 BUF_SIZE	tinyxml2.h	/^    enum { BUF_SIZE = 200 };$/;"	e	enum:tinyxml2::XMLAttribute::__anon4
 BUF_SIZE	tinyxml2.h	/^    enum { BUF_SIZE = 200 };$/;"	e	enum:tinyxml2::XMLElement::__anon6
@@ -71,6 +75,10 @@ Baud_index	DJI_LIB/DJI_Pro_Hw.cpp	/^}Baud_index;$/;"	t	typeref:struct:__anon27	f
 Block	tinyxml2.h	/^    struct Block {$/;"	s	class:tinyxml2::MemPoolT	access:private
 BoolAttribute	tinyxml2.h	/^    bool	 BoolAttribute( const char* name ) const	{$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
 BoolValue	tinyxml2.h	/^    bool	 BoolValue() const				{$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+BudgetMaintenance	struck/LaRank.cpp	/^void LaRank::BudgetMaintenance()$/;"	f	class:LaRank	signature:()
+BudgetMaintenance	struck/LaRank.h	/^	void BudgetMaintenance();$/;"	p	class:LaRank	access:private	signature:()
+BudgetMaintenanceRemove	struck/LaRank.cpp	/^void LaRank::BudgetMaintenanceRemove()$/;"	f	class:LaRank	signature:()
+BudgetMaintenanceRemove	struck/LaRank.h	/^	void BudgetMaintenanceRemove();$/;"	p	class:LaRank	access:private	signature:()
 CARRIAGE_RETURN	tinyxml2.cpp	/^static const char CARRIAGE_RETURN		= (char)0x0d;			\/\/ CR gets filtered out$/;"	v	file:
 CData	tinyxml2.h	/^    bool CData() const						{$/;"	f	class:tinyxml2::XMLText	access:public	signature:() const
 CLOSED	tinyxml2.h	/^        CLOSED,		\/\/ <foo\/>$/;"	e	enum:tinyxml2::XMLElement::__anon5
@@ -92,13 +100,18 @@ CMD_Session_Tab::session_id	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int session_id : 5
 CMD_Session_Tab::usage_flag	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int usage_flag : 1;$/;"	m	struct:CMD_Session_Tab	access:public
 COLLAPSE_WHITESPACE	tinyxml2.h	/^    COLLAPSE_WHITESPACE$/;"	e	enum:tinyxml2::Whitespace
 COMMENT	tinyxml2.h	/^        COMMENT				        = NEEDS_NEWLINE_NORMALIZATION$/;"	e	enum:tinyxml2::StrPair::__anon1
+CONFIG_H	struck/Config.h	29;"	d
 COUNT	tinyxml2.h	/^    enum { COUNT = (4*1024)\/SIZE }; \/\/ Some compilers do not accept to use COUNT in private part if COUNT is private$/;"	e	enum:tinyxml2::MemPoolT::__anon3
 CR	tinyxml2.cpp	/^static const char CR = CARRIAGE_RETURN;$/;"	v	file:
 CRC_INIT	DJI_LIB/DJI_Pro_Codec.cpp	/^const unsigned short CRC_INIT = 0x3AA3;$/;"	v
 CStr	tinyxml2.h	/^    const char* CStr() const {$/;"	f	class:tinyxml2::XMLPrinter	access:public	signature:() const
 CStrSize	tinyxml2.h	/^    int CStrSize() const {$/;"	f	class:tinyxml2::XMLPrinter	access:public	signature:() const
 Call_APP_Func	DJI_LIB/DJI_Pro_Link.cpp	/^static ACK_Callback_Func Call_APP_Func = 0;$/;"	v	file:
+CameraShow	main.cpp	/^void *CameraShow(void *argc)$/;"	f	signature:(void *argc)
 Capacity	tinyxml2.h	/^    int Capacity() const				{$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+Chi2Kernel	struck/Kernels.h	/^class Chi2Kernel : public Kernel$/;"	c	inherits:Kernel
+Chi2Kernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:Chi2Kernel	access:public	signature:(const Eigen::VectorXd& x) const
+Chi2Kernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:Chi2Kernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
 Chunk	tinyxml2.h	/^    union Chunk {$/;"	u	class:tinyxml2::MemPoolT	access:private
 Clear	tinyxml2.cpp	/^void XMLDocument::Clear()$/;"	f	class:tinyxml2::XMLDocument	signature:()
 Clear	tinyxml2.h	/^    virtual void Clear() = 0;$/;"	p	class:tinyxml2::MemPool	access:public	signature:()
@@ -113,11 +126,54 @@ CollapseWhitespace	tinyxml2.cpp	/^void StrPair::CollapseWhitespace()$/;"	f	class
 CollapseWhitespace	tinyxml2.h	/^    void CollapseWhitespace();$/;"	p	class:tinyxml2::StrPair	access:private	signature:()
 Command_Result_Notify	DJI_LIB/DJI_Pro_App.h	/^typedef void (*Command_Result_Notify)(unsigned short result);$/;"	t
 CompactMode	tinyxml2.h	/^	virtual bool CompactMode( const XMLElement& )	{ return _compactMode; }$/;"	f	class:tinyxml2::XMLPrinter	access:protected	signature:( const XMLElement& )
+ComputeDual	struck/LaRank.cpp	/^double LaRank::ComputeDual() const$/;"	f	class:LaRank	signature:() const
+ComputeDual	struck/LaRank.h	/^	double ComputeDual() const;$/;"	p	class:LaRank	access:private	signature:() const
+Config	struck/Config.cpp	/^Config::Config(const std::string& path)$/;"	f	class:Config	signature:(const std::string& path)
+Config	struck/Config.h	/^	Config() { SetDefaults(); }$/;"	f	class:Config	access:public	signature:()
+Config	struck/Config.h	/^	Config(const std::string& path);$/;"	p	class:Config	access:public	signature:(const std::string& path)
+Config	struck/Config.h	/^class Config$/;"	c
+Config::Config	struck/Config.cpp	/^Config::Config(const std::string& path)$/;"	f	class:Config	signature:(const std::string& path)
+Config::Config	struck/Config.h	/^	Config() { SetDefaults(); }$/;"	f	class:Config	access:public	signature:()
+Config::Config	struck/Config.h	/^	Config(const std::string& path);$/;"	p	class:Config	access:public	signature:(const std::string& path)
+Config::FeatureKernelPair	struck/Config.h	/^	struct FeatureKernelPair$/;"	s	class:Config	access:public
+Config::FeatureKernelPair::feature	struck/Config.h	/^		FeatureType feature;$/;"	m	struct:Config::FeatureKernelPair	access:public
+Config::FeatureKernelPair::kernel	struck/Config.h	/^		KernelType kernel;$/;"	m	struct:Config::FeatureKernelPair	access:public
+Config::FeatureKernelPair::params	struck/Config.h	/^		std::vector<double> params;$/;"	m	struct:Config::FeatureKernelPair	access:public
+Config::FeatureName	struck/Config.cpp	/^std::string Config::FeatureName(FeatureType f)$/;"	f	class:Config	signature:(FeatureType f)
+Config::FeatureName	struck/Config.h	/^	static std::string FeatureName(FeatureType f);$/;"	p	class:Config	access:private	signature:(FeatureType f)
+Config::FeatureType	struck/Config.h	/^	enum FeatureType$/;"	g	class:Config	access:public
+Config::KernelName	struck/Config.cpp	/^std::string Config::KernelName(KernelType k)$/;"	f	class:Config	signature:(KernelType k)
+Config::KernelName	struck/Config.h	/^	static std::string KernelName(KernelType k);$/;"	p	class:Config	access:private	signature:(KernelType k)
+Config::KernelType	struck/Config.h	/^	enum KernelType$/;"	g	class:Config	access:public
+Config::SetDefaults	struck/Config.cpp	/^void Config::SetDefaults()$/;"	f	class:Config	signature:()
+Config::SetDefaults	struck/Config.h	/^	void SetDefaults();$/;"	p	class:Config	access:private	signature:()
+Config::debugMode	struck/Config.h	/^	bool							debugMode;$/;"	m	class:Config	access:public
+Config::features	struck/Config.h	/^	std::vector<FeatureKernelPair>	features;$/;"	m	class:Config	access:public
+Config::frameHeight	struck/Config.h	/^	int								frameHeight;$/;"	m	class:Config	access:public
+Config::frameWidth	struck/Config.h	/^	int								frameWidth;$/;"	m	class:Config	access:public
+Config::kFeatureTypeHaar	struck/Config.h	/^		kFeatureTypeHaar,$/;"	e	enum:Config::FeatureType
+Config::kFeatureTypeHistogram	struck/Config.h	/^		kFeatureTypeHistogram$/;"	e	enum:Config::FeatureType
+Config::kFeatureTypeRaw	struck/Config.h	/^		kFeatureTypeRaw,$/;"	e	enum:Config::FeatureType
+Config::kKernelTypeChi2	struck/Config.h	/^		kKernelTypeChi2$/;"	e	enum:Config::KernelType
+Config::kKernelTypeGaussian	struck/Config.h	/^		kKernelTypeGaussian,$/;"	e	enum:Config::KernelType
+Config::kKernelTypeIntersection	struck/Config.h	/^		kKernelTypeIntersection,$/;"	e	enum:Config::KernelType
+Config::kKernelTypeLinear	struck/Config.h	/^		kKernelTypeLinear,$/;"	e	enum:Config::KernelType
+Config::operator <<	struck/Config.h	/^	friend std::ostream& operator<< (std::ostream& out, const Config& conf);$/;"	p	class:Config	access:friend	signature:(std::ostream& out, const Config& conf)
+Config::quietMode	struck/Config.h	/^	bool							quietMode;$/;"	m	class:Config	access:public
+Config::resultsPath	struck/Config.h	/^	std::string						resultsPath;$/;"	m	class:Config	access:public
+Config::searchRadius	struck/Config.h	/^	int								searchRadius;$/;"	m	class:Config	access:public
+Config::seed	struck/Config.h	/^	int								seed;$/;"	m	class:Config	access:public
+Config::sequenceBasePath	struck/Config.h	/^	std::string						sequenceBasePath;$/;"	m	class:Config	access:public
+Config::sequenceName	struck/Config.h	/^	std::string						sequenceName;$/;"	m	class:Config	access:public
+Config::svmBudgetSize	struck/Config.h	/^	int								svmBudgetSize;$/;"	m	class:Config	access:public
+Config::svmC	struck/Config.h	/^	double							svmC;$/;"	m	class:Config	access:public
 ConvertUTF32ToUTF8	tinyxml2.cpp	/^void XMLUtil::ConvertUTF32ToUTF8( unsigned long input, char* output, int* length )$/;"	f	class:tinyxml2::XMLUtil	signature:( unsigned long input, char* output, int* length )
 ConvertUTF32ToUTF8	tinyxml2.h	/^    static void ConvertUTF32ToUTF8( unsigned long input, char* output, int* length );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( unsigned long input, char* output, int* length )
 CurrentAllocs	tinyxml2.h	/^    int CurrentAllocs() const		{$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:() const
 DATA_MAX_SIZE	DJI_LIB/DJI_Pro_App.h	221;"	d
 DEBUG	tinyxml2.h	54;"	d
+DEFAULT	struck/GraphUtils.h	23;"	d
+DEFAULT	struck/GraphUtils.h	25;"	d
 DJI_ACK_Session_Tab	DJI_LIB/DJI_Pro_Rmu.cpp	/^static ACK_Session_Tab DJI_ACK_Session_Tab[SESSION_TABLE_NUM - 1]; \/\/session 0 is a nak session id$/;"	v	file:
 DJI_CMD_Session_Tab	DJI_LIB/DJI_Pro_Rmu.cpp	/^static CMD_Session_Tab DJI_CMD_Session_Tab[SESSION_TABLE_NUM];$/;"	v	file:
 DJI_MMU_Tab	DJI_LIB/DJI_Pro_Rmu.cpp	/^static MMU_Tab DJI_MMU_Tab[MMU_TABLE_NUM];$/;"	v	file:
@@ -244,6 +300,10 @@ DJI_Sample_Square_By_Pos	DJI_Pro_Sample.h	/^void DJI_Sample_Square_By_Pos(void);
 DOUBLE_QUOTE	tinyxml2.cpp	/^static const char DOUBLE_QUOTE			= '\\"';$/;"	v	file:
 DRAW_CIRCLE_SAMPLE	DJI_Pro_Sample.h	18;"	d
 DRAW_SQUARE_SAMPLE	DJI_Pro_Sample.h	19;"	d
+Debug	struck/LaRank.cpp	/^void LaRank::Debug()$/;"	f	class:LaRank	signature:()
+Debug	struck/LaRank.h	/^	virtual void Debug();$/;"	p	class:LaRank	access:public	signature:()
+Debug	struck/Tracker.cpp	/^void Tracker::Debug()$/;"	f	class:Tracker	signature:()
+Debug	struck/Tracker.h	/^	void Debug();$/;"	p	class:Tracker	access:public	signature:()
 DeleteAttribute	tinyxml2.cpp	/^void XMLElement::DeleteAttribute( XMLAttribute* attribute )$/;"	f	class:tinyxml2::XMLElement	signature:( XMLAttribute* attribute )
 DeleteAttribute	tinyxml2.cpp	/^void XMLElement::DeleteAttribute( const char* name )$/;"	f	class:tinyxml2::XMLElement	signature:( const char* name )
 DeleteAttribute	tinyxml2.h	/^    static void DeleteAttribute( XMLAttribute* attribute );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( XMLAttribute* attribute )
@@ -256,6 +316,7 @@ DeleteNode	tinyxml2.cpp	/^void XMLDocument::DeleteNode( XMLNode* node )	{$/;"	f	
 DeleteNode	tinyxml2.cpp	/^void XMLNode::DeleteNode( XMLNode* node )$/;"	f	class:tinyxml2::XMLNode	signature:( XMLNode* node )
 DeleteNode	tinyxml2.h	/^    static void DeleteNode( XMLNode* node );$/;"	p	class:tinyxml2::XMLNode	access:private	signature:( XMLNode* node )
 DeleteNode	tinyxml2.h	/^    void DeleteNode( XMLNode* node );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( XMLNode* node )
+DirectoryOfThisScript	.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f	access:public
 Display_Main_Menu	main.cpp	/^static void Display_Main_Menu(void)$/;"	f	file:	signature:(void)
 Display_Memory_Info	DJI_LIB/DJI_Pro_Rmu.cpp	/^void Display_Memory_Info(void)$/;"	f	signature:(void)
 Display_Memory_Info	DJI_LIB/DJI_Pro_Rmu.h	/^extern void Display_Memory_Info(void);$/;"	p	signature:(void)
@@ -287,11 +348,50 @@ Error	tinyxml2.h	/^    bool Error() const {$/;"	f	class:tinyxml2::XMLDocument	ac
 ErrorID	tinyxml2.h	/^    XMLError  ErrorID() const {$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
 ErrorName	tinyxml2.cpp	/^const char* XMLDocument::ErrorName() const$/;"	f	class:tinyxml2::XMLDocument	signature:() const
 ErrorName	tinyxml2.h	/^	const char* ErrorName() const;$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:() const
+Eval	struck/Features.h	/^	inline const Eigen::VectorXd& Eval(const Sample& s) const$/;"	f	class:Features	access:public	signature:(const Sample& s) const
+Eval	struck/Features.h	/^	virtual void Eval(const MultiSample& s, std::vector<Eigen::VectorXd>& featVecs)$/;"	f	class:Features	access:public	signature:(const MultiSample& s, std::vector<Eigen::VectorXd>& featVecs)
+Eval	struck/HaarFeature.cpp	/^float HaarFeature::Eval(const Sample& s) const$/;"	f	class:HaarFeature	signature:(const Sample& s) const
+Eval	struck/HaarFeature.h	/^	float Eval(const Sample& s) const;$/;"	p	class:HaarFeature	access:public	signature:(const Sample& s) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:Chi2Kernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:GaussianKernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:IntersectionKernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:LinearKernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:MultiKernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:Chi2Kernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:GaussianKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:IntersectionKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:LinearKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:MultiKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	struck/Kernels.h	/^	virtual double Eval(const Eigen::VectorXd& x) const = 0;$/;"	p	class:Kernel	access:public	signature:(const Eigen::VectorXd& x) const
+Eval	struck/Kernels.h	/^	virtual double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const = 0;$/;"	p	class:Kernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+Eval	struck/LaRank.cpp	/^void LaRank::Eval(const MultiSample& sample, std::vector<double>& results)$/;"	f	class:LaRank	signature:(const MultiSample& sample, std::vector<double>& results)
+Eval	struck/LaRank.h	/^	virtual void Eval(const MultiSample& x, std::vector<double>& results);$/;"	p	class:LaRank	access:public	signature:(const MultiSample& x, std::vector<double>& results)
+Evaluate	struck/LaRank.cpp	/^double LaRank::Evaluate(const Eigen::VectorXd& x, const FloatRect& y) const$/;"	f	class:LaRank	signature:(const Eigen::VectorXd& x, const FloatRect& y) const
+Evaluate	struck/LaRank.h	/^	double Evaluate(const Eigen::VectorXd& x, const FloatRect& y) const;$/;"	p	class:LaRank	access:private	signature:(const Eigen::VectorXd& x, const FloatRect& y) const
 F	DJI_LIB/DJI_Pro_Codec.cpp	33;"	d	file:
 FD	DJI_LIB/DJI_Pro_Codec.cpp	34;"	d	file:
+FEATURES_H	struck/Features.h	29;"	d
+FeatureKernelPair	struck/Config.h	/^	struct FeatureKernelPair$/;"	s	class:Config	access:public
+FeatureName	struck/Config.cpp	/^std::string Config::FeatureName(FeatureType f)$/;"	f	class:Config	signature:(FeatureType f)
+FeatureName	struck/Config.h	/^	static std::string FeatureName(FeatureType f);$/;"	p	class:Config	access:private	signature:(FeatureType f)
+FeatureType	struck/Config.h	/^	enum FeatureType$/;"	g	class:Config	access:public
+Features	struck/Features.cpp	/^Features::Features() :$/;"	f	class:Features	signature:()
+Features	struck/Features.h	/^	Features();$/;"	p	class:Features	access:public	signature:()
+Features	struck/Features.h	/^class Features$/;"	c
+Features::Eval	struck/Features.h	/^	inline const Eigen::VectorXd& Eval(const Sample& s) const$/;"	f	class:Features	access:public	signature:(const Sample& s) const
+Features::Eval	struck/Features.h	/^	virtual void Eval(const MultiSample& s, std::vector<Eigen::VectorXd>& featVecs)$/;"	f	class:Features	access:public	signature:(const MultiSample& s, std::vector<Eigen::VectorXd>& featVecs)
+Features::Features	struck/Features.cpp	/^Features::Features() :$/;"	f	class:Features	signature:()
+Features::Features	struck/Features.h	/^	Features();$/;"	p	class:Features	access:public	signature:()
+Features::GetCount	struck/Features.h	/^	inline int GetCount() const { return m_featureCount; }$/;"	f	class:Features	access:public	signature:() const
+Features::SetCount	struck/Features.cpp	/^void Features::SetCount(int c)$/;"	f	class:Features	signature:(int c)
+Features::SetCount	struck/Features.h	/^	void SetCount(int c);$/;"	p	class:Features	access:protected	signature:(int c)
+Features::UpdateFeatureVector	struck/Features.h	/^	virtual void UpdateFeatureVector(const Sample& s) = 0;$/;"	p	class:Features	access:protected	signature:(const Sample& s)
+Features::m_featVec	struck/Features.h	/^	Eigen::VectorXd m_featVec;$/;"	m	class:Features	access:protected
+Features::m_featureCount	struck/Features.h	/^	int m_featureCount;$/;"	m	class:Features	access:protected
 FindAttribute	tinyxml2.cpp	/^const XMLAttribute* XMLElement::FindAttribute( const char* name ) const$/;"	f	class:tinyxml2::XMLElement	signature:( const char* name ) const
 FindAttribute	tinyxml2.h	/^    XMLAttribute* FindAttribute( const char* name ) {$/;"	f	class:tinyxml2::XMLElement	access:private	signature:( const char* name )
 FindAttribute	tinyxml2.h	/^    const XMLAttribute* FindAttribute( const char* name ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+FindNearest	.ycm_extra_conf.py	/^def FindNearest(path, target):$/;"	f	access:public
 FindOrCreateAttribute	tinyxml2.cpp	/^XMLAttribute* XMLElement::FindOrCreateAttribute( const char* name )$/;"	f	class:tinyxml2::XMLElement	signature:( const char* name )
 FindOrCreateAttribute	tinyxml2.h	/^    XMLAttribute* FindOrCreateAttribute( const char* name );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const char* name )
 FirstAttribute	tinyxml2.h	/^    const XMLAttribute* FirstAttribute() const {$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
@@ -304,7 +404,11 @@ FirstChildElement	tinyxml2.h	/^    XMLElement* FirstChildElement( const char* na
 FirstChildElement	tinyxml2.h	/^    XMLHandle FirstChildElement( const char* name = 0 )						{$/;"	f	class:tinyxml2::XMLHandle	access:public	signature:( const char* name = 0 )
 FirstChildElement	tinyxml2.h	/^    const XMLConstHandle FirstChildElement( const char* name = 0 ) const				{$/;"	f	class:tinyxml2::XMLConstHandle	access:public	signature:( const char* name = 0 ) const
 FirstChildElement	tinyxml2.h	/^    const XMLElement* FirstChildElement( const char* name = 0 ) const;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* name = 0 ) const
+FlagsForClangComplete	.ycm_extra_conf.py	/^def FlagsForClangComplete(root):$/;"	f	access:public
+FlagsForFile	.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	f	access:public
+FlagsForInclude	.ycm_extra_conf.py	/^def FlagsForInclude(root):$/;"	f	access:public
 FloatAttribute	tinyxml2.h	/^    float	 FloatAttribute( const char* name ) const	{$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+FloatRect	struck/Rect.h	/^typedef Rect<float> FloatRect;$/;"	t
 FloatValue	tinyxml2.h	/^    float	 FloatValue() const				{$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
 Free	tinyxml2.h	/^    virtual void Free( void* ) = 0;$/;"	p	class:tinyxml2::MemPool	access:public	signature:( void* )
 Free	tinyxml2.h	/^    virtual void Free( void* mem ) {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:( void* mem )
@@ -316,12 +420,32 @@ Free_Memory	DJI_LIB/DJI_Pro_Rmu.cpp	/^void Free_Memory(MMU_Tab *mmu_tab)$/;"	f	s
 Free_Memory	DJI_LIB/DJI_Pro_Rmu.h	/^extern void Free_Memory(MMU_Tab *mmu_tab);$/;"	p	signature:(MMU_Tab *mmu_tab)
 Free_Memory_Lock	DJI_LIB/DJI_Pro_Rmu.cpp	/^void Free_Memory_Lock(void)$/;"	f	signature:(void)
 Free_Memory_Lock	DJI_LIB/DJI_Pro_Rmu.h	/^extern void Free_Memory_Lock(void);$/;"	p	signature:(void)
+GRAPH_UTILS_H	struck/GraphUtils.h	7;"	d
+GREY	struck/GraphUtils.cpp	/^const CvScalar GREY = CV_RGB(150,150,150);$/;"	v
+GaussianKernel	struck/Kernels.h	/^	GaussianKernel(double sigma) : m_sigma(sigma) {}$/;"	f	class:GaussianKernel	access:public	signature:(double sigma)
+GaussianKernel	struck/Kernels.h	/^class GaussianKernel : public Kernel$/;"	c	inherits:Kernel
+GaussianKernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:GaussianKernel	access:public	signature:(const Eigen::VectorXd& x) const
+GaussianKernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:GaussianKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+GaussianKernel::GaussianKernel	struck/Kernels.h	/^	GaussianKernel(double sigma) : m_sigma(sigma) {}$/;"	f	class:GaussianKernel	access:public	signature:(double sigma)
+GaussianKernel::m_sigma	struck/Kernels.h	/^	double m_sigma;$/;"	m	class:GaussianKernel	access:private
+GenerateSystematic	struck/HaarFeatures.cpp	/^void HaarFeatures::GenerateSystematic()$/;"	f	class:HaarFeatures	signature:()
+GenerateSystematic	struck/HaarFeatures.h	/^	void GenerateSystematic();$/;"	p	class:HaarFeatures	access:private	signature:()
+GetBB	struck/Tracker.h	/^	inline const FloatRect& GetBB() const { return m_bb; }$/;"	f	class:Tracker	access:public	signature:() const
 GetCharacterRef	tinyxml2.cpp	/^const char* XMLUtil::GetCharacterRef( const char* p, char* value, int* length )$/;"	f	class:tinyxml2::XMLUtil	signature:( const char* p, char* value, int* length )
 GetCharacterRef	tinyxml2.h	/^    static const char* GetCharacterRef( const char* p, char* value, int* length );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, char* value, int* length )
+GetCompilationInfoForFile	.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	f	access:public
+GetCount	struck/Features.h	/^	inline int GetCount() const { return m_featureCount; }$/;"	f	class:Features	access:public	signature:() const
 GetDocument	tinyxml2.h	/^    XMLDocument* GetDocument()				{$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
 GetDocument	tinyxml2.h	/^    const XMLDocument* GetDocument() const	{$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
 GetErrorStr1	tinyxml2.h	/^    const char* GetErrorStr1() const {$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
 GetErrorStr2	tinyxml2.h	/^    const char* GetErrorStr2() const {$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+GetImage	struck/ImageRep.h	/^	inline const cv::Mat& GetImage(int channel = 0) const { return m_images[channel]; }$/;"	f	class:ImageRep	access:public	signature:(int channel = 0) const
+GetImage	struck/Sample.h	/^	inline const ImageRep& GetImage() const { return m_image; }$/;"	f	class:MultiSample	access:public	signature:() const
+GetImage	struck/Sample.h	/^	inline const ImageRep& GetImage() const { return m_image; }$/;"	f	class:Sample	access:public	signature:() const
+GetROI	struck/Sample.h	/^	inline const FloatRect& GetROI() const { return m_roi; }$/;"	f	class:Sample	access:public	signature:() const
+GetRect	struck/ImageRep.h	/^	inline const IntRect& GetRect() const { return m_rect; }$/;"	f	class:ImageRep	access:public	signature:() const
+GetRects	struck/Sample.h	/^	inline const std::vector<FloatRect>& GetRects() const { return m_rects; }$/;"	f	class:MultiSample	access:public	signature:() const
+GetSample	struck/Sample.h	/^	inline Sample GetSample(int i) const { return Sample(m_image, m_rects[i]); }$/;"	f	class:MultiSample	access:public	signature:(int i) const
 GetStr	tinyxml2.cpp	/^const char* StrPair::GetStr()$/;"	f	class:tinyxml2::StrPair	signature:()
 GetStr	tinyxml2.h	/^    const char* GetStr();$/;"	p	class:tinyxml2::StrPair	access:public	signature:()
 GetText	tinyxml2.cpp	/^const char* XMLElement::GetText() const$/;"	f	class:tinyxml2::XMLElement	signature:() const
@@ -337,14 +461,70 @@ Get_Memory_Lock	DJI_LIB/DJI_Pro_Rmu.h	/^extern void Get_Memory_Lock(void);$/;"	p
 Get_Status_Ctrl_Return_Code	DJI_LIB/DJI_Pro_App.cpp	/^static unsigned short Get_Status_Ctrl_Return_Code(void)$/;"	f	file:	signature:(void)
 Get_TimeStamp	DJI_LIB/DJI_Pro_Link.cpp	/^unsigned int Get_TimeStamp(void)$/;"	f	signature:(void)
 Get_TimeStamp	DJI_LIB/DJI_Pro_Link.h	/^unsigned int Get_TimeStamp(void);$/;"	p	signature:(void)
+HAAR_FEATURES_H	struck/HaarFeatures.h	29;"	d
+HAAR_FEATURE_H	struck/HaarFeature.h	29;"	d
+HISTOGRAM_FEATURES_H	struck/HistogramFeatures.h	29;"	d
 HORIZ_ATT	DJI_LIB/DJI_Pro_App.h	48;"	d
 HORIZ_BODY	DJI_LIB/DJI_Pro_App.h	60;"	d
 HORIZ_GND	DJI_LIB/DJI_Pro_App.h	59;"	d
 HORIZ_POS	DJI_LIB/DJI_Pro_App.h	50;"	d
 HORIZ_VEL	DJI_LIB/DJI_Pro_App.h	49;"	d
+HaarFeature	struck/HaarFeature.cpp	/^HaarFeature::HaarFeature(const FloatRect& bb, int type) :$/;"	f	class:HaarFeature	signature:(const FloatRect& bb, int type)
+HaarFeature	struck/HaarFeature.h	/^	HaarFeature(const FloatRect& bb, int type);$/;"	p	class:HaarFeature	access:public	signature:(const FloatRect& bb, int type)
+HaarFeature	struck/HaarFeature.h	/^class HaarFeature$/;"	c
+HaarFeature::Eval	struck/HaarFeature.cpp	/^float HaarFeature::Eval(const Sample& s) const$/;"	f	class:HaarFeature	signature:(const Sample& s) const
+HaarFeature::Eval	struck/HaarFeature.h	/^	float Eval(const Sample& s) const;$/;"	p	class:HaarFeature	access:public	signature:(const Sample& s) const
+HaarFeature::HaarFeature	struck/HaarFeature.cpp	/^HaarFeature::HaarFeature(const FloatRect& bb, int type) :$/;"	f	class:HaarFeature	signature:(const FloatRect& bb, int type)
+HaarFeature::HaarFeature	struck/HaarFeature.h	/^	HaarFeature(const FloatRect& bb, int type);$/;"	p	class:HaarFeature	access:public	signature:(const FloatRect& bb, int type)
+HaarFeature::m_bb	struck/HaarFeature.h	/^	FloatRect m_bb;$/;"	m	class:HaarFeature	access:private
+HaarFeature::m_factor	struck/HaarFeature.h	/^	float m_factor;$/;"	m	class:HaarFeature	access:private
+HaarFeature::m_rects	struck/HaarFeature.h	/^	std::vector<FloatRect> m_rects;$/;"	m	class:HaarFeature	access:private
+HaarFeature::m_weights	struck/HaarFeature.h	/^	std::vector<float> m_weights;$/;"	m	class:HaarFeature	access:private
+HaarFeature::~HaarFeature	struck/HaarFeature.cpp	/^HaarFeature::~HaarFeature()$/;"	f	class:HaarFeature	signature:()
+HaarFeature::~HaarFeature	struck/HaarFeature.h	/^	~HaarFeature();$/;"	p	class:HaarFeature	access:public	signature:()
+HaarFeatures	struck/HaarFeatures.cpp	/^HaarFeatures::HaarFeatures(const Config& conf)$/;"	f	class:HaarFeatures	signature:(const Config& conf)
+HaarFeatures	struck/HaarFeatures.h	/^	HaarFeatures(const Config& conf);$/;"	p	class:HaarFeatures	access:public	signature:(const Config& conf)
+HaarFeatures	struck/HaarFeatures.h	/^class HaarFeatures : public Features$/;"	c	inherits:Features
+HaarFeatures::GenerateSystematic	struck/HaarFeatures.cpp	/^void HaarFeatures::GenerateSystematic()$/;"	f	class:HaarFeatures	signature:()
+HaarFeatures::GenerateSystematic	struck/HaarFeatures.h	/^	void GenerateSystematic();$/;"	p	class:HaarFeatures	access:private	signature:()
+HaarFeatures::HaarFeatures	struck/HaarFeatures.cpp	/^HaarFeatures::HaarFeatures(const Config& conf)$/;"	f	class:HaarFeatures	signature:(const Config& conf)
+HaarFeatures::HaarFeatures	struck/HaarFeatures.h	/^	HaarFeatures(const Config& conf);$/;"	p	class:HaarFeatures	access:public	signature:(const Config& conf)
+HaarFeatures::UpdateFeatureVector	struck/HaarFeatures.cpp	/^void HaarFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:HaarFeatures	signature:(const Sample& s)
+HaarFeatures::UpdateFeatureVector	struck/HaarFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:HaarFeatures	access:private	signature:(const Sample& s)
+HaarFeatures::m_features	struck/HaarFeatures.h	/^	std::vector<HaarFeature> m_features;$/;"	m	class:HaarFeatures	access:private
 HasBOM	tinyxml2.h	/^    bool HasBOM() const {$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+Height	struck/Rect.h	/^	inline T Height() const { return m_height; }$/;"	f	class:Rect	access:public	signature:() const
+Hist	struck/ImageRep.cpp	/^void ImageRep::Hist(const IntRect& rRect, Eigen::VectorXd& h) const$/;"	f	class:ImageRep	signature:(const IntRect& rRect, Eigen::VectorXd& h) const
+Hist	struck/ImageRep.h	/^	void Hist(const IntRect& rRect, Eigen::VectorXd& h) const;$/;"	p	class:ImageRep	access:public	signature:(const IntRect& rRect, Eigen::VectorXd& h) const
+HistogramFeatures	struck/HistogramFeatures.cpp	/^HistogramFeatures::HistogramFeatures(const Config& conf)$/;"	f	class:HistogramFeatures	signature:(const Config& conf)
+HistogramFeatures	struck/HistogramFeatures.h	/^	HistogramFeatures(const Config& conf);$/;"	p	class:HistogramFeatures	access:public	signature:(const Config& conf)
+HistogramFeatures	struck/HistogramFeatures.h	/^class HistogramFeatures : public Features$/;"	c	inherits:Features
+HistogramFeatures::HistogramFeatures	struck/HistogramFeatures.cpp	/^HistogramFeatures::HistogramFeatures(const Config& conf)$/;"	f	class:HistogramFeatures	signature:(const Config& conf)
+HistogramFeatures::HistogramFeatures	struck/HistogramFeatures.h	/^	HistogramFeatures(const Config& conf);$/;"	p	class:HistogramFeatures	access:public	signature:(const Config& conf)
+HistogramFeatures::UpdateFeatureVector	struck/HistogramFeatures.cpp	/^void HistogramFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:HistogramFeatures	signature:(const Sample& s)
+HistogramFeatures::UpdateFeatureVector	struck/HistogramFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:HistogramFeatures	access:private	signature:(const Sample& s)
+IMAGE_REP_H	struck/ImageRep.h	29;"	d
 Identify	tinyxml2.cpp	/^char* XMLDocument::Identify( char* p, XMLNode** node )$/;"	f	class:tinyxml2::XMLDocument	signature:( char* p, XMLNode** node )
 Identify	tinyxml2.h	/^    char* Identify( char* p, XMLNode** node );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( char* p, XMLNode** node )
+ImageRep	struck/ImageRep.cpp	/^ImageRep::ImageRep(const Mat& image, bool computeIntegral, bool computeIntegralHist, bool colour) :$/;"	f	class:ImageRep	signature:(const Mat& image, bool computeIntegral, bool computeIntegralHist, bool colour)
+ImageRep	struck/ImageRep.h	/^	ImageRep(const cv::Mat& rImage, bool computeIntegral, bool computeIntegralHists, bool colour = false);$/;"	p	class:ImageRep	access:public	signature:(const cv::Mat& rImage, bool computeIntegral, bool computeIntegralHists, bool colour = false)
+ImageRep	struck/ImageRep.h	/^class ImageRep$/;"	c
+ImageRep::GetImage	struck/ImageRep.h	/^	inline const cv::Mat& GetImage(int channel = 0) const { return m_images[channel]; }$/;"	f	class:ImageRep	access:public	signature:(int channel = 0) const
+ImageRep::GetRect	struck/ImageRep.h	/^	inline const IntRect& GetRect() const { return m_rect; }$/;"	f	class:ImageRep	access:public	signature:() const
+ImageRep::Hist	struck/ImageRep.cpp	/^void ImageRep::Hist(const IntRect& rRect, Eigen::VectorXd& h) const$/;"	f	class:ImageRep	signature:(const IntRect& rRect, Eigen::VectorXd& h) const
+ImageRep::Hist	struck/ImageRep.h	/^	void Hist(const IntRect& rRect, Eigen::VectorXd& h) const;$/;"	p	class:ImageRep	access:public	signature:(const IntRect& rRect, Eigen::VectorXd& h) const
+ImageRep::ImageRep	struck/ImageRep.cpp	/^ImageRep::ImageRep(const Mat& image, bool computeIntegral, bool computeIntegralHist, bool colour) :$/;"	f	class:ImageRep	signature:(const Mat& image, bool computeIntegral, bool computeIntegralHist, bool colour)
+ImageRep::ImageRep	struck/ImageRep.h	/^	ImageRep(const cv::Mat& rImage, bool computeIntegral, bool computeIntegralHists, bool colour = false);$/;"	p	class:ImageRep	access:public	signature:(const cv::Mat& rImage, bool computeIntegral, bool computeIntegralHists, bool colour = false)
+ImageRep::Sum	struck/ImageRep.cpp	/^int ImageRep::Sum(const IntRect& rRect, int channel) const$/;"	f	class:ImageRep	signature:(const IntRect& rRect, int channel) const
+ImageRep::Sum	struck/ImageRep.h	/^	int Sum(const IntRect& rRect, int channel = 0) const;$/;"	p	class:ImageRep	access:public	signature:(const IntRect& rRect, int channel = 0) const
+ImageRep::m_channels	struck/ImageRep.h	/^	int m_channels;$/;"	m	class:ImageRep	access:private
+ImageRep::m_images	struck/ImageRep.h	/^	std::vector<cv::Mat> m_images;$/;"	m	class:ImageRep	access:private
+ImageRep::m_integralHistImages	struck/ImageRep.h	/^	std::vector<cv::Mat> m_integralHistImages;$/;"	m	class:ImageRep	access:private
+ImageRep::m_integralImages	struck/ImageRep.h	/^	std::vector<cv::Mat> m_integralImages;$/;"	m	class:ImageRep	access:private
+ImageRep::m_rect	struck/ImageRep.h	/^	IntRect m_rect;$/;"	m	class:ImageRep	access:private
+ImageThread	ImageThread.cpp	/^void ImageThread()$/;"	f	signature:()
+Initialise	struck/Tracker.cpp	/^void Tracker::Initialise(const cv::Mat& frame, FloatRect bb)$/;"	f	class:Tracker	signature:(const cv::Mat& frame, FloatRect bb)
+Initialise	struck/Tracker.h	/^	void Initialise(const cv::Mat& frame, FloatRect bb);$/;"	p	class:Tracker	access:public	signature:(const cv::Mat& frame, FloatRect bb)
 InsertAfterChild	tinyxml2.cpp	/^XMLNode* XMLNode::InsertAfterChild( XMLNode* afterThis, XMLNode* addThis )$/;"	f	class:tinyxml2::XMLNode	signature:( XMLNode* afterThis, XMLNode* addThis )
 InsertAfterChild	tinyxml2.h	/^    XMLNode* InsertAfterChild( XMLNode* afterThis, XMLNode* addThis );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* afterThis, XMLNode* addThis )
 InsertChildPreamble	tinyxml2.cpp	/^void XMLNode::InsertChildPreamble( XMLNode* insertThis ) const$/;"	f	class:tinyxml2::XMLNode	signature:( XMLNode* insertThis ) const
@@ -354,15 +534,94 @@ InsertEndChild	tinyxml2.h	/^    XMLNode* InsertEndChild( XMLNode* addThis );$/;"
 InsertFirstChild	tinyxml2.cpp	/^XMLNode* XMLNode::InsertFirstChild( XMLNode* addThis )$/;"	f	class:tinyxml2::XMLNode	signature:( XMLNode* addThis )
 InsertFirstChild	tinyxml2.h	/^    XMLNode* InsertFirstChild( XMLNode* addThis );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* addThis )
 IntAttribute	tinyxml2.h	/^    int		 IntAttribute( const char* name ) const		{$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+IntRect	struck/Rect.h	/^typedef Rect<int> IntRect;$/;"	t
 IntValue	tinyxml2.h	/^    int		 IntValue() const				{$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+IntersectionKernel	struck/Kernels.h	/^class IntersectionKernel : public Kernel$/;"	c	inherits:Kernel
+IntersectionKernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:IntersectionKernel	access:public	signature:(const Eigen::VectorXd& x) const
+IntersectionKernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:IntersectionKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+IsHeaderFile	.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f	access:public
+IsInitialised	struck/Tracker.h	/^	inline bool IsInitialised() const { return m_initialised; }$/;"	f	class:Tracker	access:public	signature:() const
+IsInside	struck/Rect.h	/^	bool IsInside(const Rect<T2>& rOther) const;$/;"	p	class:Rect	access:public	signature:(const Rect<T2>& rOther) const
+IsInside	struck/Rect.h	/^bool Rect<T>::IsInside(const Rect<T2>& rOther) const$/;"	f	class:Rect	signature:(const Rect<T2>& rOther) const
 IsNameChar	tinyxml2.h	/^    inline static bool IsNameChar( unsigned char ch ) {$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( unsigned char ch )
 IsNameStartChar	tinyxml2.h	/^    inline static bool IsNameStartChar( unsigned char ch ) {$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( unsigned char ch )
 IsUTF8Continuation	tinyxml2.h	/^    inline static bool IsUTF8Continuation( char p ) {$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( char p )
 IsWhiteSpace	tinyxml2.h	/^    static bool IsWhiteSpace( char p )					{$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( char p )
 ItemSize	tinyxml2.h	/^    virtual int ItemSize() const	{$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:() const
 ItemSize	tinyxml2.h	/^    virtual int ItemSize() const = 0;$/;"	p	class:tinyxml2::MemPool	access:public	signature:() const
+KERNELS_H	struck/Kernels.h	29;"	d
+Kernel	struck/Kernels.h	/^class Kernel$/;"	c
+Kernel::Eval	struck/Kernels.h	/^	virtual double Eval(const Eigen::VectorXd& x) const = 0;$/;"	p	class:Kernel	access:public	signature:(const Eigen::VectorXd& x) const
+Kernel::Eval	struck/Kernels.h	/^	virtual double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const = 0;$/;"	p	class:Kernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+KernelName	struck/Config.cpp	/^std::string Config::KernelName(KernelType k)$/;"	f	class:Config	signature:(KernelType k)
+KernelName	struck/Config.h	/^	static std::string KernelName(KernelType k);$/;"	p	class:Config	access:private	signature:(KernelType k)
+KernelType	struck/Config.h	/^	enum KernelType$/;"	g	class:Config	access:public
+LARANK_H	struck/LaRank.h	29;"	d
 LF	tinyxml2.cpp	/^static const char LF = LINE_FEED;$/;"	v	file:
 LINE_FEED	tinyxml2.cpp	/^static const char LINE_FEED				= (char)0x0a;			\/\/ all line endings are normalized to LF$/;"	v	file:
+LaRank	struck/LaRank.cpp	/^LaRank::LaRank(const Config& conf, const Features& features, const Kernel& kernel) :$/;"	f	class:LaRank	signature:(const Config& conf, const Features& features, const Kernel& kernel)
+LaRank	struck/LaRank.h	/^	LaRank(const Config& conf, const Features& features, const Kernel& kernel);$/;"	p	class:LaRank	access:public	signature:(const Config& conf, const Features& features, const Kernel& kernel)
+LaRank	struck/LaRank.h	/^class LaRank$/;"	c
+LaRank::AddSupportVector	struck/LaRank.cpp	/^int LaRank::AddSupportVector(SupportPattern* x, int y, double g)$/;"	f	class:LaRank	signature:(SupportPattern* x, int y, double g)
+LaRank::AddSupportVector	struck/LaRank.h	/^	int AddSupportVector(SupportPattern* x, int y, double g);$/;"	p	class:LaRank	access:private	signature:(SupportPattern* x, int y, double g)
+LaRank::BudgetMaintenance	struck/LaRank.cpp	/^void LaRank::BudgetMaintenance()$/;"	f	class:LaRank	signature:()
+LaRank::BudgetMaintenance	struck/LaRank.h	/^	void BudgetMaintenance();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::BudgetMaintenanceRemove	struck/LaRank.cpp	/^void LaRank::BudgetMaintenanceRemove()$/;"	f	class:LaRank	signature:()
+LaRank::BudgetMaintenanceRemove	struck/LaRank.h	/^	void BudgetMaintenanceRemove();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::ComputeDual	struck/LaRank.cpp	/^double LaRank::ComputeDual() const$/;"	f	class:LaRank	signature:() const
+LaRank::ComputeDual	struck/LaRank.h	/^	double ComputeDual() const;$/;"	p	class:LaRank	access:private	signature:() const
+LaRank::Debug	struck/LaRank.cpp	/^void LaRank::Debug()$/;"	f	class:LaRank	signature:()
+LaRank::Debug	struck/LaRank.h	/^	virtual void Debug();$/;"	p	class:LaRank	access:public	signature:()
+LaRank::Eval	struck/LaRank.cpp	/^void LaRank::Eval(const MultiSample& sample, std::vector<double>& results)$/;"	f	class:LaRank	signature:(const MultiSample& sample, std::vector<double>& results)
+LaRank::Eval	struck/LaRank.h	/^	virtual void Eval(const MultiSample& x, std::vector<double>& results);$/;"	p	class:LaRank	access:public	signature:(const MultiSample& x, std::vector<double>& results)
+LaRank::Evaluate	struck/LaRank.cpp	/^double LaRank::Evaluate(const Eigen::VectorXd& x, const FloatRect& y) const$/;"	f	class:LaRank	signature:(const Eigen::VectorXd& x, const FloatRect& y) const
+LaRank::Evaluate	struck/LaRank.h	/^	double Evaluate(const Eigen::VectorXd& x, const FloatRect& y) const;$/;"	p	class:LaRank	access:private	signature:(const Eigen::VectorXd& x, const FloatRect& y) const
+LaRank::LaRank	struck/LaRank.cpp	/^LaRank::LaRank(const Config& conf, const Features& features, const Kernel& kernel) :$/;"	f	class:LaRank	signature:(const Config& conf, const Features& features, const Kernel& kernel)
+LaRank::LaRank	struck/LaRank.h	/^	LaRank(const Config& conf, const Features& features, const Kernel& kernel);$/;"	p	class:LaRank	access:public	signature:(const Config& conf, const Features& features, const Kernel& kernel)
+LaRank::Loss	struck/LaRank.h	/^	inline double Loss(const FloatRect& y1, const FloatRect& y2) const$/;"	f	class:LaRank	access:private	signature:(const FloatRect& y1, const FloatRect& y2) const
+LaRank::MinGradient	struck/LaRank.cpp	/^pair<int, double> LaRank::MinGradient(int ind)$/;"	f	class:LaRank	signature:(int ind)
+LaRank::MinGradient	struck/LaRank.h	/^	std::pair<int, double> MinGradient(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+LaRank::Optimize	struck/LaRank.cpp	/^void LaRank::Optimize()$/;"	f	class:LaRank	signature:()
+LaRank::Optimize	struck/LaRank.h	/^	void Optimize();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::ProcessNew	struck/LaRank.cpp	/^void LaRank::ProcessNew(int ind)$/;"	f	class:LaRank	signature:(int ind)
+LaRank::ProcessNew	struck/LaRank.h	/^	void ProcessNew(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+LaRank::ProcessOld	struck/LaRank.cpp	/^void LaRank::ProcessOld()$/;"	f	class:LaRank	signature:()
+LaRank::ProcessOld	struck/LaRank.h	/^	void ProcessOld();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::RemoveSupportVector	struck/LaRank.cpp	/^void LaRank::RemoveSupportVector(int ind)$/;"	f	class:LaRank	signature:(int ind)
+LaRank::RemoveSupportVector	struck/LaRank.h	/^	void RemoveSupportVector(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+LaRank::RemoveSupportVectors	struck/LaRank.h	/^	void RemoveSupportVectors(int ind1, int ind2);$/;"	p	class:LaRank	access:private	signature:(int ind1, int ind2)
+LaRank::Reprocess	struck/LaRank.cpp	/^void LaRank::Reprocess()$/;"	f	class:LaRank	signature:()
+LaRank::Reprocess	struck/LaRank.h	/^	void Reprocess();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::SMOStep	struck/LaRank.cpp	/^void LaRank::SMOStep(int ipos, int ineg)$/;"	f	class:LaRank	signature:(int ipos, int ineg)
+LaRank::SMOStep	struck/LaRank.h	/^	void SMOStep(int ipos, int ineg);$/;"	p	class:LaRank	access:private	signature:(int ipos, int ineg)
+LaRank::SupportPattern	struck/LaRank.h	/^	struct SupportPattern$/;"	s	class:LaRank	access:private
+LaRank::SupportPattern::images	struck/LaRank.h	/^		std::vector<cv::Mat> images;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportPattern::refCount	struck/LaRank.h	/^		int refCount;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportPattern::x	struck/LaRank.h	/^		std::vector<Eigen::VectorXd> x;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportPattern::y	struck/LaRank.h	/^		int y;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportPattern::yv	struck/LaRank.h	/^		std::vector<FloatRect> yv;$/;"	m	struct:LaRank::SupportPattern	access:public
+LaRank::SupportVector	struck/LaRank.h	/^	struct SupportVector$/;"	s	class:LaRank	access:private
+LaRank::SupportVector::b	struck/LaRank.h	/^		double b;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SupportVector::g	struck/LaRank.h	/^		double g;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SupportVector::image	struck/LaRank.h	/^		cv::Mat image;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SupportVector::x	struck/LaRank.h	/^		SupportPattern* x;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SupportVector::y	struck/LaRank.h	/^		int y;$/;"	m	struct:LaRank::SupportVector	access:public
+LaRank::SwapSupportVectors	struck/LaRank.cpp	/^void LaRank::SwapSupportVectors(int ind1, int ind2)$/;"	f	class:LaRank	signature:(int ind1, int ind2)
+LaRank::SwapSupportVectors	struck/LaRank.h	/^	void SwapSupportVectors(int ind1, int ind2);$/;"	p	class:LaRank	access:private	signature:(int ind1, int ind2)
+LaRank::Update	struck/LaRank.cpp	/^void LaRank::Update(const MultiSample& sample, int y)$/;"	f	class:LaRank	signature:(const MultiSample& sample, int y)
+LaRank::Update	struck/LaRank.h	/^	virtual void Update(const MultiSample& x, int y);$/;"	p	class:LaRank	access:public	signature:(const MultiSample& x, int y)
+LaRank::UpdateDebugImage	struck/LaRank.cpp	/^void LaRank::UpdateDebugImage()$/;"	f	class:LaRank	signature:()
+LaRank::UpdateDebugImage	struck/LaRank.h	/^	void UpdateDebugImage();$/;"	p	class:LaRank	access:private	signature:()
+LaRank::m_C	struck/LaRank.h	/^	double m_C;$/;"	m	class:LaRank	access:private
+LaRank::m_K	struck/LaRank.h	/^	Eigen::MatrixXd m_K;$/;"	m	class:LaRank	access:private
+LaRank::m_config	struck/LaRank.h	/^	const Config& m_config;$/;"	m	class:LaRank	access:private
+LaRank::m_debugImage	struck/LaRank.h	/^	cv::Mat m_debugImage;$/;"	m	class:LaRank	access:private
+LaRank::m_features	struck/LaRank.h	/^	const Features& m_features;$/;"	m	class:LaRank	access:private
+LaRank::m_kernel	struck/LaRank.h	/^	const Kernel& m_kernel;$/;"	m	class:LaRank	access:private
+LaRank::m_sps	struck/LaRank.h	/^	std::vector<SupportPattern*> m_sps;$/;"	m	class:LaRank	access:private
+LaRank::m_svs	struck/LaRank.h	/^	std::vector<SupportVector*> m_svs;$/;"	m	class:LaRank	access:private
+LaRank::~LaRank	struck/LaRank.cpp	/^LaRank::~LaRank()$/;"	f	class:LaRank	signature:()
+LaRank::~LaRank	struck/LaRank.h	/^	~LaRank();$/;"	p	class:LaRank	access:public	signature:()
 LastChild	tinyxml2.h	/^    XMLHandle LastChild()													{$/;"	f	class:tinyxml2::XMLHandle	access:public	signature:()
 LastChild	tinyxml2.h	/^    XMLNode*		LastChild()								{$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
 LastChild	tinyxml2.h	/^    const XMLConstHandle LastChild()	const										{$/;"	f	class:tinyxml2::XMLConstHandle	access:public	signature:() const
@@ -372,11 +631,15 @@ LastChildElement	tinyxml2.h	/^    XMLElement* LastChildElement( const char* name
 LastChildElement	tinyxml2.h	/^    XMLHandle LastChildElement( const char* name = 0 )						{$/;"	f	class:tinyxml2::XMLHandle	access:public	signature:( const char* name = 0 )
 LastChildElement	tinyxml2.h	/^    const XMLConstHandle LastChildElement( const char* name = 0 ) const				{$/;"	f	class:tinyxml2::XMLConstHandle	access:public	signature:( const char* name = 0 ) const
 LastChildElement	tinyxml2.h	/^    const XMLElement* LastChildElement( const char* name = 0 ) const;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* name = 0 ) const
+LinearKernel	struck/Kernels.h	/^class LinearKernel : public Kernel$/;"	c	inherits:Kernel
+LinearKernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:LinearKernel	access:public	signature:(const Eigen::VectorXd& x) const
+LinearKernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:LinearKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
 LinkEndChild	tinyxml2.h	/^    XMLNode* LinkEndChild( XMLNode* addThis )	{$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* addThis )
 LoadFile	tinyxml2.cpp	/^XMLError XMLDocument::LoadFile( FILE* fp )$/;"	f	class:tinyxml2::XMLDocument	signature:( FILE* fp )
 LoadFile	tinyxml2.cpp	/^XMLError XMLDocument::LoadFile( const char* filename )$/;"	f	class:tinyxml2::XMLDocument	signature:( const char* filename )
 LoadFile	tinyxml2.h	/^    XMLError LoadFile( FILE* );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( FILE* )
 LoadFile	tinyxml2.h	/^    XMLError LoadFile( const char* filename );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* filename )
+Loss	struck/LaRank.h	/^	inline double Loss(const FloatRect& y1, const FloatRect& y2) const$/;"	f	class:LaRank	access:private	signature:(const FloatRect& y1, const FloatRect& y2) const
 MAKE_VERSION	DJI_LIB/DJI_Pro_App.h	65;"	d
 MEMORY_SIZE	DJI_LIB/DJI_Pro_Config.h	4;"	d
 MMU_Setup	DJI_LIB/DJI_Pro_Rmu.cpp	/^void MMU_Setup(void)$/;"	f	signature:(void)
@@ -389,10 +652,13 @@ MMU_Tab::pmem	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned char *pmem;$/;"	m	struct:MMU_Tab
 MMU_Tab::tab_index	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int tab_index : 8;$/;"	m	struct:MMU_Tab	access:public
 MMU_Tab::usage_flag	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int usage_flag : 8;$/;"	m	struct:MMU_Tab	access:public
 MSG_ENABLE_FLAG_LEN	DJI_LIB/DJI_Pro_App.h	75;"	d
+MULTI_FEATURES_H	struck/MultiFeatures.h	29;"	d
 MY_ACTIVATION_SET	DJI_LIB/DJI_Pro_App.h	14;"	d
 MY_BROADCAST_CMD_SET	DJI_LIB/DJI_Pro_App.h	16;"	d
 MY_CTRL_CMD_SET	DJI_LIB/DJI_Pro_App.h	15;"	d
 MY_DEV_ID	DJI_LIB/DJI_Pro_App.h	13;"	d
+M_PI	struck/Sampler.cpp	30;"	d	file:
+MakeRelativePathsInFlagsAbsolute	.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f	access:public
 Mem	tinyxml2.h	/^    T* Mem()							{$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
 Mem	tinyxml2.h	/^    const T* Mem() const				{$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
 MemPool	tinyxml2.h	/^    MemPool() {}$/;"	f	class:tinyxml2::MemPool	access:public	signature:()
@@ -400,6 +666,33 @@ MemPool	tinyxml2.h	/^class MemPool$/;"	c	namespace:tinyxml2
 MemPoolT	tinyxml2.h	/^    MemPoolT( const MemPoolT& ); \/\/ not supported$/;"	p	class:tinyxml2::MemPoolT	access:private	signature:( const MemPoolT& )
 MemPoolT	tinyxml2.h	/^    MemPoolT() : _root(0), _currentAllocs(0), _nAllocs(0), _maxAllocs(0), _nUntracked(0)	{}$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
 MemPoolT	tinyxml2.h	/^class MemPoolT : public MemPool$/;"	c	namespace:tinyxml2	inherits:MemPool
+MinGradient	struck/LaRank.cpp	/^pair<int, double> LaRank::MinGradient(int ind)$/;"	f	class:LaRank	signature:(int ind)
+MinGradient	struck/LaRank.h	/^	std::pair<int, double> MinGradient(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+MultiFeatures	struck/MultiFeatures.cpp	/^MultiFeatures::MultiFeatures(const vector<Features*>& features) :$/;"	f	class:MultiFeatures	signature:(const vector<Features*>& features)
+MultiFeatures	struck/MultiFeatures.h	/^	MultiFeatures(const std::vector<Features*>& features);$/;"	p	class:MultiFeatures	access:public	signature:(const std::vector<Features*>& features)
+MultiFeatures	struck/MultiFeatures.h	/^class MultiFeatures : public Features$/;"	c	inherits:Features
+MultiFeatures::MultiFeatures	struck/MultiFeatures.cpp	/^MultiFeatures::MultiFeatures(const vector<Features*>& features) :$/;"	f	class:MultiFeatures	signature:(const vector<Features*>& features)
+MultiFeatures::MultiFeatures	struck/MultiFeatures.h	/^	MultiFeatures(const std::vector<Features*>& features);$/;"	p	class:MultiFeatures	access:public	signature:(const std::vector<Features*>& features)
+MultiFeatures::UpdateFeatureVector	struck/MultiFeatures.cpp	/^void MultiFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:MultiFeatures	signature:(const Sample& s)
+MultiFeatures::UpdateFeatureVector	struck/MultiFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:MultiFeatures	access:private	signature:(const Sample& s)
+MultiFeatures::m_features	struck/MultiFeatures.h	/^	std::vector<Features*> m_features;$/;"	m	class:MultiFeatures	access:private
+MultiKernel	struck/Kernels.h	/^	MultiKernel(const std::vector<Kernel*>& kernels, const std::vector<int>& featureCounts) :$/;"	f	class:MultiKernel	access:public	signature:(const std::vector<Kernel*>& kernels, const std::vector<int>& featureCounts)
+MultiKernel	struck/Kernels.h	/^class MultiKernel : public Kernel$/;"	c	inherits:Kernel
+MultiKernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x) const$/;"	f	class:MultiKernel	access:public	signature:(const Eigen::VectorXd& x) const
+MultiKernel::Eval	struck/Kernels.h	/^	inline double Eval(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const$/;"	f	class:MultiKernel	access:public	signature:(const Eigen::VectorXd& x1, const Eigen::VectorXd& x2) const
+MultiKernel::MultiKernel	struck/Kernels.h	/^	MultiKernel(const std::vector<Kernel*>& kernels, const std::vector<int>& featureCounts) :$/;"	f	class:MultiKernel	access:public	signature:(const std::vector<Kernel*>& kernels, const std::vector<int>& featureCounts)
+MultiKernel::m_counts	struck/Kernels.h	/^	std::vector<int> m_counts;	$/;"	m	class:MultiKernel	access:private
+MultiKernel::m_kernels	struck/Kernels.h	/^	std::vector<Kernel*> m_kernels;$/;"	m	class:MultiKernel	access:private
+MultiKernel::m_n	struck/Kernels.h	/^	int m_n;$/;"	m	class:MultiKernel	access:private
+MultiKernel::m_norm	struck/Kernels.h	/^	double m_norm;$/;"	m	class:MultiKernel	access:private
+MultiSample	struck/Sample.h	/^	MultiSample(const ImageRep& image, const std::vector<FloatRect>& rects) :$/;"	f	class:MultiSample	access:public	signature:(const ImageRep& image, const std::vector<FloatRect>& rects)
+MultiSample	struck/Sample.h	/^class MultiSample$/;"	c
+MultiSample::GetImage	struck/Sample.h	/^	inline const ImageRep& GetImage() const { return m_image; }$/;"	f	class:MultiSample	access:public	signature:() const
+MultiSample::GetRects	struck/Sample.h	/^	inline const std::vector<FloatRect>& GetRects() const { return m_rects; }$/;"	f	class:MultiSample	access:public	signature:() const
+MultiSample::GetSample	struck/Sample.h	/^	inline Sample GetSample(int i) const { return Sample(m_image, m_rects[i]); }$/;"	f	class:MultiSample	access:public	signature:(int i) const
+MultiSample::MultiSample	struck/Sample.h	/^	MultiSample(const ImageRep& image, const std::vector<FloatRect>& rects) :$/;"	f	class:MultiSample	access:public	signature:(const ImageRep& image, const std::vector<FloatRect>& rects)
+MultiSample::m_image	struck/Sample.h	/^	const ImageRep& m_image;$/;"	m	class:MultiSample	access:private
+MultiSample::m_rects	struck/Sample.h	/^	std::vector<FloatRect> m_rects;$/;"	m	class:MultiSample	access:private
 NEEDS_DELETE	tinyxml2.h	/^        NEEDS_DELETE = 0x200$/;"	e	enum:tinyxml2::StrPair::__anon2
 NEEDS_ENTITY_PROCESSING	tinyxml2.h	/^        NEEDS_ENTITY_PROCESSING			= 0x01,$/;"	e	enum:tinyxml2::StrPair::__anon1
 NEEDS_FLUSH	tinyxml2.h	/^        NEEDS_FLUSH = 0x100,$/;"	e	enum:tinyxml2::StrPair::__anon2
@@ -433,6 +726,10 @@ NoChildren	tinyxml2.h	/^    bool NoChildren() const					{$/;"	f	class:tinyxml2::
 OPEN	tinyxml2.h	/^        OPEN,		\/\/ <foo>$/;"	e	enum:tinyxml2::XMLElement::__anon5
 OpenElement	tinyxml2.cpp	/^void XMLPrinter::OpenElement( const char* name, bool compactMode )$/;"	f	class:tinyxml2::XMLPrinter	signature:( const char* name, bool compactMode )
 OpenElement	tinyxml2.h	/^    void OpenElement( const char* name, bool compactMode=false );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, bool compactMode=false )
+Optimize	struck/LaRank.cpp	/^void LaRank::Optimize()$/;"	f	class:LaRank	signature:()
+Optimize	struck/LaRank.h	/^	void Optimize();$/;"	p	class:LaRank	access:private	signature:()
+Overlap	struck/Rect.h	/^	float Overlap(const Rect<T2>& rOther) const;$/;"	p	class:Rect	access:public	signature:(const Rect<T2>& rOther) const
+Overlap	struck/Rect.h	/^float Rect<T>::Overlap(const Rect<T2>& rOther) const$/;"	f	class:Rect	signature:(const Rect<T2>& rOther) const
 PARSE_STD_MSG	DJI_LIB/DJI_Pro_App.h	270;"	d
 POLL_TICK	DJI_LIB/DJI_Pro_Link.h	17;"	d
 PRESERVE_WHITESPACE	tinyxml2.h	/^    PRESERVE_WHITESPACE,$/;"	e	enum:tinyxml2::Whitespace
@@ -464,6 +761,8 @@ ParseName	tinyxml2.h	/^    char* ParseName( char* in );$/;"	p	class:tinyxml2::St
 ParseText	tinyxml2.cpp	/^char* StrPair::ParseText( char* p, const char* endTag, int strFlags )$/;"	f	class:tinyxml2::StrPair	signature:( char* p, const char* endTag, int strFlags )
 ParseText	tinyxml2.h	/^    char* ParseText( char* in, const char* endTag, int strFlags );$/;"	p	class:tinyxml2::StrPair	access:public	signature:( char* in, const char* endTag, int strFlags )
 PeekTop	tinyxml2.h	/^    const T& PeekTop() const            {$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+PixelSamples	struck/Sampler.cpp	/^vector<FloatRect> Sampler::PixelSamples(FloatRect centre, int radius, bool halfSample)$/;"	f	class:Sampler	signature:(FloatRect centre, int radius, bool halfSample)
+PixelSamples	struck/Sampler.h	/^	static std::vector<FloatRect> PixelSamples(FloatRect centre, int radius, bool halfSample = false);$/;"	p	class:Sampler	access:public	signature:(FloatRect centre, int radius, bool halfSample = false)
 PollThread	DJI_LIB/DJI_Pro_Link.cpp	/^static void * PollThread(void * arg)$/;"	f	file:	signature:(void * arg)
 Pop	tinyxml2.h	/^    T Pop() {$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
 PopArr	tinyxml2.h	/^    void PopArr( int count ) {$/;"	f	class:tinyxml2::DynArray	access:public	signature:( int count )
@@ -555,6 +854,10 @@ Pro_Send_Interface	DJI_LIB/DJI_Pro_Link.cpp	/^int Pro_Send_Interface(ProSendPara
 Pro_Send_Interface	DJI_LIB/DJI_Pro_Link.h	/^int  Pro_Send_Interface(ProSendParameter *parameter);$/;"	p	signature:(ProSendParameter *parameter)
 Pro_Send_Interface	DJI_LIB/DJI_Pro_Link.h	/^int Pro_Send_Interface(ProSendParameter *parameter);$/;"	p	signature:(ProSendParameter *parameter)
 ProcessEntities	tinyxml2.h	/^    bool ProcessEntities() const		{$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+ProcessNew	struck/LaRank.cpp	/^void LaRank::ProcessNew(int ind)$/;"	f	class:LaRank	signature:(int ind)
+ProcessNew	struck/LaRank.h	/^	void ProcessNew(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+ProcessOld	struck/LaRank.cpp	/^void LaRank::ProcessOld()$/;"	f	class:LaRank	signature:()
+ProcessOld	struck/LaRank.h	/^	void ProcessOld();$/;"	p	class:LaRank	access:private	signature:()
 Push	tinyxml2.h	/^    void Push( T t ) {$/;"	f	class:tinyxml2::DynArray	access:public	signature:( T t )
 PushArr	tinyxml2.h	/^    T* PushArr( int count ) {$/;"	f	class:tinyxml2::DynArray	access:public	signature:( int count )
 PushAttribute	tinyxml2.cpp	/^void XMLPrinter::PushAttribute( const char* name, bool v )$/;"	f	class:tinyxml2::XMLPrinter	signature:( const char* name, bool v )
@@ -617,10 +920,58 @@ QueryUnsignedText	tinyxml2.cpp	/^XMLError XMLElement::QueryUnsignedText( unsigne
 QueryUnsignedText	tinyxml2.h	/^    XMLError QueryUnsignedText( unsigned* uval ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( unsigned* uval ) const
 QueryUnsignedValue	tinyxml2.cpp	/^XMLError XMLAttribute::QueryUnsignedValue( unsigned int* value ) const$/;"	f	class:tinyxml2::XMLAttribute	signature:( unsigned int* value ) const
 QueryUnsignedValue	tinyxml2.h	/^    XMLError QueryUnsignedValue( unsigned int* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( unsigned int* value ) const
+RAW_FEATURES_H	struck/RawFeatures.h	29;"	d
+RECT_H	struck/Rect.h	29;"	d
 REQ_REFUSE	DJI_LIB/DJI_Pro_App.h	230;"	d
 REQ_TIME_OUT	DJI_LIB/DJI_Pro_App.h	229;"	d
+RadialSamples	struck/Sampler.cpp	/^vector<FloatRect> Sampler::RadialSamples(FloatRect centre, int radius, int nr, int nt)$/;"	f	class:Sampler	signature:(FloatRect centre, int radius, int nr, int nt)
+RadialSamples	struck/Sampler.h	/^	static std::vector<FloatRect> RadialSamples(FloatRect centre, int radius, int nr, int nt);$/;"	p	class:Sampler	access:public	signature:(FloatRect centre, int radius, int nr, int nt)
+RawFeatures	struck/RawFeatures.cpp	/^RawFeatures::RawFeatures(const Config& conf) :$/;"	f	class:RawFeatures	signature:(const Config& conf)
+RawFeatures	struck/RawFeatures.h	/^	RawFeatures(const Config& conf);$/;"	p	class:RawFeatures	access:public	signature:(const Config& conf)
+RawFeatures	struck/RawFeatures.h	/^class RawFeatures : public Features$/;"	c	inherits:Features
+RawFeatures::RawFeatures	struck/RawFeatures.cpp	/^RawFeatures::RawFeatures(const Config& conf) :$/;"	f	class:RawFeatures	signature:(const Config& conf)
+RawFeatures::RawFeatures	struck/RawFeatures.h	/^	RawFeatures(const Config& conf);$/;"	p	class:RawFeatures	access:public	signature:(const Config& conf)
+RawFeatures::UpdateFeatureVector	struck/RawFeatures.cpp	/^void RawFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:RawFeatures	signature:(const Sample& s)
+RawFeatures::UpdateFeatureVector	struck/RawFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:RawFeatures	access:private	signature:(const Sample& s)
+RawFeatures::m_patchImage	struck/RawFeatures.h	/^	cv::Mat m_patchImage;$/;"	m	class:RawFeatures	access:private
 ReadBOM	tinyxml2.cpp	/^const char* XMLUtil::ReadBOM( const char* p, bool* bom )$/;"	f	class:tinyxml2::XMLUtil	signature:( const char* p, bool* bom )
 ReadBOM	tinyxml2.h	/^    static const char* ReadBOM( const char* p, bool* hasBOM );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, bool* hasBOM )
+Rect	struck/Rect.h	/^	Rect() :$/;"	f	class:Rect	access:public	signature:()
+Rect	struck/Rect.h	/^	Rect(T xMin, T yMin, T width, T height) :$/;"	f	class:Rect	access:public	signature:(T xMin, T yMin, T width, T height)
+Rect	struck/Rect.h	/^	Rect(const Rect<T2>& rOther) :$/;"	f	class:Rect	access:public	signature:(const Rect<T2>& rOther)
+Rect	struck/Rect.h	/^class Rect$/;"	c
+Rect::Area	struck/Rect.h	/^	inline T Area() const { return m_width * m_height; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::Height	struck/Rect.h	/^	inline T Height() const { return m_height; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::IsInside	struck/Rect.h	/^	bool IsInside(const Rect<T2>& rOther) const;$/;"	p	class:Rect	access:public	signature:(const Rect<T2>& rOther) const
+Rect::IsInside	struck/Rect.h	/^bool Rect<T>::IsInside(const Rect<T2>& rOther) const$/;"	f	class:Rect	signature:(const Rect<T2>& rOther) const
+Rect::Overlap	struck/Rect.h	/^	float Overlap(const Rect<T2>& rOther) const;$/;"	p	class:Rect	access:public	signature:(const Rect<T2>& rOther) const
+Rect::Overlap	struck/Rect.h	/^float Rect<T>::Overlap(const Rect<T2>& rOther) const$/;"	f	class:Rect	signature:(const Rect<T2>& rOther) const
+Rect::Rect	struck/Rect.h	/^	Rect() :$/;"	f	class:Rect	access:public	signature:()
+Rect::Rect	struck/Rect.h	/^	Rect(T xMin, T yMin, T width, T height) :$/;"	f	class:Rect	access:public	signature:(T xMin, T yMin, T width, T height)
+Rect::Rect	struck/Rect.h	/^	Rect(const Rect<T2>& rOther) :$/;"	f	class:Rect	access:public	signature:(const Rect<T2>& rOther)
+Rect::Set	struck/Rect.h	/^	inline void Set(T xMin, T yMin, T width, T height)$/;"	f	class:Rect	access:public	signature:(T xMin, T yMin, T width, T height)
+Rect::SetHeight	struck/Rect.h	/^	inline void SetHeight(T val) { m_height = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Rect::SetWidth	struck/Rect.h	/^	inline void SetWidth(T val) { m_width = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Rect::SetXMin	struck/Rect.h	/^	inline void SetXMin(T val) { m_xMin = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Rect::SetYMin	struck/Rect.h	/^	inline void SetYMin(T val) { m_yMin = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+Rect::Translate	struck/Rect.h	/^	inline void Translate(T x, T y) { m_xMin += x; m_yMin += y; }$/;"	f	class:Rect	access:public	signature:(T x, T y)
+Rect::Width	struck/Rect.h	/^	inline T Width() const { return m_width; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::XCentre	struck/Rect.h	/^	inline float XCentre() const { return (float)m_xMin + (float)m_width \/ 2; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::XMax	struck/Rect.h	/^	inline T XMax() const { return m_xMin + m_width; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::XMin	struck/Rect.h	/^	inline T XMin() const { return m_xMin; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::YCentre	struck/Rect.h	/^	inline float YCentre() const { return (float)m_yMin + (float)m_height \/ 2; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::YMax	struck/Rect.h	/^	inline T YMax() const { return m_yMin + m_height; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::YMin	struck/Rect.h	/^	inline T YMin() const { return m_yMin; }$/;"	f	class:Rect	access:public	signature:() const
+Rect::m_height	struck/Rect.h	/^	T m_height;$/;"	m	class:Rect	access:private
+Rect::m_width	struck/Rect.h	/^	T m_width;$/;"	m	class:Rect	access:private
+Rect::m_xMin	struck/Rect.h	/^	T m_xMin;$/;"	m	class:Rect	access:private
+Rect::m_yMin	struck/Rect.h	/^	T m_yMin;$/;"	m	class:Rect	access:private
+Rect::operator <<	struck/Rect.h	/^	friend std::ostream& operator <<(std::ostream &rOS, const Rect<T2>& rRect);$/;"	p	class:Rect	access:friend	signature:(std::ostream &rOS, const Rect<T2>& rRect)
+RemoveSupportVector	struck/LaRank.cpp	/^void LaRank::RemoveSupportVector(int ind)$/;"	f	class:LaRank	signature:(int ind)
+RemoveSupportVector	struck/LaRank.h	/^	void RemoveSupportVector(int ind);$/;"	p	class:LaRank	access:private	signature:(int ind)
+RemoveSupportVectors	struck/LaRank.h	/^	void RemoveSupportVectors(int ind1, int ind2);$/;"	p	class:LaRank	access:private	signature:(int ind1, int ind2)
+Reprocess	struck/LaRank.cpp	/^void LaRank::Reprocess()$/;"	f	class:LaRank	signature:()
+Reprocess	struck/LaRank.h	/^	void Reprocess();$/;"	p	class:LaRank	access:private	signature:()
 Req_Callback_Func	DJI_LIB/DJI_Pro_Link.h	/^typedef void (*Req_Callback_Func)(ProHeader *pHeader);$/;"	t
 Request_ACK_Session	DJI_LIB/DJI_Pro_Rmu.cpp	/^ACK_Session_Tab * Request_ACK_Session(unsigned short session_id,unsigned short size)$/;"	f	signature:(unsigned short session_id,unsigned short size)
 Request_ACK_Session	DJI_LIB/DJI_Pro_Rmu.h	/^extern ACK_Session_Tab * Request_ACK_Session(unsigned short session_id,unsigned short size);$/;"	p	signature:(unsigned short session_id,unsigned short size)
@@ -628,10 +979,14 @@ Request_CMD_Session	DJI_LIB/DJI_Pro_Rmu.cpp	/^CMD_Session_Tab * Request_CMD_Sess
 Request_CMD_Session	DJI_LIB/DJI_Pro_Rmu.h	/^extern CMD_Session_Tab * Request_CMD_Session(unsigned short session_id,unsigned short size);$/;"	p	signature:(unsigned short session_id,unsigned short size)
 Request_Memory	DJI_LIB/DJI_Pro_Rmu.cpp	/^MMU_Tab * Request_Memory(unsigned short size)$/;"	f	signature:(unsigned short size)
 Request_Memory	DJI_LIB/DJI_Pro_Rmu.h	/^extern MMU_Tab * Request_Memory(unsigned short size);$/;"	p	signature:(unsigned short size)
+Reset	struck/Tracker.cpp	/^void Tracker::Reset()$/;"	f	class:Tracker	signature:()
+Reset	struck/Tracker.h	/^	void Reset();$/;"	p	class:Tracker	access:public	signature:()
 Reset	tinyxml2.cpp	/^void StrPair::Reset()$/;"	f	class:tinyxml2::StrPair	signature:()
 Reset	tinyxml2.h	/^    void Reset();$/;"	p	class:tinyxml2::StrPair	access:private	signature:()
 RootElement	tinyxml2.h	/^    XMLElement* RootElement()				{$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:()
 RootElement	tinyxml2.h	/^    const XMLElement* RootElement() const	{$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+SAMPLER_H	struck/Sampler.h	29;"	d
+SAMPLE_H	struck/Sample.h	29;"	d
 SDKFilter	DJI_LIB/DJI_Pro_Codec.h	/^} SDKFilter;$/;"	t	typeref:struct:__anon26
 SDKHeader	DJI_LIB/DJI_Pro_Codec.h	/^} SDKHeader;$/;"	t	typeref:struct:__anon25
 SDK_ACTIVATE_DATA_ENC_ERROR	DJI_LIB/DJI_Pro_App.h	262;"	d
@@ -652,10 +1007,25 @@ SDK_VERSION	DJI_LIB/DJI_Pro_App.h	66;"	d
 SESSION_TABLE_NUM	DJI_LIB/DJI_Pro_Rmu.h	32;"	d
 SET_CMD_SIZE	DJI_LIB/DJI_Pro_App.h	224;"	d
 SINGLE_QUOTE	tinyxml2.cpp	/^static const char SINGLE_QUOTE			= '\\'';$/;"	v	file:
+SMOStep	struck/LaRank.cpp	/^void LaRank::SMOStep(int ipos, int ineg)$/;"	f	class:LaRank	signature:(int ipos, int ineg)
+SMOStep	struck/LaRank.h	/^	void SMOStep(int ipos, int ineg);$/;"	p	class:LaRank	access:private	signature:(int ipos, int ineg)
+SOURCE_EXTENSIONS	.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
 STATIC_MEMORY_SIZE	DJI_LIB/DJI_Pro_Rmu.h	17;"	d
 STATUS_CMD_EXECUTING	DJI_LIB/DJI_Pro_App.h	232;"	d
 STATUS_CMD_EXE_FAIL	DJI_LIB/DJI_Pro_App.h	233;"	d
 STATUS_CMD_EXE_SUCCESS	DJI_LIB/DJI_Pro_App.h	234;"	d
+Sample	struck/Sample.h	/^	Sample(const ImageRep& image, const FloatRect& roi) :$/;"	f	class:Sample	access:public	signature:(const ImageRep& image, const FloatRect& roi)
+Sample	struck/Sample.h	/^class Sample$/;"	c
+Sample::GetImage	struck/Sample.h	/^	inline const ImageRep& GetImage() const { return m_image; }$/;"	f	class:Sample	access:public	signature:() const
+Sample::GetROI	struck/Sample.h	/^	inline const FloatRect& GetROI() const { return m_roi; }$/;"	f	class:Sample	access:public	signature:() const
+Sample::Sample	struck/Sample.h	/^	Sample(const ImageRep& image, const FloatRect& roi) :$/;"	f	class:Sample	access:public	signature:(const ImageRep& image, const FloatRect& roi)
+Sample::m_image	struck/Sample.h	/^	const ImageRep& m_image;$/;"	m	class:Sample	access:private
+Sample::m_roi	struck/Sample.h	/^	FloatRect m_roi;$/;"	m	class:Sample	access:private
+Sampler	struck/Sampler.h	/^class Sampler$/;"	c
+Sampler::PixelSamples	struck/Sampler.cpp	/^vector<FloatRect> Sampler::PixelSamples(FloatRect centre, int radius, bool halfSample)$/;"	f	class:Sampler	signature:(FloatRect centre, int radius, bool halfSample)
+Sampler::PixelSamples	struck/Sampler.h	/^	static std::vector<FloatRect> PixelSamples(FloatRect centre, int radius, bool halfSample = false);$/;"	p	class:Sampler	access:public	signature:(FloatRect centre, int radius, bool halfSample = false)
+Sampler::RadialSamples	struck/Sampler.cpp	/^vector<FloatRect> Sampler::RadialSamples(FloatRect centre, int radius, int nr, int nt)$/;"	f	class:Sampler	signature:(FloatRect centre, int radius, int nr, int nt)
+Sampler::RadialSamples	struck/Sampler.h	/^	static std::vector<FloatRect> RadialSamples(FloatRect centre, int radius, int nr, int nt);$/;"	p	class:Sampler	access:public	signature:(FloatRect centre, int radius, int nr, int nt)
 SaveFile	tinyxml2.cpp	/^XMLError XMLDocument::SaveFile( FILE* fp, bool compact )$/;"	f	class:tinyxml2::XMLDocument	signature:( FILE* fp, bool compact )
 SaveFile	tinyxml2.cpp	/^XMLError XMLDocument::SaveFile( const char* filename, bool compact )$/;"	f	class:tinyxml2::XMLDocument	signature:( const char* filename, bool compact )
 SaveFile	tinyxml2.h	/^    XMLError SaveFile( FILE* fp, bool compact = false );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( FILE* fp, bool compact = false )
@@ -676,6 +1046,7 @@ SerialStartThread	DJI_LIB/DJI_Pro_Hw.cpp	/^int SerialStartThread(void)$/;"	f	sig
 SerialWrite	DJI_LIB/DJI_Pro_Hw.cpp	/^static int SerialWrite(unsigned char *buf,int len)$/;"	f	file:	signature:(unsigned char *buf,int len)
 Session_Setup	DJI_LIB/DJI_Pro_Rmu.cpp	/^void Session_Setup(void)$/;"	f	signature:(void)
 Session_Setup	DJI_LIB/DJI_Pro_Rmu.h	/^extern void Session_Setup(void);$/;"	p	signature:(void)
+Set	struck/Rect.h	/^	inline void Set(T xMin, T yMin, T width, T height)$/;"	f	class:Rect	access:public	signature:(T xMin, T yMin, T width, T height)
 Set	tinyxml2.h	/^    void Set( char* start, char* end, int flags ) {$/;"	f	class:tinyxml2::StrPair	access:public	signature:( char* start, char* end, int flags )
 SetAttribute	tinyxml2.cpp	/^void XMLAttribute::SetAttribute( bool v )$/;"	f	class:tinyxml2::XMLAttribute	signature:( bool v )
 SetAttribute	tinyxml2.cpp	/^void XMLAttribute::SetAttribute( const char* v )$/;"	f	class:tinyxml2::XMLAttribute	signature:( const char* v )
@@ -697,8 +1068,13 @@ SetAttribute	tinyxml2.h	/^    void SetAttribute( int value );$/;"	p	class:tinyxm
 SetAttribute	tinyxml2.h	/^    void SetAttribute( unsigned value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( unsigned value )
 SetBOM	tinyxml2.h	/^    void SetBOM( bool useBOM ) {$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:( bool useBOM )
 SetCData	tinyxml2.h	/^    void SetCData( bool isCData )			{$/;"	f	class:tinyxml2::XMLText	access:public	signature:( bool isCData )
+SetCount	struck/Features.cpp	/^void Features::SetCount(int c)$/;"	f	class:Features	signature:(int c)
+SetCount	struck/Features.h	/^	void SetCount(int c);$/;"	p	class:Features	access:protected	signature:(int c)
+SetDefaults	struck/Config.cpp	/^void Config::SetDefaults()$/;"	f	class:Config	signature:()
+SetDefaults	struck/Config.h	/^	void SetDefaults();$/;"	p	class:Config	access:private	signature:()
 SetError	tinyxml2.cpp	/^void XMLDocument::SetError( XMLError error, const char* str1, const char* str2 )$/;"	f	class:tinyxml2::XMLDocument	signature:( XMLError error, const char* str1, const char* str2 )
 SetError	tinyxml2.h	/^    void SetError( XMLError error, const char* str1, const char* str2 );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( XMLError error, const char* str1, const char* str2 )
+SetHeight	struck/Rect.h	/^	inline void SetHeight(T val) { m_height = val; }$/;"	f	class:Rect	access:public	signature:(T val)
 SetInternedStr	tinyxml2.h	/^    void SetInternedStr( const char* str ) {$/;"	f	class:tinyxml2::StrPair	access:public	signature:( const char* str )
 SetName	tinyxml2.cpp	/^void XMLAttribute::SetName( const char* n )$/;"	f	class:tinyxml2::XMLAttribute	signature:( const char* n )
 SetName	tinyxml2.h	/^    void SetName( const char* name );$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( const char* name )
@@ -721,6 +1097,9 @@ SetTracked	tinyxml2.h	/^    virtual void SetTracked() = 0;$/;"	p	class:tinyxml2:
 SetTracked	tinyxml2.h	/^    void SetTracked() {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
 SetValue	tinyxml2.cpp	/^void XMLNode::SetValue( const char* str, bool staticMem )$/;"	f	class:tinyxml2::XMLNode	signature:( const char* str, bool staticMem )
 SetValue	tinyxml2.h	/^    void SetValue( const char* val, bool staticMem=false );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* val, bool staticMem=false )
+SetWidth	struck/Rect.h	/^	inline void SetWidth(T val) { m_width = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+SetXMin	struck/Rect.h	/^	inline void SetXMin(T val) { m_xMin = val; }$/;"	f	class:Rect	access:public	signature:(T val)
+SetYMin	struck/Rect.h	/^	inline void SetYMin(T val) { m_yMin = val; }$/;"	f	class:Rect	access:public	signature:(T val)
 ShallowClone	tinyxml2.cpp	/^XMLNode* XMLComment::ShallowClone( XMLDocument* doc ) const$/;"	f	class:tinyxml2::XMLComment	signature:( XMLDocument* doc ) const
 ShallowClone	tinyxml2.cpp	/^XMLNode* XMLDeclaration::ShallowClone( XMLDocument* doc ) const$/;"	f	class:tinyxml2::XMLDeclaration	signature:( XMLDocument* doc ) const
 ShallowClone	tinyxml2.cpp	/^XMLNode* XMLElement::ShallowClone( XMLDocument* doc ) const$/;"	f	class:tinyxml2::XMLElement	signature:( XMLDocument* doc ) const
@@ -755,6 +1134,12 @@ StrPair	tinyxml2.h	/^    StrPair( const StrPair& other );	\/\/ not supported$/;"
 StrPair	tinyxml2.h	/^    StrPair() : _flags( 0 ), _start( 0 ), _end( 0 ) {}$/;"	f	class:tinyxml2::StrPair	access:public	signature:()
 StrPair	tinyxml2.h	/^class StrPair$/;"	c	namespace:tinyxml2
 StringEqual	tinyxml2.h	/^    inline static bool StringEqual( const char* p, const char* q, int nChar=INT_MAX )  {$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, const char* q, int nChar=INT_MAX )
+Sum	struck/ImageRep.cpp	/^int ImageRep::Sum(const IntRect& rRect, int channel) const$/;"	f	class:ImageRep	signature:(const IntRect& rRect, int channel) const
+Sum	struck/ImageRep.h	/^	int Sum(const IntRect& rRect, int channel = 0) const;$/;"	p	class:ImageRep	access:public	signature:(const IntRect& rRect, int channel = 0) const
+SupportPattern	struck/LaRank.h	/^	struct SupportPattern$/;"	s	class:LaRank	access:private
+SupportVector	struck/LaRank.h	/^	struct SupportVector$/;"	s	class:LaRank	access:private
+SwapSupportVectors	struck/LaRank.cpp	/^void LaRank::SwapSupportVectors(int ind1, int ind2)$/;"	f	class:LaRank	signature:(int ind1, int ind2)
+SwapSupportVectors	struck/LaRank.h	/^	void SwapSupportVectors(int ind1, int ind2);$/;"	p	class:LaRank	access:private	signature:(int ind1, int ind2)
 TEXT_ELEMENT	tinyxml2.h	/^        TEXT_ELEMENT		            	= NEEDS_ENTITY_PROCESSING | NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
 TEXT_ELEMENT_LEAVE_ENTITIES	tinyxml2.h	/^        TEXT_ELEMENT_LEAVE_ENTITIES		= NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
 TINYXML2_INCLUDED	tinyxml2.h	25;"	d
@@ -785,6 +1170,7 @@ TIXML_VSCPRINTF	tinyxml2.cpp	68;"	d	file:
 TIXML_VSNPRINTF	tinyxml2.cpp	/^	static inline int TIXML_VSNPRINTF( char* buffer, size_t size, const char* format, va_list va )$/;"	f	file:	signature:( char* buffer, size_t size, const char* format, va_list va )
 TIXML_VSNPRINTF	tinyxml2.cpp	64;"	d	file:
 TIXML_VSNPRINTF	tinyxml2.cpp	93;"	d	file:
+TRACKER_H	struck/Tracker.h	29;"	d
 Test_ACK_Callback	DJI_LIB/DJI_Pro_Link.cpp	/^void Test_ACK_Callback(ProHeader *header)$/;"	f	signature:(ProHeader *header)
 Test_Pro_Link	DJI_LIB/DJI_Pro_Link.cpp	/^void Test_Pro_Link(void)$/;"	f	signature:(void)
 Test_Pro_Link	DJI_LIB/DJI_Pro_Link.h	/^void Test_Pro_Link(void);$/;"	p	signature:(void)
@@ -843,15 +1229,68 @@ ToUnknown	tinyxml2.h	/^    virtual const XMLUnknown* ToUnknown() const		{$/;"	f	
 ToUnsigned	tinyxml2.cpp	/^bool XMLUtil::ToUnsigned( const char* str, unsigned *value )$/;"	f	class:tinyxml2::XMLUtil	signature:( const char* str, unsigned *value )
 ToUnsigned	tinyxml2.h	/^    static bool ToUnsigned( const char* str, unsigned* value );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( const char* str, unsigned* value )
 Trace	tinyxml2.h	/^    void Trace( const char* name ) {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:( const char* name )
+Track	struck/Tracker.cpp	/^void Tracker::Track(const cv::Mat& frame)$/;"	f	class:Tracker	signature:(const cv::Mat& frame)
+Track	struck/Tracker.h	/^	void Track(const cv::Mat& frame);$/;"	p	class:Tracker	access:public	signature:(const cv::Mat& frame)
+Tracker	struck/Tracker.cpp	/^Tracker::Tracker(const Config& conf) :$/;"	f	class:Tracker	signature:(const Config& conf)
+Tracker	struck/Tracker.h	/^	Tracker(const Config& conf);$/;"	p	class:Tracker	access:public	signature:(const Config& conf)
+Tracker	struck/Tracker.h	/^class Tracker$/;"	c
+Tracker::Debug	struck/Tracker.cpp	/^void Tracker::Debug()$/;"	f	class:Tracker	signature:()
+Tracker::Debug	struck/Tracker.h	/^	void Debug();$/;"	p	class:Tracker	access:public	signature:()
+Tracker::GetBB	struck/Tracker.h	/^	inline const FloatRect& GetBB() const { return m_bb; }$/;"	f	class:Tracker	access:public	signature:() const
+Tracker::Initialise	struck/Tracker.cpp	/^void Tracker::Initialise(const cv::Mat& frame, FloatRect bb)$/;"	f	class:Tracker	signature:(const cv::Mat& frame, FloatRect bb)
+Tracker::Initialise	struck/Tracker.h	/^	void Initialise(const cv::Mat& frame, FloatRect bb);$/;"	p	class:Tracker	access:public	signature:(const cv::Mat& frame, FloatRect bb)
+Tracker::IsInitialised	struck/Tracker.h	/^	inline bool IsInitialised() const { return m_initialised; }$/;"	f	class:Tracker	access:public	signature:() const
+Tracker::Reset	struck/Tracker.cpp	/^void Tracker::Reset()$/;"	f	class:Tracker	signature:()
+Tracker::Reset	struck/Tracker.h	/^	void Reset();$/;"	p	class:Tracker	access:public	signature:()
+Tracker::Track	struck/Tracker.cpp	/^void Tracker::Track(const cv::Mat& frame)$/;"	f	class:Tracker	signature:(const cv::Mat& frame)
+Tracker::Track	struck/Tracker.h	/^	void Track(const cv::Mat& frame);$/;"	p	class:Tracker	access:public	signature:(const cv::Mat& frame)
+Tracker::Tracker	struck/Tracker.cpp	/^Tracker::Tracker(const Config& conf) :$/;"	f	class:Tracker	signature:(const Config& conf)
+Tracker::Tracker	struck/Tracker.h	/^	Tracker(const Config& conf);$/;"	p	class:Tracker	access:public	signature:(const Config& conf)
+Tracker::UpdateDebugImage	struck/Tracker.cpp	/^void Tracker::UpdateDebugImage(const vector<FloatRect>& samples, const FloatRect& centre, const vector<double>& scores)$/;"	f	class:Tracker	signature:(const vector<FloatRect>& samples, const FloatRect& centre, const vector<double>& scores)
+Tracker::UpdateDebugImage	struck/Tracker.h	/^	void UpdateDebugImage(const std::vector<FloatRect>& samples, const FloatRect& centre, const std::vector<double>& scores);$/;"	p	class:Tracker	access:private	signature:(const std::vector<FloatRect>& samples, const FloatRect& centre, const std::vector<double>& scores)
+Tracker::UpdateLearner	struck/Tracker.cpp	/^void Tracker::UpdateLearner(const ImageRep& image)$/;"	f	class:Tracker	signature:(const ImageRep& image)
+Tracker::UpdateLearner	struck/Tracker.h	/^	void UpdateLearner(const ImageRep& image);$/;"	p	class:Tracker	access:private	signature:(const ImageRep& image)
+Tracker::m_bb	struck/Tracker.h	/^	FloatRect m_bb;$/;"	m	class:Tracker	access:private
+Tracker::m_config	struck/Tracker.h	/^	const Config& m_config;$/;"	m	class:Tracker	access:private
+Tracker::m_debugImage	struck/Tracker.h	/^	cv::Mat m_debugImage;$/;"	m	class:Tracker	access:private
+Tracker::m_features	struck/Tracker.h	/^	std::vector<Features*> m_features;$/;"	m	class:Tracker	access:private
+Tracker::m_initialised	struck/Tracker.h	/^	bool m_initialised;$/;"	m	class:Tracker	access:private
+Tracker::m_kernels	struck/Tracker.h	/^	std::vector<Kernel*> m_kernels;$/;"	m	class:Tracker	access:private
+Tracker::m_needsIntegralHist	struck/Tracker.h	/^	bool m_needsIntegralHist;$/;"	m	class:Tracker	access:private
+Tracker::m_needsIntegralImage	struck/Tracker.h	/^	bool m_needsIntegralImage;$/;"	m	class:Tracker	access:private
+Tracker::m_pLearner	struck/Tracker.h	/^	LaRank* m_pLearner;$/;"	m	class:Tracker	access:private
+Tracker::~Tracker	struck/Tracker.cpp	/^Tracker::~Tracker()$/;"	f	class:Tracker	signature:()
+Tracker::~Tracker	struck/Tracker.h	/^	~Tracker();$/;"	p	class:Tracker	access:public	signature:()
 TransferTo	tinyxml2.cpp	/^void StrPair::TransferTo( StrPair* other )$/;"	f	class:tinyxml2::StrPair	signature:( StrPair* other )
 TransferTo	tinyxml2.h	/^    void TransferTo( StrPair* other );$/;"	p	class:tinyxml2::StrPair	access:public	signature:( StrPair* other )
+Translate	struck/Rect.h	/^	inline void Translate(T x, T y) { m_xMin += x; m_yMin += y; }$/;"	f	class:Rect	access:public	signature:(T x, T y)
 Transparent_Transmission_Func	DJI_LIB/DJI_Pro_App.h	/^typedef void (*Transparent_Transmission_Func)(unsigned char *buf,unsigned char len);$/;"	t
+UCHAR	struck/GraphUtils.cpp	/^	typedef unsigned char UCHAR;$/;"	t	file:
+USE_HIGHGUI	struck/GraphUtils.cpp	6;"	d	file:
 Unlink	tinyxml2.cpp	/^void XMLNode::Unlink( XMLNode* child )$/;"	f	class:tinyxml2::XMLNode	signature:( XMLNode* child )
 Unlink	tinyxml2.h	/^    void Unlink( XMLNode* child );$/;"	p	class:tinyxml2::XMLNode	access:private	signature:( XMLNode* child )
 UnsignedAttribute	tinyxml2.h	/^    unsigned UnsignedAttribute( const char* name ) const {$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
 UnsignedValue	tinyxml2.h	/^    unsigned UnsignedValue() const			{$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
 Untracked	tinyxml2.h	/^    int Untracked() const {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:() const
+Update	struck/LaRank.cpp	/^void LaRank::Update(const MultiSample& sample, int y)$/;"	f	class:LaRank	signature:(const MultiSample& sample, int y)
+Update	struck/LaRank.h	/^	virtual void Update(const MultiSample& x, int y);$/;"	p	class:LaRank	access:public	signature:(const MultiSample& x, int y)
+UpdateDebugImage	struck/LaRank.cpp	/^void LaRank::UpdateDebugImage()$/;"	f	class:LaRank	signature:()
+UpdateDebugImage	struck/LaRank.h	/^	void UpdateDebugImage();$/;"	p	class:LaRank	access:private	signature:()
+UpdateDebugImage	struck/Tracker.cpp	/^void Tracker::UpdateDebugImage(const vector<FloatRect>& samples, const FloatRect& centre, const vector<double>& scores)$/;"	f	class:Tracker	signature:(const vector<FloatRect>& samples, const FloatRect& centre, const vector<double>& scores)
+UpdateDebugImage	struck/Tracker.h	/^	void UpdateDebugImage(const std::vector<FloatRect>& samples, const FloatRect& centre, const std::vector<double>& scores);$/;"	p	class:Tracker	access:private	signature:(const std::vector<FloatRect>& samples, const FloatRect& centre, const std::vector<double>& scores)
+UpdateFeatureVector	struck/Features.h	/^	virtual void UpdateFeatureVector(const Sample& s) = 0;$/;"	p	class:Features	access:protected	signature:(const Sample& s)
+UpdateFeatureVector	struck/HaarFeatures.cpp	/^void HaarFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:HaarFeatures	signature:(const Sample& s)
+UpdateFeatureVector	struck/HaarFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:HaarFeatures	access:private	signature:(const Sample& s)
+UpdateFeatureVector	struck/HistogramFeatures.cpp	/^void HistogramFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:HistogramFeatures	signature:(const Sample& s)
+UpdateFeatureVector	struck/HistogramFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:HistogramFeatures	access:private	signature:(const Sample& s)
+UpdateFeatureVector	struck/MultiFeatures.cpp	/^void MultiFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:MultiFeatures	signature:(const Sample& s)
+UpdateFeatureVector	struck/MultiFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:MultiFeatures	access:private	signature:(const Sample& s)
+UpdateFeatureVector	struck/RawFeatures.cpp	/^void RawFeatures::UpdateFeatureVector(const Sample& s)$/;"	f	class:RawFeatures	signature:(const Sample& s)
+UpdateFeatureVector	struck/RawFeatures.h	/^	virtual void UpdateFeatureVector(const Sample& s);$/;"	p	class:RawFeatures	access:private	signature:(const Sample& s)
+UpdateLearner	struck/Tracker.cpp	/^void Tracker::UpdateLearner(const ImageRep& image)$/;"	f	class:Tracker	signature:(const ImageRep& image)
+UpdateLearner	struck/Tracker.h	/^	void UpdateLearner(const ImageRep& image);$/;"	p	class:Tracker	access:private	signature:(const ImageRep& image)
 User_Handler_Func	DJI_LIB/DJI_Pro_App.h	/^typedef void (*User_Handler_Func)(ProHeader *pHeader);$/;"	t
+VERBOSE	struck/Config.h	35;"	d
 VERT_POS	DJI_LIB/DJI_Pro_App.h	53;"	d
 VERT_TRU	DJI_LIB/DJI_Pro_App.h	54;"	d
 VERT_VEL	DJI_LIB/DJI_Pro_App.h	52;"	d
@@ -882,8 +1321,11 @@ VisitExit	tinyxml2.h	/^    virtual bool VisitExit( const XMLDocument& \/*doc*\/ 
 VisitExit	tinyxml2.h	/^    virtual bool VisitExit( const XMLDocument& \/*doc*\/ )			{$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLDocument& )
 VisitExit	tinyxml2.h	/^    virtual bool VisitExit( const XMLElement& \/*element*\/ )			{$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLElement& )
 VisitExit	tinyxml2.h	/^    virtual bool VisitExit( const XMLElement& element );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLElement& element )
+WHITE	struck/GraphUtils.cpp	/^const CvScalar WHITE = CV_RGB(255,255,255);$/;"	v
 Whitespace	tinyxml2.h	/^enum Whitespace {$/;"	g	namespace:tinyxml2
 WhitespaceMode	tinyxml2.h	/^    Whitespace WhitespaceMode() const	{$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+Width	struck/Rect.h	/^	inline T Width() const { return m_width; }$/;"	f	class:Rect	access:public	signature:() const
+XCentre	struck/Rect.h	/^	inline float XCentre() const { return (float)m_xMin + (float)m_width \/ 2; }$/;"	f	class:Rect	access:public	signature:() const
 XMLAttribute	tinyxml2.h	/^    XMLAttribute( const XMLAttribute& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( const XMLAttribute& )
 XMLAttribute	tinyxml2.h	/^    XMLAttribute() : _next( 0 ), _memPool( 0 ) {}$/;"	f	class:tinyxml2::XMLAttribute	access:private	signature:()
 XMLAttribute	tinyxml2.h	/^class TINYXML2_LIB XMLAttribute$/;"	c	namespace:tinyxml2
@@ -950,10 +1392,15 @@ XML_NO_ERROR	tinyxml2.h	/^    XML_NO_ERROR = 0,$/;"	e	enum:tinyxml2::XMLError
 XML_NO_TEXT_NODE	tinyxml2.h	/^    XML_NO_TEXT_NODE,$/;"	e	enum:tinyxml2::XMLError
 XML_SUCCESS	tinyxml2.h	/^    XML_SUCCESS = 0,$/;"	e	enum:tinyxml2::XMLError
 XML_WRONG_ATTRIBUTE_TYPE	tinyxml2.h	/^    XML_WRONG_ATTRIBUTE_TYPE,$/;"	e	enum:tinyxml2::XMLError
+XMax	struck/Rect.h	/^	inline T XMax() const { return m_xMin + m_width; }$/;"	f	class:Rect	access:public	signature:() const
+XMin	struck/Rect.h	/^	inline T XMin() const { return m_xMin; }$/;"	f	class:Rect	access:public	signature:() const
 YAW_ANG	DJI_LIB/DJI_Pro_App.h	56;"	d
 YAW_BODY	DJI_LIB/DJI_Pro_App.h	63;"	d
 YAW_GND	DJI_LIB/DJI_Pro_App.h	62;"	d
 YAW_RATE	DJI_LIB/DJI_Pro_App.h	57;"	d
+YCentre	struck/Rect.h	/^	inline float YCentre() const { return (float)m_yMin + (float)m_height \/ 2; }$/;"	f	class:Rect	access:public	signature:() const
+YMax	struck/Rect.h	/^	inline T YMax() const { return m_yMin + m_height; }$/;"	f	class:Rect	access:public	signature:() const
+YMin	struck/Rect.h	/^	inline T YMin() const { return m_yMin; }$/;"	f	class:Rect	access:public	signature:() const
 _SDK_CALC_CRC_HEAD	DJI_LIB/DJI_Pro_Codec.h	20;"	d
 _SDK_CALC_CRC_TAIL	DJI_LIB/DJI_Pro_Codec.h	21;"	d
 _SDK_CRC_DATA_SIZE	DJI_LIB/DJI_Pro_Codec.h	13;"	d
@@ -964,6 +1411,7 @@ _SDK_MAX_RECV_SIZE	DJI_LIB/DJI_Pro_Codec.h	10;"	d
 _SDK_SOF	DJI_LIB/DJI_Pro_Codec.h	11;"	d
 _SDK_U16_SET	DJI_LIB/DJI_Pro_Codec.h	18;"	d
 _SDK_U32_SET	DJI_LIB/DJI_Pro_Codec.h	17;"	d
+_USE_MATH_DEFINES	struck/Sampler.cpp	31;"	d	file:
 __DJI_PRO_APP_H__	DJI_LIB/DJI_Pro_App.h	8;"	d
 __DJI_PRO_CODEC_H__	DJI_LIB/DJI_Pro_Codec.h	2;"	d
 __DJI_PRO_CONFIG_H__	DJI_LIB/DJI_Pro_Config.h	2;"	d
@@ -1159,10 +1607,12 @@ app_key	DJI_LIB/DJI_Pro_App.h	/^    char *app_key;$/;"	m	struct:__anon22	access:
 app_ver	DJI_LIB/DJI_Pro_App.h	/^    unsigned int	app_ver;$/;"	m	struct:__anon22	access:public
 atti_ctrl_sample_flag	DJI_Pro_Sample.cpp	/^static int atti_ctrl_sample_flag = -1;$/;"	v	file:
 attitude_data_t	DJI_LIB/DJI_Pro_App.h	/^}attitude_data_t;$/;"	t	typeref:struct:__anon24
+b	struck/LaRank.h	/^		double b;$/;"	m	struct:LaRank::SupportVector	access:public
 base	DJI_LIB/DJI_Pro_App.h	/^        unsigned char base : 1;$/;"	m	struct:__anon8::__anon9	access:public
 battery_remaining_capacity	DJI_LIB/DJI_Pro_App.h	/^    unsigned char battery_remaining_capacity;$/;"	m	struct:__anon19	access:public
 baud_index_t	DJI_LIB/DJI_Pro_Hw.cpp	/^Baud_index baud_index_t[] =$/;"	v
 baudrate	DJI_LIB/DJI_Pro_Hw.cpp	/^    int baudrate;$/;"	m	struct:__anon27	file:	access:public
+bool	struck/GraphUtils.h	/^	typedef int bool;$/;"	t
 buf	DJI_LIB/DJI_Pro_Link.h	/^	unsigned char *buf;$/;"	m	struct:ProAckParameter	access:public
 buf	DJI_LIB/DJI_Pro_Link.h	/^	unsigned char *buf;$/;"	m	struct:ProSendParameter	access:public
 callfopen	tinyxml2.cpp	/^static FILE* callfopen( const char* filepath, const char* mode )$/;"	f	namespace:tinyxml2	signature:( const char* filepath, const char* mode )
@@ -1172,6 +1622,8 @@ cmd_data	DJI_LIB/DJI_Pro_App.h	/^    unsigned char cmd_data;$/;"	m	struct:__anon
 cmd_sequence	DJI_LIB/DJI_Pro_App.h	/^    unsigned char cmd_sequence;$/;"	m	struct:__anon21	access:public
 comm_key	DJI_LIB/DJI_Pro_Codec.h	/^    unsigned char         comm_key[32];$/;"	m	struct:__anon26	access:public
 comm_recv_buf	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned char comm_recv_buf[_SDK_MAX_RECV_SIZE];$/;"	m	struct:__anon26	access:public
+compilation_database_folder	.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+countGraph	struck/GraphUtils.cpp	/^int countGraph = 0;	\/\/ Used by 'getGraphColor()'$/;"	v
 crc16_update	DJI_LIB/DJI_Pro_Codec.cpp	/^unsigned short crc16_update(unsigned short crc, unsigned char ch)$/;"	f	signature:(unsigned short crc, unsigned char ch)
 crc32_update	DJI_LIB/DJI_Pro_Codec.cpp	/^unsigned int crc32_update(unsigned int crc, unsigned char ch)$/;"	f	signature:(unsigned int crc, unsigned char ch)
 crc_tab16	DJI_LIB/DJI_Pro_Codec.cpp	/^unsigned short crc_tab16[] =$/;"	v
@@ -1182,20 +1634,38 @@ ctrl_flag	DJI_LIB/DJI_Pro_App.h	/^    unsigned char ctrl_flag;$/;"	m	struct:__an
 ctrl_info	DJI_LIB/DJI_Pro_App.h	/^    api_ctrl_info_data_t ctrl_info;$/;"	m	struct:__anon19	access:public
 ctrl_switch	DJI_LIB/DJI_Pro_App.h	/^        unsigned char ctrl_switch : 1;\/\/decide increment mode or absolute mode$/;"	m	struct:__anon10::__anon11	access:public
 cur_ctrl_dev_in_navi_mode	DJI_LIB/DJI_Pro_App.h	/^    unsigned char cur_ctrl_dev_in_navi_mode   :3;\/*0->rc  1->app  2->serial*\/$/;"	m	struct:__anon18	access:public
+customGraphColor	struck/GraphUtils.cpp	/^CvScalar customGraphColor;$/;"	v
+database	.ycm_extra_conf.py	/^  database = None$/;"	v
+database	.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+debugMode	struck/Config.h	/^	bool							debugMode;$/;"	m	class:Config	access:public
 deckey	DJI_LIB/DJI_Pro_Codec.cpp	/^    unsigned char deckey[32];$/;"	m	struct:tagAES256Context	file:	access:public
+drawFloatGraph	struck/GraphUtils.cpp	/^IplImage* drawFloatGraph(const float *arraySrc, int nArrayLength, IplImage *imageDst, float minV, float maxV, int width, int height, char *graphLabel, bool showScale)$/;"	f	signature:(const float *arraySrc, int nArrayLength, IplImage *imageDst, float minV, float maxV, int width, int height, char *graphLabel, bool showScale)
+drawFloatGraph	struck/GraphUtils.h	/^IplImage* drawFloatGraph(const float *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), float minV DEFAULT(0.0), float maxV DEFAULT(0.0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true));$/;"	p	signature:(const float *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), float minV DEFAULT(0.0), float maxV DEFAULT(0.0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true))
+drawIntGraph	struck/GraphUtils.cpp	/^IplImage* drawIntGraph(const int *arraySrc, int nArrayLength, IplImage *imageDst, int minV, int maxV, int width, int height, char *graphLabel, bool showScale)$/;"	f	signature:(const int *arraySrc, int nArrayLength, IplImage *imageDst, int minV, int maxV, int width, int height, char *graphLabel, bool showScale)
+drawIntGraph	struck/GraphUtils.h	/^IplImage* drawIntGraph(const int *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), int minV DEFAULT(0), int maxV DEFAULT(0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true));$/;"	p	signature:(const int *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), int minV DEFAULT(0), int maxV DEFAULT(0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true))
+drawUCharGraph	struck/GraphUtils.cpp	/^IplImage* drawUCharGraph(const uchar *arraySrc, int nArrayLength, IplImage *imageDst, int minV, int maxV, int width, int height, char *graphLabel, bool showScale)$/;"	f	signature:(const uchar *arraySrc, int nArrayLength, IplImage *imageDst, int minV, int maxV, int width, int height, char *graphLabel, bool showScale)
+drawUCharGraph	struck/GraphUtils.h	/^IplImage* drawUCharGraph(const uchar *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), int minV DEFAULT(0), int maxV DEFAULT(0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true));$/;"	p	signature:(const uchar *arraySrc, int nArrayLength, IplImage *imageDst DEFAULT(0), int minV DEFAULT(0), int maxV DEFAULT(0), int width DEFAULT(0), int height DEFAULT(0), char *graphLabel DEFAULT(0), bool showScale DEFAULT(true))
 duration	DJI_LIB/DJI_Pro_App.h	/^    unsigned char duration;$/;"	m	struct:__anon8	access:public
 enc_enabled	DJI_LIB/DJI_Pro_Codec.h	/^    unsigned char         enc_enabled;$/;"	m	struct:__anon26	access:public
 enc_type	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned int enc_type : 3;$/;"	m	struct:__anon25	access:public
 enc_type	DJI_LIB/DJI_Pro_Link.h	/^	unsigned int enc_type : 3;$/;"	m	struct:ProHeader	access:public
 enckey	DJI_LIB/DJI_Pro_Codec.cpp	/^    unsigned char enckey[32];$/;"	m	struct:tagAES256Context	file:	access:public
 entities	tinyxml2.cpp	/^static const Entity entities[NUM_ENTITIES] = {$/;"	m	namespace:tinyxml2	file:
+false	struck/GraphUtils.h	19;"	d
+feature	struck/Config.h	/^		FeatureType feature;$/;"	m	struct:Config::FeatureKernelPair	access:public
+features	struck/Config.h	/^	std::vector<FeatureKernelPair>	features;$/;"	m	class:Config	access:public
 feedback_sensor_id	DJI_LIB/DJI_Pro_App.h	/^    unsigned char feedback_sensor_id  :4;$/;"	m	struct:__anon14	access:public
 findindex	DJI_LIB/DJI_Pro_Hw.cpp	/^int DJI_Pro_Hw::findindex(int baudrate)$/;"	f	class:DJI_Pro_Hw	signature:(int baudrate)
 findindex	DJI_LIB/DJI_Pro_Hw.h	/^    int findindex(int);$/;"	p	class:DJI_Pro_Hw	access:private	signature:(int)
+flags	.ycm_extra_conf.py	/^flags = [$/;"	v
 fp32	DJI_LIB/DJI_Pro_App.h	/^typedef float 	fp32;$/;"	t
 fp64	DJI_LIB/DJI_Pro_App.h	/^typedef double	fp64;$/;"	t
+frameHeight	struck/Config.h	/^	int								frameHeight;$/;"	m	class:Config	access:public
+frameWidth	struck/Config.h	/^	int								frameWidth;$/;"	m	class:Config	access:public
 from_user_account_data	DJI_LIB/DJI_Pro_App.cpp	/^static activate_data_t from_user_account_data;$/;"	v	file:
+g	struck/LaRank.h	/^		double g;$/;"	m	struct:LaRank::SupportVector	access:public
 gear	DJI_LIB/DJI_Pro_App.h	/^    signed short gear;$/;"	m	struct:__anon16	access:public
+getGraphColor	struck/GraphUtils.cpp	/^CvScalar getGraphColor(void)$/;"	f	signature:(void)
 get_api_ver_lock	DJI_LIB/DJI_Pro_App.cpp	/^static int get_api_ver_lock = -1;$/;"	v	file:
 gf_alog	DJI_LIB/DJI_Pro_Codec.cpp	/^unsigned char gf_alog(unsigned char x) \/\/ calculate anti-logarithm gen 3$/;"	f	signature:(unsigned char x)
 gf_log	DJI_LIB/DJI_Pro_Codec.cpp	/^unsigned char gf_log(unsigned char x) \/\/ calculate logarithm gen 3$/;"	f	signature:(unsigned char x)
@@ -1209,9 +1679,30 @@ head_crc	DJI_LIB/DJI_Pro_Link.h	/^	unsigned int head_crc : 16;$/;"	m	struct:ProH
 health_flag	DJI_LIB/DJI_Pro_App.h	/^    unsigned char health_flag         :1;$/;"	m	struct:__anon14	access:public
 health_flag	DJI_LIB/DJI_Pro_App.h	/^    unsigned char health_flag;$/;"	m	struct:__anon15	access:public
 height	DJI_LIB/DJI_Pro_App.h	/^    fp32 height;$/;"	m	struct:__anon15	access:public
+image	struck/LaRank.h	/^		cv::Mat image;$/;"	m	struct:LaRank::SupportVector	access:public
+images	struck/LaRank.h	/^		std::vector<cv::Mat> images;$/;"	m	struct:LaRank::SupportPattern	access:public
 index	DJI_LIB/DJI_Pro_Hw.cpp	/^    int index;$/;"	m	struct:__anon27	file:	access:public
 is_ack	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned int is_ack : 1;$/;"	m	struct:__anon25	access:public
 is_ack	DJI_LIB/DJI_Pro_Link.h	/^	unsigned int is_ack : 1;$/;"	m	struct:ProHeader	access:public
+kFeatureTypeHaar	struck/Config.h	/^		kFeatureTypeHaar,$/;"	e	enum:Config::FeatureType
+kFeatureTypeHistogram	struck/Config.h	/^		kFeatureTypeHistogram$/;"	e	enum:Config::FeatureType
+kFeatureTypeRaw	struck/Config.h	/^		kFeatureTypeRaw,$/;"	e	enum:Config::FeatureType
+kKernelTypeChi2	struck/Config.h	/^		kKernelTypeChi2$/;"	e	enum:Config::KernelType
+kKernelTypeGaussian	struck/Config.h	/^		kKernelTypeGaussian,$/;"	e	enum:Config::KernelType
+kKernelTypeIntersection	struck/Config.h	/^		kKernelTypeIntersection,$/;"	e	enum:Config::KernelType
+kKernelTypeLinear	struck/Config.h	/^		kKernelTypeLinear,$/;"	e	enum:Config::KernelType
+kLiveBoxHeight	ImageThread.cpp	/^static const int kLiveBoxHeight = 80;$/;"	v	file:
+kLiveBoxWidth	ImageThread.cpp	/^static const int kLiveBoxWidth = 80;$/;"	v	file:
+kMaxSVs	struck/LaRank.cpp	/^static const int kMaxSVs = 2000; \/\/ TODO (only used when no budget)$/;"	v	file:
+kNumBins	struck/HistogramFeatures.cpp	/^static const int kNumBins = 16;$/;"	v	file:
+kNumBins	struck/ImageRep.cpp	/^static const int kNumBins = 16;$/;"	v	file:
+kNumCellsX	struck/HistogramFeatures.cpp	/^static const int kNumCellsX = 3;$/;"	v	file:
+kNumCellsY	struck/HistogramFeatures.cpp	/^static const int kNumCellsY = 3;$/;"	v	file:
+kNumLevels	struck/HistogramFeatures.cpp	/^static const int kNumLevels = 4;$/;"	v	file:
+kPatchSize	struck/RawFeatures.cpp	/^static const int kPatchSize = 16;$/;"	v	file:
+kSystematicFeatureCount	struck/HaarFeatures.cpp	/^static const int kSystematicFeatureCount = 192;$/;"	v	file:
+kTileSize	struck/LaRank.cpp	/^static const int kTileSize = 30;$/;"	v	file:
+kernel	struck/Config.h	/^		KernelType kernel;$/;"	m	struct:Config::FeatureKernelPair	access:public
 key	DJI_LIB/DJI_Pro_Codec.cpp	/^    unsigned char key[32];$/;"	m	struct:tagAES256Context	file:	access:public
 lati	DJI_LIB/DJI_Pro_App.h	/^    fp64 lati;$/;"	m	struct:__anon15	access:public
 length	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned int length : 10;$/;"	m	struct:__anon25	access:public
@@ -1221,6 +1712,50 @@ length	DJI_LIB/DJI_Pro_Link.h	/^	unsigned int length;$/;"	m	struct:ProSendParame
 length	tinyxml2.cpp	/^    int length;$/;"	m	struct:tinyxml2::Entity	file:	access:public
 load_con	DJI_LIB/DJI_Pro_Hw.h	/^    int load_con;$/;"	m	class:DJI_Pro_Hw	access:public
 longti	DJI_LIB/DJI_Pro_App.h	/^    fp64 longti;$/;"	m	struct:__anon15	access:public
+m_C	struck/LaRank.h	/^	double m_C;$/;"	m	class:LaRank	access:private
+m_K	struck/LaRank.h	/^	Eigen::MatrixXd m_K;$/;"	m	class:LaRank	access:private
+m_bb	struck/HaarFeature.h	/^	FloatRect m_bb;$/;"	m	class:HaarFeature	access:private
+m_bb	struck/Tracker.h	/^	FloatRect m_bb;$/;"	m	class:Tracker	access:private
+m_channels	struck/ImageRep.h	/^	int m_channels;$/;"	m	class:ImageRep	access:private
+m_config	struck/LaRank.h	/^	const Config& m_config;$/;"	m	class:LaRank	access:private
+m_config	struck/Tracker.h	/^	const Config& m_config;$/;"	m	class:Tracker	access:private
+m_counts	struck/Kernels.h	/^	std::vector<int> m_counts;	$/;"	m	class:MultiKernel	access:private
+m_debugImage	struck/LaRank.h	/^	cv::Mat m_debugImage;$/;"	m	class:LaRank	access:private
+m_debugImage	struck/Tracker.h	/^	cv::Mat m_debugImage;$/;"	m	class:Tracker	access:private
+m_factor	struck/HaarFeature.h	/^	float m_factor;$/;"	m	class:HaarFeature	access:private
+m_featVec	struck/Features.h	/^	Eigen::VectorXd m_featVec;$/;"	m	class:Features	access:protected
+m_featureCount	struck/Features.h	/^	int m_featureCount;$/;"	m	class:Features	access:protected
+m_features	struck/HaarFeatures.h	/^	std::vector<HaarFeature> m_features;$/;"	m	class:HaarFeatures	access:private
+m_features	struck/LaRank.h	/^	const Features& m_features;$/;"	m	class:LaRank	access:private
+m_features	struck/MultiFeatures.h	/^	std::vector<Features*> m_features;$/;"	m	class:MultiFeatures	access:private
+m_features	struck/Tracker.h	/^	std::vector<Features*> m_features;$/;"	m	class:Tracker	access:private
+m_height	struck/Rect.h	/^	T m_height;$/;"	m	class:Rect	access:private
+m_image	struck/Sample.h	/^	const ImageRep& m_image;$/;"	m	class:MultiSample	access:private
+m_image	struck/Sample.h	/^	const ImageRep& m_image;$/;"	m	class:Sample	access:private
+m_images	struck/ImageRep.h	/^	std::vector<cv::Mat> m_images;$/;"	m	class:ImageRep	access:private
+m_initialised	struck/Tracker.h	/^	bool m_initialised;$/;"	m	class:Tracker	access:private
+m_integralHistImages	struck/ImageRep.h	/^	std::vector<cv::Mat> m_integralHistImages;$/;"	m	class:ImageRep	access:private
+m_integralImages	struck/ImageRep.h	/^	std::vector<cv::Mat> m_integralImages;$/;"	m	class:ImageRep	access:private
+m_kernel	struck/LaRank.h	/^	const Kernel& m_kernel;$/;"	m	class:LaRank	access:private
+m_kernels	struck/Kernels.h	/^	std::vector<Kernel*> m_kernels;$/;"	m	class:MultiKernel	access:private
+m_kernels	struck/Tracker.h	/^	std::vector<Kernel*> m_kernels;$/;"	m	class:Tracker	access:private
+m_n	struck/Kernels.h	/^	int m_n;$/;"	m	class:MultiKernel	access:private
+m_needsIntegralHist	struck/Tracker.h	/^	bool m_needsIntegralHist;$/;"	m	class:Tracker	access:private
+m_needsIntegralImage	struck/Tracker.h	/^	bool m_needsIntegralImage;$/;"	m	class:Tracker	access:private
+m_norm	struck/Kernels.h	/^	double m_norm;$/;"	m	class:MultiKernel	access:private
+m_pLearner	struck/Tracker.h	/^	LaRank* m_pLearner;$/;"	m	class:Tracker	access:private
+m_patchImage	struck/RawFeatures.h	/^	cv::Mat m_patchImage;$/;"	m	class:RawFeatures	access:private
+m_rect	struck/ImageRep.h	/^	IntRect m_rect;$/;"	m	class:ImageRep	access:private
+m_rects	struck/HaarFeature.h	/^	std::vector<FloatRect> m_rects;$/;"	m	class:HaarFeature	access:private
+m_rects	struck/Sample.h	/^	std::vector<FloatRect> m_rects;$/;"	m	class:MultiSample	access:private
+m_roi	struck/Sample.h	/^	FloatRect m_roi;$/;"	m	class:Sample	access:private
+m_sigma	struck/Kernels.h	/^	double m_sigma;$/;"	m	class:GaussianKernel	access:private
+m_sps	struck/LaRank.h	/^	std::vector<SupportPattern*> m_sps;$/;"	m	class:LaRank	access:private
+m_svs	struck/LaRank.h	/^	std::vector<SupportVector*> m_svs;$/;"	m	class:LaRank	access:private
+m_weights	struck/HaarFeature.h	/^	std::vector<float> m_weights;$/;"	m	class:HaarFeature	access:private
+m_width	struck/Rect.h	/^	T m_width;$/;"	m	class:Rect	access:private
+m_xMin	struck/Rect.h	/^	T m_xMin;$/;"	m	class:Rect	access:private
+m_yMin	struck/Rect.h	/^	T m_yMin;$/;"	m	class:Rect	access:private
 mag	DJI_LIB/DJI_Pro_App.h	/^    api_mag_data_t mag;$/;"	m	struct:__anon19	access:public
 magic	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned int magic[0];$/;"	m	struct:__anon25	access:public
 magic	DJI_LIB/DJI_Pro_Link.h	/^	unsigned int magic[0];$/;"	m	struct:ProHeader	access:public
@@ -1231,11 +1766,18 @@ mmu	DJI_LIB/DJI_Pro_Rmu.h	/^	MMU_Tab *mmu;$/;"	m	struct:ACK_Session_Tab	access:p
 mmu	DJI_LIB/DJI_Pro_Rmu.h	/^	MMU_Tab *mmu;$/;"	m	struct:CMD_Session_Tab	access:public
 mmu_lock	DJI_LIB/DJI_Pro_Rmu.cpp	/^static pthread_mutex_t mmu_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
 mode	DJI_LIB/DJI_Pro_App.h	/^    signed short mode;$/;"	m	struct:__anon16	access:public
+myvector	ImageThread.cpp	/^vector<int> myvector;$/;"	v
 need_encrypt	DJI_LIB/DJI_Pro_App.h	/^    unsigned char	need_encrypt	: 1;$/;"	m	struct:__anon20	access:public
 need_encrypt	DJI_LIB/DJI_Pro_Link.h	/^	unsigned short need_encrypt : 1;$/;"	m	struct:ProSendParameter	access:public
 need_encrypt	DJI_LIB/DJI_Pro_Link.h	/^	unsigned short need_encrypt : 8;$/;"	m	struct:ProAckParameter	access:public
+newregion	ImageThread.cpp	/^bool newregion = false;$/;"	v
 next	tinyxml2.h	/^        Chunk*  next;$/;"	m	union:tinyxml2::MemPoolT::Chunk	access:public
 obtained_control	DJI_LIB/DJI_Pro_App.h	/^    uint8_t obtained_control;$/;"	m	struct:__anon19	access:public
+onMouse	ImageThread.cpp	/^void onMouse(int event, int x, int y, int, void*)$/;"	f	signature:(int event, int x, int y, int, void*)
+operator <<	struck/Config.cpp	/^ostream& operator<< (ostream& out, const Config& conf)$/;"	f	signature:(ostream& out, const Config& conf)
+operator <<	struck/Config.h	/^	friend std::ostream& operator<< (std::ostream& out, const Config& conf);$/;"	p	class:Config	access:friend	signature:(std::ostream& out, const Config& conf)
+operator <<	struck/Rect.h	/^	friend std::ostream& operator <<(std::ostream &rOS, const Rect<T2>& rRect);$/;"	p	class:Rect	access:friend	signature:(std::ostream &rOS, const Rect<T2>& rRect)
+operator <<	struck/Rect.h	/^std::ostream& operator <<(std::ostream &rOS, const Rect<T>& rRect)$/;"	f	signature:(std::ostream &rOS, const Rect<T>& rRect)
 operator =	tinyxml2.h	/^    XMLComment& operator=( const XMLComment& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLComment	access:private	signature:( const XMLComment& )
 operator =	tinyxml2.h	/^    XMLConstHandle& operator=( const XMLConstHandle& ref )							{$/;"	f	class:tinyxml2::XMLConstHandle	access:public	signature:( const XMLConstHandle& ref )
 operator =	tinyxml2.h	/^    XMLDeclaration& operator=( const XMLDeclaration& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDeclaration	access:private	signature:( const XMLDeclaration& )
@@ -1251,6 +1793,7 @@ operator =	tinyxml2.h	/^    void operator=( const XMLDocument& );	\/\/ not suppo
 operator =	tinyxml2.h	/^    void operator=( const XMLElement& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const XMLElement& )
 operator []	tinyxml2.h	/^    T& operator[](int i)				{$/;"	f	class:tinyxml2::DynArray	access:public	signature:(int i)
 operator []	tinyxml2.h	/^    const T& operator[](int i) const	{$/;"	f	class:tinyxml2::DynArray	access:public	signature:(int i) const
+originMouse	ImageThread.cpp	/^Point originMouse;$/;"	v
 p_activate_api_interface	DJI_LIB/DJI_Pro_App.cpp	/^static Command_Result_Notify p_activate_api_interface = 0;$/;"	v	file:
 p_control_management_interface	DJI_LIB/DJI_Pro_App.cpp	/^static Command_Result_Notify p_control_management_interface = 0;$/;"	v	file:
 p_get_api_ver_interface	DJI_LIB/DJI_Pro_App.cpp	/^static Get_API_Version_Notify p_get_api_ver_interface = 0;$/;"	v	file:
@@ -1260,6 +1803,7 @@ p_user_handler_func	DJI_LIB/DJI_Pro_App.cpp	/^static User_Handler_Func p_user_ha
 p_user_rec_func	DJI_LIB/DJI_Pro_App.cpp	/^static Transparent_Transmission_Func p_user_rec_func = 0;$/;"	v	file:
 padding	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned int padding : 5;$/;"	m	struct:__anon25	access:public
 padding	DJI_LIB/DJI_Pro_Link.h	/^	unsigned int padding : 5;$/;"	m	struct:ProHeader	access:public
+params	struck/Config.h	/^		std::vector<double> params;$/;"	m	struct:Config::FeatureKernelPair	access:public
 pattern	tinyxml2.cpp	/^    const char* pattern;$/;"	m	struct:tinyxml2::Entity	file:	access:public
 pbuffer	DJI_LIB/DJI_Pro_Hw.h	/^    unsigned char *pbuffer;$/;"	m	class:DJI_Pro_Hw	access:private
 pitch	DJI_LIB/DJI_Pro_App.h	/^    signed short pitch;$/;"	m	struct:__anon16	access:public
@@ -1279,8 +1823,11 @@ q0	DJI_LIB/DJI_Pro_App.h	/^    fp32 q0;$/;"	m	struct:__anon12	access:public
 q1	DJI_LIB/DJI_Pro_App.h	/^    fp32 q1;$/;"	m	struct:__anon12	access:public
 q2	DJI_LIB/DJI_Pro_App.h	/^    fp32 q2;$/;"	m	struct:__anon12	access:public
 q3	DJI_LIB/DJI_Pro_App.h	/^    fp32 q3;$/;"	m	struct:__anon12	access:public
+quietMode	struck/Config.h	/^	bool							quietMode;$/;"	m	class:Config	access:public
 rc	DJI_LIB/DJI_Pro_App.h	/^    api_rc_data_t rc;$/;"	m	struct:__anon19	access:public
+rectangle	ImageThread.cpp	/^void rectangle (Mat& rMat, const FloatRect& rRect, const Scalar& rColour)$/;"	f	signature:(Mat& rMat, const FloatRect& rRect, const Scalar& rColour)
 recv_index	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned short recv_index;$/;"	m	struct:__anon26	access:public
+refCount	struck/LaRank.h	/^		int refCount;$/;"	m	struct:LaRank::SupportPattern	access:public
 req_id_t	DJI_LIB/DJI_Pro_App.h	/^}req_id_t;$/;"	t	typeref:struct:__anon20
 res	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int res:25;$/;"	m	struct:ACK_Session_Tab	access:public
 reserve	DJI_LIB/DJI_Pro_App.h	/^        unsigned char reserve : 4;$/;"	m	struct:__anon8::__anon9	access:public
@@ -1288,6 +1835,7 @@ reserve	DJI_LIB/DJI_Pro_App.h	/^        unsigned char reserve : 7;$/;"	m	struct:
 reserve	DJI_LIB/DJI_Pro_App.h	/^    unsigned char	reserve	   	: 2;$/;"	m	struct:__anon20	access:public
 reserve	DJI_LIB/DJI_Pro_App.h	/^    unsigned char reserve             :3;$/;"	m	struct:__anon14	access:public
 reserved	DJI_LIB/DJI_Pro_App.h	/^    unsigned char reserved                    :4;$/;"	m	struct:__anon18	access:public
+resultsPath	struck/Config.h	/^	std::string						resultsPath;$/;"	m	class:Config	access:public
 retry_send_time	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int retry_send_time : 5;$/;"	m	struct:CMD_Session_Tab	access:public
 retry_time	DJI_LIB/DJI_Pro_Link.h	/^	unsigned short retry_time : 13;$/;"	m	struct:ProSendParameter	access:public
 reuse_count	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned short reuse_count;$/;"	m	struct:__anon26	access:public
@@ -1337,8 +1885,14 @@ sdk_stream_update_reuse_part	DJI_LIB/DJI_Pro_Codec.cpp	/^void sdk_stream_update_
 sdk_stream_verify_data	DJI_LIB/DJI_Pro_Codec.cpp	/^void sdk_stream_verify_data(SDKFilter* p_filter)$/;"	f	signature:(SDKFilter* p_filter)
 sdk_stream_verify_head	DJI_LIB/DJI_Pro_Codec.cpp	/^void sdk_stream_verify_head(SDKFilter* p_filter)$/;"	f	signature:(SDKFilter* p_filter)
 sdk_transform2byte	DJI_LIB/DJI_Pro_Codec.cpp	/^static void sdk_transform2byte(const char *pstr,unsigned char *pdata)$/;"	f	file:	signature:(const char *pstr,unsigned char *pdata)
+searchRadius	struck/Config.h	/^	int								searchRadius;$/;"	m	class:Config	access:public
+seed	struck/Config.h	/^	int								seed;$/;"	m	class:Config	access:public
+selectObject	ImageThread.cpp	/^bool selectObject = false;$/;"	v
+selectionRegion	ImageThread.cpp	/^IntRect selectionRegion;$/;"	v
 sent_time	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int sent_time : 5;$/;"	m	struct:CMD_Session_Tab	access:public
 seq_num	DJI_LIB/DJI_Pro_Link.h	/^	unsigned short seq_num;$/;"	m	struct:ProAckParameter	access:public
+sequenceBasePath	struck/Config.h	/^	std::string						sequenceBasePath;$/;"	m	class:Config	access:public
+sequenceName	struck/Config.h	/^	std::string						sequenceName;$/;"	m	class:Config	access:public
 sequence_number	DJI_LIB/DJI_Pro_App.h	/^    unsigned short	sequence_number;$/;"	m	struct:__anon20	access:public
 sequence_number	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned int sequence_number : 16;$/;"	m	struct:__anon25	access:public
 sequence_number	DJI_LIB/DJI_Pro_Link.h	/^	unsigned int sequence_number : 16;$/;"	m	struct:ProHeader	access:public
@@ -1357,8 +1911,22 @@ session_id	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int session_id : 5;$/;"	m	struct:AC
 session_id	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int session_id : 5;$/;"	m	struct:CMD_Session_Tab	access:public
 session_mode	DJI_LIB/DJI_Pro_Link.h	/^    unsigned short session_mode : 2;$/;"	m	struct:ProSendParameter	access:public
 session_status	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int session_status:2;$/;"	m	struct:ACK_Session_Tab	access:public
+setCustomGraphColor	struck/GraphUtils.cpp	/^void setCustomGraphColor(int R, int B, int G)$/;"	f	signature:(int R, int B, int G)
+setCustomGraphColor	struck/GraphUtils.h	/^void setCustomGraphColor(int R, int B, int G);$/;"	p	signature:(int R, int B, int G)
+setGraphColor	struck/GraphUtils.cpp	/^void setGraphColor(int index)$/;"	f	signature:(int index)
+setGraphColor	struck/GraphUtils.h	/^void setGraphColor(int index DEFAULT(0));$/;"	p	signature:(int index DEFAULT(0))
+showFloatGraph	struck/GraphUtils.cpp	/^void showFloatGraph(const char *name, const float *arraySrc, int nArrayLength, int delay_ms, IplImage *background)$/;"	f	signature:(const char *name, const float *arraySrc, int nArrayLength, int delay_ms, IplImage *background)
+showFloatGraph	struck/GraphUtils.h	/^void showFloatGraph(const char *name, const float *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0));$/;"	p	signature:(const char *name, const float *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0))
+showImage	struck/GraphUtils.cpp	/^void showImage(const IplImage *img, int delay_ms, char *name)$/;"	f	signature:(const IplImage *img, int delay_ms, char *name)
+showImage	struck/GraphUtils.h	/^void showImage(const IplImage *img, int delay_ms DEFAULT(0), char *name DEFAULT(0));$/;"	p	signature:(const IplImage *img, int delay_ms DEFAULT(0), char *name DEFAULT(0))
+showIntGraph	struck/GraphUtils.cpp	/^void showIntGraph(const char *name, const int *arraySrc, int nArrayLength, int delay_ms, IplImage *background)$/;"	f	signature:(const char *name, const int *arraySrc, int nArrayLength, int delay_ms, IplImage *background)
+showIntGraph	struck/GraphUtils.h	/^void showIntGraph(const char *name, const int *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0));$/;"	p	signature:(const char *name, const int *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0))
+showUCharGraph	struck/GraphUtils.cpp	/^void showUCharGraph(const char *name, const uchar *arraySrc, int nArrayLength, int delay_ms, IplImage *background)$/;"	f	signature:(const char *name, const uchar *arraySrc, int nArrayLength, int delay_ms, IplImage *background)
+showUCharGraph	struck/GraphUtils.h	/^void showUCharGraph(const char *name, const uchar *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0));$/;"	p	signature:(const char *name, const uchar *arraySrc, int nArrayLength, int delay_ms DEFAULT(500), IplImage *background DEFAULT(0))
 sof	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned int sof : 8; \/\/ 1byte$/;"	m	struct:__anon25	access:public
 sof	DJI_LIB/DJI_Pro_Link.h	/^	unsigned int sof : 8; 			\/\/ 1byte$/;"	m	struct:ProHeader	access:public
+sprintf_s	struck/GraphUtils.cpp	28;"	d	file:
+startTrack	ImageThread.cpp	/^bool startTrack = false;$/;"	v
 status	DJI_LIB/DJI_Pro_App.h	/^    unsigned char status;$/;"	m	struct:__anon19	access:public
 status_ctrl_cmd_data	DJI_LIB/DJI_Pro_App.cpp	/^static cmd_agency_data_t status_ctrl_cmd_data = {0,0};$/;"	v	file:
 status_ctrl_lock	DJI_LIB/DJI_Pro_App.cpp	/^static int status_ctrl_lock = -1;$/;"	v	file:
@@ -1366,6 +1934,8 @@ status_ctrl_return_code	DJI_LIB/DJI_Pro_App.cpp	/^static unsigned short status_c
 std_broadcast_data	DJI_LIB/DJI_Pro_App.cpp	/^static sdk_std_msg_t std_broadcast_data;$/;"	v	file:
 std_msg_flag	DJI_LIB/DJI_Pro_App.cpp	/^static unsigned short std_msg_flag = 0;$/;"	v	file:
 std_msg_lock	DJI_LIB/DJI_Pro_App.cpp	/^static pthread_mutex_t std_msg_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+svmBudgetSize	struck/Config.h	/^	int								svmBudgetSize;$/;"	m	class:Config	access:public
+svmC	struck/Config.h	/^	double							svmC;$/;"	m	class:Config	access:public
 tab_index	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int tab_index : 8;$/;"	m	struct:MMU_Tab	access:public
 tagAES256Context	DJI_LIB/DJI_Pro_Codec.cpp	/^typedef struct tagAES256Context {$/;"	s	file:
 tagAES256Context::deckey	DJI_LIB/DJI_Pro_Codec.cpp	/^    unsigned char deckey[32];$/;"	m	struct:tagAES256Context	file:	access:public
@@ -2014,8 +2584,11 @@ tinyxml2::callfopen	tinyxml2.cpp	/^static FILE* callfopen( const char* filepath,
 tinyxml2::entities	tinyxml2.cpp	/^static const Entity entities[NUM_ENTITIES] = {$/;"	m	namespace:tinyxml2	file:
 to_user_activation_result	DJI_LIB/DJI_Pro_App.cpp	/^static unsigned short to_user_activation_result;$/;"	v	file:
 to_user_version_data	DJI_LIB/DJI_Pro_App.cpp	/^static version_query_data_t to_user_version_data;$/;"	v	file:
+trackObject	ImageThread.cpp	/^int trackObject = 0;$/;"	v
+true	struck/GraphUtils.h	18;"	d
 usage_flag	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int usage_flag : 1;$/;"	m	struct:CMD_Session_Tab	access:public
 usage_flag	DJI_LIB/DJI_Pro_Rmu.h	/^	unsigned int usage_flag : 8;$/;"	m	struct:MMU_Tab	access:public
+usingCustomGraphColor	struck/GraphUtils.cpp	/^int usingCustomGraphColor = 0;$/;"	v
 v	DJI_LIB/DJI_Pro_App.h	/^    api_vel_data_t v;$/;"	m	struct:__anon19	access:public
 value	tinyxml2.cpp	/^    char value;$/;"	m	struct:tinyxml2::Entity	file:	access:public
 version	DJI_LIB/DJI_Pro_Codec.h	/^	unsigned int version : 6; \/\/ 2byte$/;"	m	struct:__anon25	access:public
@@ -2028,24 +2601,35 @@ w	DJI_LIB/DJI_Pro_App.h	/^    api_common_data_t w;$/;"	m	struct:__anon19	access:
 x	DJI_LIB/DJI_Pro_App.h	/^    fp32 x;$/;"	m	struct:__anon13	access:public
 x	DJI_LIB/DJI_Pro_App.h	/^    fp32 x;$/;"	m	struct:__anon14	access:public
 x	DJI_LIB/DJI_Pro_App.h	/^    signed short x;$/;"	m	struct:__anon17	access:public
+x	struck/LaRank.h	/^		SupportPattern* x;$/;"	m	struct:LaRank::SupportVector	access:public
+x	struck/LaRank.h	/^		std::vector<Eigen::VectorXd> x;$/;"	m	struct:LaRank::SupportPattern	access:public
 y	DJI_LIB/DJI_Pro_App.h	/^    fp32 y;$/;"	m	struct:__anon13	access:public
 y	DJI_LIB/DJI_Pro_App.h	/^    fp32 y;$/;"	m	struct:__anon14	access:public
 y	DJI_LIB/DJI_Pro_App.h	/^    signed short y;$/;"	m	struct:__anon17	access:public
+y	struck/LaRank.h	/^		int y;$/;"	m	struct:LaRank::SupportPattern	access:public
+y	struck/LaRank.h	/^		int y;$/;"	m	struct:LaRank::SupportVector	access:public
 yaw	DJI_LIB/DJI_Pro_App.h	/^    float	yaw;$/;"	m	struct:__anon24	access:public
 yaw	DJI_LIB/DJI_Pro_App.h	/^    signed short yaw;$/;"	m	struct:__anon16	access:public
 yaw_angle	DJI_LIB/DJI_Pro_App.h	/^    signed short yaw_angle;$/;"	m	struct:__anon8	access:public
 yaw_angle_rate	DJI_LIB/DJI_Pro_App.h	/^    signed short yaw_angle_rate;$/;"	m	struct:__anon10	access:public
 yaw_cmd_ignore	DJI_LIB/DJI_Pro_App.h	/^        unsigned char yaw_cmd_ignore : 1;$/;"	m	struct:__anon8::__anon9	access:public
+yv	struck/LaRank.h	/^		std::vector<FloatRect> yv;$/;"	m	struct:LaRank::SupportPattern	access:public
 z	DJI_LIB/DJI_Pro_App.h	/^    fp32 z;$/;"	m	struct:__anon13	access:public
 z	DJI_LIB/DJI_Pro_App.h	/^    fp32 z;$/;"	m	struct:__anon14	access:public
 z	DJI_LIB/DJI_Pro_App.h	/^    signed short z;$/;"	m	struct:__anon17	access:public
 ~DJI_Pro_Hw	DJI_LIB/DJI_Pro_Hw.cpp	/^DJI_Pro_Hw::~DJI_Pro_Hw()$/;"	f	class:DJI_Pro_Hw	signature:()
 ~DJI_Pro_Hw	DJI_LIB/DJI_Pro_Hw.h	/^    ~DJI_Pro_Hw();$/;"	p	class:DJI_Pro_Hw	access:public	signature:()
 ~DynArray	tinyxml2.h	/^    ~DynArray() {$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+~HaarFeature	struck/HaarFeature.cpp	/^HaarFeature::~HaarFeature()$/;"	f	class:HaarFeature	signature:()
+~HaarFeature	struck/HaarFeature.h	/^	~HaarFeature();$/;"	p	class:HaarFeature	access:public	signature:()
+~LaRank	struck/LaRank.cpp	/^LaRank::~LaRank()$/;"	f	class:LaRank	signature:()
+~LaRank	struck/LaRank.h	/^	~LaRank();$/;"	p	class:LaRank	access:public	signature:()
 ~MemPool	tinyxml2.h	/^    virtual ~MemPool() {}$/;"	f	class:tinyxml2::MemPool	access:public	signature:()
 ~MemPoolT	tinyxml2.h	/^    ~MemPoolT() {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
 ~StrPair	tinyxml2.cpp	/^StrPair::~StrPair()$/;"	f	class:tinyxml2::StrPair	signature:()
 ~StrPair	tinyxml2.h	/^    ~StrPair();$/;"	p	class:tinyxml2::StrPair	access:public	signature:()
+~Tracker	struck/Tracker.cpp	/^Tracker::~Tracker()$/;"	f	class:Tracker	signature:()
+~Tracker	struck/Tracker.h	/^	~Tracker();$/;"	p	class:Tracker	access:public	signature:()
 ~XMLAttribute	tinyxml2.h	/^    virtual ~XMLAttribute()	{}$/;"	f	class:tinyxml2::XMLAttribute	access:private	signature:()
 ~XMLComment	tinyxml2.cpp	/^XMLComment::~XMLComment()$/;"	f	class:tinyxml2::XMLComment	signature:()
 ~XMLComment	tinyxml2.h	/^    virtual ~XMLComment();$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:()
