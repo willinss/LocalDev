@@ -1,10 +1,14 @@
 #include <iostream>
 #include <stdio.h>
+#include <stdlib.h>
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
 #include <vector>
+#include <time.h>
 #include "Tracker.h"
 #include "Config.h"
+
+
 
 using namespace std;
 using namespace cv;
@@ -56,27 +60,33 @@ void onMouse(int event, int x, int y, int, void*)
 
 void ImageThread()
 {
+
+    struct tm *newtime;
+    char filename[30];
+    time_t long_time;
+    time(&long_time);
+    newtime = localtime(&long_time);
+    
+    strftime(filename,sizeof(filename),"%H%M%pdata.out",newtime);
+    FILE *fp = fopen(filename,"w+");
+    if(!fp) 
+        cout << "File open fails" << endl;
+      
+
     string configPath = "../src/config.txt";
     Config conf(configPath);
     VideoCapture cap;
-    int startFrame = -1;
-    int endFrame = -1;
     FloatRect initBB;
     string imgFormat;
-    float scaleW = 1.f;
-    float scaleH = 1.f;
-
+    
     if(!cap.open(0))
     {
         printf("error when opening camera\n");
         return;
     }
-    startFrame = 0;
-    endFrame = INT_MAX;
+    
     Mat tmp;
     cap >> tmp;
-    scaleW = (float)conf.frameWidth/tmp.cols;
-    scaleH = (float)conf.frameHeight/tmp.rows;
     initBB = IntRect(conf.frameWidth/2-kLiveBoxWidth/2,conf.frameHeight/2-kLiveBoxHeight/2,kLiveBoxWidth,kLiveBoxHeight);
     
     Tracker tracker(conf);
@@ -128,7 +138,7 @@ void ImageThread()
 			{
 				tracker.Debug();
 			}
-			//printf("%.1f,%.1f\n", tracker.GetBB().XCentre(), tracker.GetBB().YCentre());
+            fprintf(fp,"%.1f,%.1f\n", tracker.GetBB().XCentre(), tracker.GetBB().YCentre());
 			rectangle(result, tracker.GetBB(), CV_RGB(0, 255, 0));
         }
 		
@@ -154,6 +164,8 @@ void ImageThread()
 			}
         }
 	}
+    fclose(fp);
+    cvDestroyWindow("result");
 }
 
 
