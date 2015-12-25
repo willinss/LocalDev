@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/ncslab/Documents/tracking/strucklinux/Config.cpp
+Config.h
+/home/ncslab/Documents/tracking/strucklinux/Config.h
+fstream
+-
+iostream
+-
+sstream
+-
+
 /home/ncslab/Documents/tracking/strucklinux/Config.h
 vector
 -
@@ -174,6 +184,14 @@ Rect.h
 vector
 -
 
+/home/ncslab/Documents/tracking/strucklinux/Sampler.cpp
+Sampler.h
+/home/ncslab/Documents/tracking/strucklinux/Sampler.h
+Config.h
+/home/ncslab/Documents/tracking/strucklinux/Config.h
+cmath
+-
+
 /home/ncslab/Documents/tracking/strucklinux/Sampler.h
 Rect.h
 /home/ncslab/Documents/tracking/strucklinux/Rect.h
@@ -240,6 +258,8 @@ stdio.h
 opencv/cv.h
 -
 opencv/highgui.h
+-
+vector
 -
 
 /usr/local/include/Eigen/Core

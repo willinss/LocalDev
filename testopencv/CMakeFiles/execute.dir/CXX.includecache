@@ -31,6 +31,18 @@ vector
 -
 iostream
 -
+opencv/cv.hpp
+-
+opencv/cxcore.hpp
+-
+opencv/highgui.h
+-
+cmath
+-
+vector
+-
+iostream
+-
 
 /usr/local/include/Eigen/Cholesky
 Core

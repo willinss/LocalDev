@@ -10,6 +10,8 @@ CFLAGS+=`pkg-config --cflags opencv`
 
 LDFLAGS+=`pkg-config --libs opencv`
 
+Complile_Flag = Release
+
 CXX = g++
 
 $(TARGET) : $(OBJECTS)

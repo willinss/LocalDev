@@ -49,78 +49,9 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/ImageRep.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/ImageRep.cpp.o: ImageRep.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/ImageRep.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/ImageRep.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/ImageRep.cpp
-
-CMakeFiles/test.dir/ImageRep.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/ImageRep.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/ImageRep.cpp > CMakeFiles/test.dir/ImageRep.cpp.i
-
-CMakeFiles/test.dir/ImageRep.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ImageRep.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/ImageRep.cpp -o CMakeFiles/test.dir/ImageRep.cpp.s
-
-CMakeFiles/test.dir/ImageRep.cpp.o.requires:
-.PHONY : CMakeFiles/test.dir/ImageRep.cpp.o.requires
-
-CMakeFiles/test.dir/ImageRep.cpp.o.provides: CMakeFiles/test.dir/ImageRep.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/ImageRep.cpp.o.provides.build
-.PHONY : CMakeFiles/test.dir/ImageRep.cpp.o.provides
-
-CMakeFiles/test.dir/ImageRep.cpp.o.provides.build: CMakeFiles/test.dir/ImageRep.cpp.o
-
-CMakeFiles/test.dir/HistogramFeatures.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/HistogramFeatures.cpp.o: HistogramFeatures.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/HistogramFeatures.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/HistogramFeatures.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/HistogramFeatures.cpp
-
-CMakeFiles/test.dir/HistogramFeatures.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/HistogramFeatures.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/HistogramFeatures.cpp > CMakeFiles/test.dir/HistogramFeatures.cpp.i
-
-CMakeFiles/test.dir/HistogramFeatures.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/HistogramFeatures.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/HistogramFeatures.cpp -o CMakeFiles/test.dir/HistogramFeatures.cpp.s
-
-CMakeFiles/test.dir/HistogramFeatures.cpp.o.requires:
-.PHONY : CMakeFiles/test.dir/HistogramFeatures.cpp.o.requires
-
-CMakeFiles/test.dir/HistogramFeatures.cpp.o.provides: CMakeFiles/test.dir/HistogramFeatures.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/HistogramFeatures.cpp.o.provides.build
-.PHONY : CMakeFiles/test.dir/HistogramFeatures.cpp.o.provides
-
-CMakeFiles/test.dir/HistogramFeatures.cpp.o.provides.build: CMakeFiles/test.dir/HistogramFeatures.cpp.o
-
-CMakeFiles/test.dir/MultiFeatures.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/MultiFeatures.cpp.o: MultiFeatures.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/MultiFeatures.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/MultiFeatures.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/MultiFeatures.cpp
-
-CMakeFiles/test.dir/MultiFeatures.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/MultiFeatures.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/MultiFeatures.cpp > CMakeFiles/test.dir/MultiFeatures.cpp.i
-
-CMakeFiles/test.dir/MultiFeatures.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/MultiFeatures.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/MultiFeatures.cpp -o CMakeFiles/test.dir/MultiFeatures.cpp.s
-
-CMakeFiles/test.dir/MultiFeatures.cpp.o.requires:
-.PHONY : CMakeFiles/test.dir/MultiFeatures.cpp.o.requires
-
-CMakeFiles/test.dir/MultiFeatures.cpp.o.provides: CMakeFiles/test.dir/MultiFeatures.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/MultiFeatures.cpp.o.provides.build
-.PHONY : CMakeFiles/test.dir/MultiFeatures.cpp.o.provides
-
-CMakeFiles/test.dir/MultiFeatures.cpp.o.provides.build: CMakeFiles/test.dir/MultiFeatures.cpp.o
-
 CMakeFiles/test.dir/LaRank.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/LaRank.cpp.o: LaRank.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/LaRank.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/LaRank.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/LaRank.cpp
 
@@ -141,32 +72,9 @@ CMakeFiles/test.dir/LaRank.cpp.o.provides: CMakeFiles/test.dir/LaRank.cpp.o.requ
 
 CMakeFiles/test.dir/LaRank.cpp.o.provides.build: CMakeFiles/test.dir/LaRank.cpp.o
 
-CMakeFiles/test.dir/Sampler.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/Sampler.cpp.o: Sampler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/Sampler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/Sampler.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/Sampler.cpp
-
-CMakeFiles/test.dir/Sampler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Sampler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/Sampler.cpp > CMakeFiles/test.dir/Sampler.cpp.i
-
-CMakeFiles/test.dir/Sampler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Sampler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/Sampler.cpp -o CMakeFiles/test.dir/Sampler.cpp.s
-
-CMakeFiles/test.dir/Sampler.cpp.o.requires:
-.PHONY : CMakeFiles/test.dir/Sampler.cpp.o.requires
-
-CMakeFiles/test.dir/Sampler.cpp.o.provides: CMakeFiles/test.dir/Sampler.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Sampler.cpp.o.provides.build
-.PHONY : CMakeFiles/test.dir/Sampler.cpp.o.provides
-
-CMakeFiles/test.dir/Sampler.cpp.o.provides.build: CMakeFiles/test.dir/Sampler.cpp.o
-
 CMakeFiles/test.dir/HaarFeatures.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/HaarFeatures.cpp.o: HaarFeatures.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/HaarFeatures.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/HaarFeatures.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/HaarFeatures.cpp
 
@@ -189,7 +97,7 @@ CMakeFiles/test.dir/HaarFeatures.cpp.o.provides.build: CMakeFiles/test.dir/HaarF
 
 CMakeFiles/test.dir/HaarFeature.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/HaarFeature.cpp.o: HaarFeature.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/HaarFeature.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/HaarFeature.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/HaarFeature.cpp
 
@@ -210,9 +118,124 @@ CMakeFiles/test.dir/HaarFeature.cpp.o.provides: CMakeFiles/test.dir/HaarFeature.
 
 CMakeFiles/test.dir/HaarFeature.cpp.o.provides.build: CMakeFiles/test.dir/HaarFeature.cpp.o
 
+CMakeFiles/test.dir/HistogramFeatures.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/HistogramFeatures.cpp.o: HistogramFeatures.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/HistogramFeatures.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/HistogramFeatures.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/HistogramFeatures.cpp
+
+CMakeFiles/test.dir/HistogramFeatures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/HistogramFeatures.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/HistogramFeatures.cpp > CMakeFiles/test.dir/HistogramFeatures.cpp.i
+
+CMakeFiles/test.dir/HistogramFeatures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/HistogramFeatures.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/HistogramFeatures.cpp -o CMakeFiles/test.dir/HistogramFeatures.cpp.s
+
+CMakeFiles/test.dir/HistogramFeatures.cpp.o.requires:
+.PHONY : CMakeFiles/test.dir/HistogramFeatures.cpp.o.requires
+
+CMakeFiles/test.dir/HistogramFeatures.cpp.o.provides: CMakeFiles/test.dir/HistogramFeatures.cpp.o.requires
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/HistogramFeatures.cpp.o.provides.build
+.PHONY : CMakeFiles/test.dir/HistogramFeatures.cpp.o.provides
+
+CMakeFiles/test.dir/HistogramFeatures.cpp.o.provides.build: CMakeFiles/test.dir/HistogramFeatures.cpp.o
+
+CMakeFiles/test.dir/MultiFeatures.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/MultiFeatures.cpp.o: MultiFeatures.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/MultiFeatures.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/MultiFeatures.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/MultiFeatures.cpp
+
+CMakeFiles/test.dir/MultiFeatures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/MultiFeatures.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/MultiFeatures.cpp > CMakeFiles/test.dir/MultiFeatures.cpp.i
+
+CMakeFiles/test.dir/MultiFeatures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/MultiFeatures.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/MultiFeatures.cpp -o CMakeFiles/test.dir/MultiFeatures.cpp.s
+
+CMakeFiles/test.dir/MultiFeatures.cpp.o.requires:
+.PHONY : CMakeFiles/test.dir/MultiFeatures.cpp.o.requires
+
+CMakeFiles/test.dir/MultiFeatures.cpp.o.provides: CMakeFiles/test.dir/MultiFeatures.cpp.o.requires
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/MultiFeatures.cpp.o.provides.build
+.PHONY : CMakeFiles/test.dir/MultiFeatures.cpp.o.provides
+
+CMakeFiles/test.dir/MultiFeatures.cpp.o.provides.build: CMakeFiles/test.dir/MultiFeatures.cpp.o
+
+CMakeFiles/test.dir/main.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/main.cpp.o: main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/main.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/main.cpp
+
+CMakeFiles/test.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/main.cpp > CMakeFiles/test.dir/main.cpp.i
+
+CMakeFiles/test.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/main.cpp -o CMakeFiles/test.dir/main.cpp.s
+
+CMakeFiles/test.dir/main.cpp.o.requires:
+.PHONY : CMakeFiles/test.dir/main.cpp.o.requires
+
+CMakeFiles/test.dir/main.cpp.o.provides: CMakeFiles/test.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/test.dir/main.cpp.o.provides
+
+CMakeFiles/test.dir/main.cpp.o.provides.build: CMakeFiles/test.dir/main.cpp.o
+
+CMakeFiles/test.dir/ImageRep.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/ImageRep.cpp.o: ImageRep.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/ImageRep.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/ImageRep.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/ImageRep.cpp
+
+CMakeFiles/test.dir/ImageRep.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/ImageRep.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/ImageRep.cpp > CMakeFiles/test.dir/ImageRep.cpp.i
+
+CMakeFiles/test.dir/ImageRep.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ImageRep.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/ImageRep.cpp -o CMakeFiles/test.dir/ImageRep.cpp.s
+
+CMakeFiles/test.dir/ImageRep.cpp.o.requires:
+.PHONY : CMakeFiles/test.dir/ImageRep.cpp.o.requires
+
+CMakeFiles/test.dir/ImageRep.cpp.o.provides: CMakeFiles/test.dir/ImageRep.cpp.o.requires
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/ImageRep.cpp.o.provides.build
+.PHONY : CMakeFiles/test.dir/ImageRep.cpp.o.provides
+
+CMakeFiles/test.dir/ImageRep.cpp.o.provides.build: CMakeFiles/test.dir/ImageRep.cpp.o
+
+CMakeFiles/test.dir/Sampler.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/Sampler.cpp.o: Sampler.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/Sampler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/Sampler.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/Sampler.cpp
+
+CMakeFiles/test.dir/Sampler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Sampler.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/Sampler.cpp > CMakeFiles/test.dir/Sampler.cpp.i
+
+CMakeFiles/test.dir/Sampler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Sampler.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/Sampler.cpp -o CMakeFiles/test.dir/Sampler.cpp.s
+
+CMakeFiles/test.dir/Sampler.cpp.o.requires:
+.PHONY : CMakeFiles/test.dir/Sampler.cpp.o.requires
+
+CMakeFiles/test.dir/Sampler.cpp.o.provides: CMakeFiles/test.dir/Sampler.cpp.o.requires
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Sampler.cpp.o.provides.build
+.PHONY : CMakeFiles/test.dir/Sampler.cpp.o.provides
+
+CMakeFiles/test.dir/Sampler.cpp.o.provides.build: CMakeFiles/test.dir/Sampler.cpp.o
+
 CMakeFiles/test.dir/RawFeatures.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/RawFeatures.cpp.o: RawFeatures.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/RawFeatures.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/RawFeatures.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/RawFeatures.cpp
 
@@ -235,7 +258,7 @@ CMakeFiles/test.dir/RawFeatures.cpp.o.provides.build: CMakeFiles/test.dir/RawFea
 
 CMakeFiles/test.dir/Features.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Features.cpp.o: Features.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/Features.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/Features.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/Features.cpp
 
@@ -258,7 +281,7 @@ CMakeFiles/test.dir/Features.cpp.o.provides.build: CMakeFiles/test.dir/Features.
 
 CMakeFiles/test.dir/Tracker.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Tracker.cpp.o: Tracker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/Tracker.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/Tracker.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/Tracker.cpp
 
@@ -278,29 +301,6 @@ CMakeFiles/test.dir/Tracker.cpp.o.provides: CMakeFiles/test.dir/Tracker.cpp.o.re
 .PHONY : CMakeFiles/test.dir/Tracker.cpp.o.provides
 
 CMakeFiles/test.dir/Tracker.cpp.o.provides.build: CMakeFiles/test.dir/Tracker.cpp.o
-
-CMakeFiles/test.dir/main.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ncslab/Documents/tracking/strucklinux/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/main.cpp.o -c /home/ncslab/Documents/tracking/strucklinux/main.cpp
-
-CMakeFiles/test.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ncslab/Documents/tracking/strucklinux/main.cpp > CMakeFiles/test.dir/main.cpp.i
-
-CMakeFiles/test.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ncslab/Documents/tracking/strucklinux/main.cpp -o CMakeFiles/test.dir/main.cpp.s
-
-CMakeFiles/test.dir/main.cpp.o.requires:
-.PHONY : CMakeFiles/test.dir/main.cpp.o.requires
-
-CMakeFiles/test.dir/main.cpp.o.provides: CMakeFiles/test.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/test.dir/main.cpp.o.provides
-
-CMakeFiles/test.dir/main.cpp.o.provides.build: CMakeFiles/test.dir/main.cpp.o
 
 CMakeFiles/test.dir/Config.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Config.cpp.o: Config.cpp
@@ -327,33 +327,33 @@ CMakeFiles/test.dir/Config.cpp.o.provides.build: CMakeFiles/test.dir/Config.cpp.
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/ImageRep.cpp.o" \
-"CMakeFiles/test.dir/HistogramFeatures.cpp.o" \
-"CMakeFiles/test.dir/MultiFeatures.cpp.o" \
 "CMakeFiles/test.dir/LaRank.cpp.o" \
-"CMakeFiles/test.dir/Sampler.cpp.o" \
 "CMakeFiles/test.dir/HaarFeatures.cpp.o" \
 "CMakeFiles/test.dir/HaarFeature.cpp.o" \
+"CMakeFiles/test.dir/HistogramFeatures.cpp.o" \
+"CMakeFiles/test.dir/MultiFeatures.cpp.o" \
+"CMakeFiles/test.dir/main.cpp.o" \
+"CMakeFiles/test.dir/ImageRep.cpp.o" \
+"CMakeFiles/test.dir/Sampler.cpp.o" \
 "CMakeFiles/test.dir/RawFeatures.cpp.o" \
 "CMakeFiles/test.dir/Features.cpp.o" \
 "CMakeFiles/test.dir/Tracker.cpp.o" \
-"CMakeFiles/test.dir/main.cpp.o" \
 "CMakeFiles/test.dir/Config.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/ImageRep.cpp.o
-test: CMakeFiles/test.dir/HistogramFeatures.cpp.o
-test: CMakeFiles/test.dir/MultiFeatures.cpp.o
 test: CMakeFiles/test.dir/LaRank.cpp.o
-test: CMakeFiles/test.dir/Sampler.cpp.o
 test: CMakeFiles/test.dir/HaarFeatures.cpp.o
 test: CMakeFiles/test.dir/HaarFeature.cpp.o
+test: CMakeFiles/test.dir/HistogramFeatures.cpp.o
+test: CMakeFiles/test.dir/MultiFeatures.cpp.o
+test: CMakeFiles/test.dir/main.cpp.o
+test: CMakeFiles/test.dir/ImageRep.cpp.o
+test: CMakeFiles/test.dir/Sampler.cpp.o
 test: CMakeFiles/test.dir/RawFeatures.cpp.o
 test: CMakeFiles/test.dir/Features.cpp.o
 test: CMakeFiles/test.dir/Tracker.cpp.o
-test: CMakeFiles/test.dir/main.cpp.o
 test: CMakeFiles/test.dir/Config.cpp.o
 test: CMakeFiles/test.dir/build.make
 test: /usr/local/lib/libopencv_viz.so.2.4.9
@@ -405,17 +405,17 @@ test: CMakeFiles/test.dir/link.txt
 CMakeFiles/test.dir/build: test
 .PHONY : CMakeFiles/test.dir/build
 
-CMakeFiles/test.dir/requires: CMakeFiles/test.dir/ImageRep.cpp.o.requires
-CMakeFiles/test.dir/requires: CMakeFiles/test.dir/HistogramFeatures.cpp.o.requires
-CMakeFiles/test.dir/requires: CMakeFiles/test.dir/MultiFeatures.cpp.o.requires
 CMakeFiles/test.dir/requires: CMakeFiles/test.dir/LaRank.cpp.o.requires
-CMakeFiles/test.dir/requires: CMakeFiles/test.dir/Sampler.cpp.o.requires
 CMakeFiles/test.dir/requires: CMakeFiles/test.dir/HaarFeatures.cpp.o.requires
 CMakeFiles/test.dir/requires: CMakeFiles/test.dir/HaarFeature.cpp.o.requires
+CMakeFiles/test.dir/requires: CMakeFiles/test.dir/HistogramFeatures.cpp.o.requires
+CMakeFiles/test.dir/requires: CMakeFiles/test.dir/MultiFeatures.cpp.o.requires
+CMakeFiles/test.dir/requires: CMakeFiles/test.dir/main.cpp.o.requires
+CMakeFiles/test.dir/requires: CMakeFiles/test.dir/ImageRep.cpp.o.requires
+CMakeFiles/test.dir/requires: CMakeFiles/test.dir/Sampler.cpp.o.requires
 CMakeFiles/test.dir/requires: CMakeFiles/test.dir/RawFeatures.cpp.o.requires
 CMakeFiles/test.dir/requires: CMakeFiles/test.dir/Features.cpp.o.requires
 CMakeFiles/test.dir/requires: CMakeFiles/test.dir/Tracker.cpp.o.requires
-CMakeFiles/test.dir/requires: CMakeFiles/test.dir/main.cpp.o.requires
 CMakeFiles/test.dir/requires: CMakeFiles/test.dir/Config.cpp.o.requires
 .PHONY : CMakeFiles/test.dir/requires
 
