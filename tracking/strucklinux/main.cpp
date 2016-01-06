@@ -121,7 +121,7 @@ int main(int argc, char* argv[])
 	
 	if (useCamera)
 	{
-		if (!cap.open(0))
+		if (!cap.open(1))
 		{
 			cout << "error: could not start camera capture" << endl;
 			return EXIT_FAILURE;

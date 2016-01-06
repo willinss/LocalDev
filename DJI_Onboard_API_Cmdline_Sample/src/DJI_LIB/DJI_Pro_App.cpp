@@ -666,6 +666,13 @@ int DJI_Pro_Get_CtrlInfo(api_ctrl_info_data_t *p_user_buf)
     return 0;
 }
 
+int DJI_Pro_Get_GimbalInfo(api_common_data_t *p_user_buf)
+{
+    pthread_mutex_lock(&std_msg_lock);
+    *p_user_buf = std_broadcast_data.gimbal;
+    pthread_mutex_unlock(&std_msg_lock);
+    return 0;
+}
 //.... TODO
 
 static void DJI_Pro_Parse_Broadcast_Data(ProHeader *header)

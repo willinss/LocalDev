@@ -202,7 +202,7 @@ int DJI_Sample_Atti_Ctrl(void)
  * gimbal control sample
  */
 static int gimbal_ctrl_sample_flag = -1;
-static void DJI_Sample_Gimbal_SpeedCtrl(signed short yaw_angle_rate,
+void DJI_Sample_Gimbal_SpeedCtrl(signed short yaw_angle_rate,
                        signed short roll_angle_rate,
                        signed short pitch_angle_rate)
 {
@@ -224,7 +224,7 @@ static void DJI_Sample_Gimbal_SpeedCtrl(signed short yaw_angle_rate,
                    );
 }
 
-static void DJI_Sample_Gimbal_AngelCtrl(int16_t yaw_angle,
+void DJI_Sample_Gimbal_AngelCtrl(int16_t yaw_angle,
                        int16_t roll_angle,
                        int16_t pitch_angle,
                        uint8_t duration)
@@ -263,10 +263,14 @@ static void * DJI_Sample_Gimbal_Ctrl_Thread_Func(void * arg)
 
     printf("\nGimbal test start...\r\n");
 
-    DJI_Sample_Gimbal_AngelCtrl(1800, 0, 0, 20);
+    DJI_Sample_Gimbal_AngelCtrl(900,0,-300,10);
+    sleep(1);
+    usleep(100000);
+/*
+    DJI_Sample_Gimbal_AngelCtrl(1800, 0, 0, 20); //right
     sleep(2);
     usleep(100000);
-    DJI_Sample_Gimbal_AngelCtrl(-1800, 0, 0, 20);
+    DJI_Sample_Gimbal_AngelCtrl(-1800, 0, 0, 20);//left
     sleep(2);
     usleep(100000);
     DJI_Sample_Gimbal_AngelCtrl(0, 300, 0, 20);
@@ -275,10 +279,10 @@ static void * DJI_Sample_Gimbal_Ctrl_Thread_Func(void * arg)
     DJI_Sample_Gimbal_AngelCtrl(0, -300, 0, 20);
     sleep(2);
     usleep(100000);
-    DJI_Sample_Gimbal_AngelCtrl(0, 0, 300, 20);
+    DJI_Sample_Gimbal_AngelCtrl(0, 0, 300, 20);//up
     sleep(2);
     usleep(100000);
-    DJI_Sample_Gimbal_AngelCtrl(0, 0, -300, 20);
+    DJI_Sample_Gimbal_AngelCtrl(0, 0, -300, 20);//down
     sleep(2);
     usleep(100000);
 
@@ -312,7 +316,9 @@ static void * DJI_Sample_Gimbal_Ctrl_Thread_Func(void * arg)
         DJI_Sample_Gimbal_SpeedCtrl(0, 0, -200);
         usleep(100000);
     }
+*/
     DJI_Sample_Gimbal_AngelCtrl(0, 0, 0, 10);
+    sleep(1);
     gimbal_ctrl_sample_flag = -1;
     printf("Gimbal test end.\r\n");
     return (void*)NULL;
@@ -533,6 +539,8 @@ void DJI_Sample_Drone_Status_Query(void)
 {
     unsigned char bat = 0;
     api_ctrl_info_data_t ctrl_info;
+    api_common_data_t gimbal_info;
+	api_quaternion_data_t q_info;
     char info[][32]={{"Remote controller"},
                      {"Mobile device"},
                      {"Onboard device"},
@@ -543,6 +551,10 @@ void DJI_Sample_Drone_Status_Query(void)
     printf("Battery capacity:[%d%%]\n",bat);
     DJI_Pro_Get_CtrlInfo(&ctrl_info);
     printf("Control device:[%s]\n",*(info + ctrl_info.cur_ctrl_dev_in_navi_mode));
+    DJI_Pro_Get_GimbalInfo(&gimbal_info);
+    printf("Gimbal angle:[%f,%f,%f]\n",gimbal_info.x,gimbal_info.y,gimbal_info.z);
+	DJI_Pro_Get_Quaternion(&q_info);
+	printf("Plane angle:[%3f,%3f,%3f,%3f]\n",q_info.q0,q_info.q1,q_info.q2,q_info.q3);
 }
 #endif
 int DJI_Sample_Setup(void)

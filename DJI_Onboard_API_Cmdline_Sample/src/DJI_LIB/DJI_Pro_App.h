@@ -202,7 +202,7 @@ typedef struct
     unsigned char battery_remaining_capacity;
     api_ctrl_info_data_t ctrl_info;
     uint8_t obtained_control;
-	 uint8_t activation;
+	uint8_t activation;
 }sdk_std_msg_t;
 
 #pragma  pack()
@@ -345,6 +345,7 @@ int DJI_Pro_Get_Quaternion(api_quaternion_data_t *p_user_buf);
 int DJI_Pro_Get_GroundAcc(api_common_data_t *p_user_buf);
 int DJI_Pro_Get_GroundVo(api_vel_data_t *p_user_buf);
 int DJI_Pro_Get_CtrlInfo(api_ctrl_info_data_t *p_user_buf);
+int DJI_Pro_Get_GimbalInfo(api_common_data_t *p_user_buf);
 //TODO...
 int DJI_Pro_Register_Transparent_Transmission_Callback(Transparent_Transmission_Func user_rec_handler_entrance);
 int DJI_Pro_Setup(User_Handler_Func user_cmd_handler_entrance);

@@ -7,7 +7,7 @@
 #include <time.h>
 #include "Tracker.h"
 #include "Config.h"
-
+#include "ImageThread.h"
 
 
 using namespace std;
@@ -29,8 +29,9 @@ Point originMouse;
 bool newregion = false;
 int trackObject = 0;
 bool startTrack = false;
-
-
+Imagepoint target_location;
+Imagepoint target_error;
+int target_width;
 void onMouse(int event, int x, int y, int, void*)
 {
     if(selectObject)
@@ -60,7 +61,8 @@ void onMouse(int event, int x, int y, int, void*)
 
 void ImageThread()
 {
-
+    /*
+    //write the location of the target to the file named by time 
     struct tm *newtime;
     char filename[30];
     time_t long_time;
@@ -71,7 +73,7 @@ void ImageThread()
     FILE *fp = fopen(filename,"w+");
     if(!fp) 
         cout << "File open fails" << endl;
-      
+    */
 
     string configPath = "../src/config.txt";
     Config conf(configPath);
@@ -79,9 +81,10 @@ void ImageThread()
     FloatRect initBB;
     string imgFormat;
     
-    if(!cap.open(0))
+    if(!cap.open(1))
     {
         printf("error when opening camera\n");
+        pthread_exit(0);
         return;
     }
     
@@ -138,7 +141,13 @@ void ImageThread()
 			{
 				tracker.Debug();
 			}
-            fprintf(fp,"%.1f,%.1f\n", tracker.GetBB().XCentre(), tracker.GetBB().YCentre());
+            
+            //fprintf(fp,"%.1f,%.1f\n", tracker.GetBB().XCentre(), tracker.GetBB().YCentre());
+            target_location.x = tracker.GetBB().XCentre();
+            target_location.y = tracker.GetBB().YCentre();
+            target_error.x = target_location.x - conf.frameWidth / 2;
+            target_error.y = - target_location.y + conf.frameHeight / 2;
+            target_width = tracker.GetBB().Width();
 			rectangle(result, tracker.GetBB(), CV_RGB(0, 255, 0));
         }
 		
@@ -164,7 +173,7 @@ void ImageThread()
 			}
         }
 	}
-    fclose(fp);
+//  fclose(fp);
     cvDestroyWindow("result");
 }
 

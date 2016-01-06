@@ -34,5 +34,6 @@ void DJI_Sample_Send_To_Mobile_Device(void);
 void DJI_Sample_Circle_By_Pos(void);
 void DJI_Sample_Square_By_Pos(void);
 int DJI_Sample_Funny_Ctrl(char cmd);
-
+void DJI_Sample_Gimbal_AngelCtrl(int16_t yaw_angle, int16_t roll_angle, int16_t pitch_angle, uint8_t duration);
+void DJI_Sample_Gimbal_SpeedCtrl(signed short yaw_angle_rate, signed short roll_angle_rate, signed short pitch_angle_rate);
 #endif /* DJI_PRO_TEST_H_ */
