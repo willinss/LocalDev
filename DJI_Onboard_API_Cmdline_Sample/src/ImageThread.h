@@ -16,4 +16,5 @@ void ImageThread();
 extern Imagepoint target_location;
 extern Imagepoint target_error;
 extern int target_width;
+extern bool record_flag;
 #endif

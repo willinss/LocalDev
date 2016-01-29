@@ -1,6 +1,6 @@
 TARGET = ../output/DJI_Onboard_API_Cmdline_Test
 
-OBJECTS = main.o DJI_Pro_App.o DJI_Pro_Hw.o DJI_Pro_Link.o DJI_Pro_Sample.o DJI_Pro_Codec.o DJI_Pro_Rmu.o tinyxml2.o ImageThread.o Config.o Features.o GraphUtils.o HaarFeature.o HaarFeatures.o HistogramFeatures.o ImageRep.o LaRank.o MultiFeatures.o RawFeatures.o Sampler.o Tracker.o
+OBJECTS = main.o DJI_Pro_App.o DJI_Pro_Hw.o DJI_Pro_Link.o DJI_Pro_Sample.o DJI_Pro_Codec.o DJI_Pro_Rmu.o tinyxml2.o ImageThread.o Config.o Features.o GraphUtils.o HaarFeature.o HaarFeatures.o HistogramFeatures.o ImageRep.o LaRank.o MultiFeatures.o RawFeatures.o Sampler.o Tracker.o control_timer.o Globalx.o
 
 CFLAGS = -Wall -O3 -DPLATFORM_LINUX -DTINYXML_CFG -Isrc/ -I/src/DJI_LIB -I/usr/local/include/opencv2 -I/usr/local/include/Eigen
 
@@ -47,8 +47,14 @@ tinyxml2.o : ../src/tinyxml2.cpp
 Config.o : ../src/Config.cpp
 	$(CXX) $(CFLAGS) -c ../src/Config.cpp 
 
+control_timer.o : ../src/control_timer.cpp
+	$(CXX) $(CFLAGS) -c ../src/control_timer.cpp
+
 Features.o : ../src/Features.cpp
 	$(CXX) $(CFLAGS) -c ../src/Features.cpp
+
+Globalx.o : ../src/Globalx.cpp
+	$(CXX) $(CFLAGS) -c ../src/Globalx.cpp
 
 GraphUtils.o : ../src/GraphUtils.cpp
 	$(CXX) $(CFLAGS) -c ../src/GraphUtils.cpp
@@ -83,4 +89,5 @@ Tracker.o : ../src/Tracker.cpp
 clean:
 	-rm main.o
 	-rm ImageThread.o
+	-rm control_timer.o
 	-rm $(TARGET)

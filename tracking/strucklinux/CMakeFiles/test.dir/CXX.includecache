@@ -41,6 +41,8 @@ fstream
 -
 stdio.h
 -
+sys/time.h
+-
 opencv/cv.h
 -
 opencv/highgui.h

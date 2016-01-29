@@ -8,8 +8,7 @@
 #include "Tracker.h"
 #include "Config.h"
 #include "ImageThread.h"
-
-
+#include "Globalx.h"
 using namespace std;
 using namespace cv;
 
@@ -30,6 +29,7 @@ bool newregion = false;
 int trackObject = 0;
 bool startTrack = false;
 Imagepoint target_location;
+
 Imagepoint target_error;
 int target_width;
 void onMouse(int event, int x, int y, int, void*)
@@ -91,7 +91,7 @@ void ImageThread()
     Mat tmp;
     cap >> tmp;
     initBB = IntRect(conf.frameWidth/2-kLiveBoxWidth/2,conf.frameHeight/2-kLiveBoxHeight/2,kLiveBoxWidth,kLiveBoxHeight);
-    
+
     Tracker tracker(conf);
     namedWindow("result");
     setMouseCallback("result", onMouse, 0);
@@ -107,7 +107,8 @@ void ImageThread()
         cap >> frameOrig;
         resize(frameOrig, frame, Size(conf.frameWidth, conf.frameHeight));
         frame.copyTo(result);
-
+	
+		
         if(doInitialise)
         {
             if(tracker.IsInitialised())
@@ -171,9 +172,14 @@ void ImageThread()
 					startTrack = !startTrack;
 				}
 			}
+			if(record_flag)	
+			{
+				writer1 << result;
+				gettimeofday(&currenttime, NULL);
+				fprintf(fvp, "%3.3f\n",currenttime.tv_sec + currenttime.tv_usec / 1000000.0);
+			}
         }
 	}
-//  fclose(fp);
     cvDestroyWindow("result");
 }
 

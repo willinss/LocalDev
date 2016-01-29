@@ -31,6 +31,7 @@
 #include <iostream>
 #include <fstream>
 #include <stdio.h>
+#include <sys/time.h>
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
 #include <vector>
@@ -39,6 +40,8 @@ using namespace cv;
 
 static const int kLiveBoxWidth = 80;
 static const int kLiveBoxHeight = 80;
+
+
 
 void rectangle(Mat& rMat, const FloatRect& rRect, const Scalar& rColour)
 {
@@ -118,23 +121,24 @@ int main(int argc, char* argv[])
 	string imgFormat;
 	float scaleW = 1.f;
 	float scaleH = 1.f;
+
+	struct timeval starttime;
+	struct timeval nowtime;
+
 	
-	if (useCamera)
+	if (!cap.open(0))
 	{
-		if (!cap.open(1))
-		{
-			cout << "error: could not start camera capture" << endl;
-			return EXIT_FAILURE;
-		}
-		startFrame = 0;
-		endFrame = INT_MAX;
-		Mat tmp;
-		cap >> tmp;
-		scaleW = (float)conf.frameWidth/tmp.cols;
-		scaleH = (float)conf.frameHeight/tmp.rows;
-		initBB = IntRect(conf.frameWidth/2-kLiveBoxWidth/2, conf.frameHeight/2-kLiveBoxHeight/2, kLiveBoxWidth, kLiveBoxHeight);
-		cout << "press 'i' to initialise tracker" << endl;
+		cout << "error: could not start camera capture" << endl;
+		return EXIT_FAILURE;
 	}
+	startFrame = 0;
+	endFrame = INT_MAX;
+	Mat tmp;
+	cap >> tmp;
+	scaleW = (float)conf.frameWidth/tmp.cols;
+	scaleH = (float)conf.frameHeight/tmp.rows;
+	initBB = IntRect(conf.frameWidth/2-kLiveBoxWidth/2, conf.frameHeight/2-kLiveBoxHeight/2, kLiveBoxWidth, kLiveBoxHeight);
+	cout << "press 'i' to initialise tracker" << endl;
 	
 	Tracker tracker(conf);
 	if (!conf.quietMode)
@@ -147,8 +151,10 @@ int main(int argc, char* argv[])
 	bool paused = false;
 	bool doInitialise = false;
 	srand(conf.seed);
+	gettimeofday(&starttime,NULL);
 	for (int frameInd = startFrame; frameInd <= endFrame; ++frameInd)
 	{
+		
 		Mat frame;
 		if (useCamera) 
 		{
@@ -190,6 +196,8 @@ int main(int argc, char* argv[])
 				tracker.Debug();
 			}
 			printf("%.1f,%.1f\n", tracker.GetBB().XCentre(), tracker.GetBB().YCentre());
+			gettimeofday(&nowtime,NULL);
+			printf("%5.3f\n", (nowtime.tv_sec - starttime.tv_sec) / 1.0 + (nowtime.tv_usec - starttime.tv_usec) / 1000000.0);
 			rectangle(result, tracker.GetBB(), CV_RGB(0, 255, 0));
 			
 			if (outFile)
@@ -217,6 +225,8 @@ int main(int argc, char* argv[])
 				{
 					doInitialise = true;
 					startTrack = !startTrack;
+					if(startTrack)
+						gettimeofday(&starttime,NULL);
 				}
 			}
 			if (conf.debugMode && frameInd == endFrame)
