@@ -85,7 +85,7 @@ int main()
         P_x = A_x * P_x * A_x.transpose() + Q_x;
         y_x = z_x - (H_x * optimize_x_x)(0,0);
         S_x = (H_x * P_x * H_x.transpose())(0,0) + R_x;
-        K_x = P_x * H_x.transpose()* S_x;
+        K_x = P_x * H_x.transpose()/ S_x;
         predict_x_x = optimize_x_x + K_x * y_x;
         P_x = (I_x - (K_x * H_x)(0,0)) * P_x;
 
@@ -94,7 +94,7 @@ int main()
         P_y = A_y * P_y * A_y.transpose() + Q_y;
         y_y = z_y - (H_y * optimize_x_y)(0,0);
         S_y = (H_y * P_y * H_y.transpose())(0,0) + R_y;
-        K_y = P_y * H_y.transpose()* S_y;
+        K_y = P_y * H_y.transpose()/ S_y;
         predict_x_y = optimize_x_y + K_y * y_y;
         P_y = (I_y - (K_y * H_y)(0,0)) * P_y;
 

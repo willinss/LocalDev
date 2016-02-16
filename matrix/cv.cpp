@@ -6,8 +6,8 @@
 using namespace std;
 using namespace Eigen;
 using namespace cv;
-const int winHeight = 600;
-const int winWidth = 800;
+const int winHeight = 300;
+const int winWidth = 400;
 CvPoint mousePosition = cvPoint(winWidth >> 1, winHeight >> 1);
 void mouseEvent(int event, int x, int y, int flags, void *param)
  {
