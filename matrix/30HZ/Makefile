@@ -8,7 +8,7 @@ LDFLAGS+=`pkg-config --libs opencv`
 
 CXX = g++
 
-all : filter.will
+all : filter.will collect.will
 
 filter.will : filter.o
 	$(CXX) -o filter.will filter.o $(LDFLAGS)
@@ -41,11 +41,11 @@ filter.o : filter.cpp
 #MCAfilter.o : MCAfilter.cpp
 #	$(CXX) $(CFLAGS) -c MCAfilter.cpp
 
-#collect.will : collect.o
-#	$(CXX) -o collect.will collect.o $(LDFLAGS)
+collect.will : collect.o
+	$(CXX) -o collect.will collect.o $(LDFLAGS)
 
-#collect.o : collect.cpp
-#	$(CXX) $(CFLAGS) -c collect.cpp
+collect.o : collect.cpp
+	$(CXX) $(CFLAGS) -c collect.cpp
 
 clean:
 	-rm *.o
