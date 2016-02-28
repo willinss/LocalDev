@@ -5,15 +5,29 @@
 #include <opencv/highgui.h>
 #include <vector>
 #include <time.h>
+#include <math.h>
 #include "Tracker.h"
 #include "Config.h"
 #include "ImageThread.h"
 #include "Globalx.h"
+#include "DJI_LIB/DJI_Pro_App.h"
 using namespace std;
 using namespace cv;
 
 static const int kLiveBoxWidth = 80;
 static const int kLiveBoxHeight = 80;
+
+api_common_data_t gimbal_info;
+sdk_std_msg_t msg1_info;
+double Camera_angle1;
+double Camera_angle3;
+double angle_x;
+double angle_y;
+double v1;
+double v2;
+double length_x;
+double length_y;
+double Pi = 3.1415;
 
 void rectangle (Mat& rMat, const FloatRect& rRect, const Scalar& rColour)
 {
@@ -43,7 +57,7 @@ void onMouse(int event, int x, int y, int, void*)
     }
         switch (event)
         {
-            case CV_EVENT_LBUTTONDOWN:
+           case CV_EVENT_LBUTTONDOWN:
                 printf("buttondown:    x:%d,y:%d\n",x,y);                
                 originMouse = Point(x, y);
                 selectionRegion = IntRect(x, y, 0, 0);
@@ -81,7 +95,7 @@ void ImageThread()
     FloatRect initBB;
     string imgFormat;
     
-    if(!cap.open(1))
+    if(!cap.open(0))
     {
         printf("error when opening camera\n");
         pthread_exit(0);
@@ -144,12 +158,27 @@ void ImageThread()
 			}
             
             //fprintf(fp,"%.1f,%.1f\n", tracker.GetBB().XCentre(), tracker.GetBB().YCentre());
+			DJI_Pro_Get_Broadcast_Data(&msg1_info);
+			gimbal_info = msg1_info.gimbal;
+
             target_location.x = tracker.GetBB().XCentre();
             target_location.y = tracker.GetBB().YCentre();
             target_error.x = target_location.x - conf.frameWidth / 2;
             target_error.y = - target_location.y + conf.frameHeight / 2;
             target_width = tracker.GetBB().Width();
 			rectangle(result, tracker.GetBB(), CV_RGB(0, 255, 0));
+
+			Camera_angle1 = gimbal_info.z;
+			Camera_angle3 = 90 - gimbal_info.y;
+			v1 = (double)(target_location.y - 120)/120;
+			v2 = (double)(target_location.x - 160)/160;
+			angle_y = Camera_angle3 * Pi / 180 + atan(v1 * tan(Pi * 21.8/180));
+			length_y = 110 * tan(angle_y);
+			angle_x = atan(v2 * tan(Pi * 17.65/180));
+			cout << "angle_x: " << angle_x * 180 / Pi << " angle_y:" << angle_y * 180 / Pi << endl;
+			length_x = sqrt(pow(length_y,2) + pow(100,2)) * tan(angle_x);
+
+			cout<< "X: " << length_x << " Y: " << length_y<<endl;
         }
 		
 		if (!conf.quietMode)  //keyboard event
