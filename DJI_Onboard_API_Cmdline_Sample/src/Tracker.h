@@ -33,6 +33,7 @@
 #include <vector>
 #include <Eigen/Core>
 #include <opencv/cv.h>
+#include <iostream>
 
 class Config;
 class Features;

@@ -6,6 +6,7 @@
 #include <vector>
 #include <time.h>
 #include <math.h>
+#include <ctime>
 #include "Tracker.h"
 #include "Config.h"
 #include "ImageThread.h"
@@ -19,15 +20,25 @@ static const int kLiveBoxHeight = 80;
 
 api_common_data_t gimbal_info;
 sdk_std_msg_t msg1_info;
-double Camera_angle1;
-double Camera_angle3;
-double angle_x;
-double angle_y;
-double v1;
-double v2;
-double length_x;
-double length_y;
-double Pi = 3.1415;
+//double Camera_angle_yaw;
+//double Camera_angle_pitch;
+//double angle_x;
+//double angle_y;
+//double v1;
+//double v2;
+//double length_x;
+//double length_y;
+//double Pi = 3.1415;
+int bins = 256;
+float range[] = {0,255};
+float* ranges[] = {range};
+int hist_count = 1;
+double Compare = 0;
+double Compare_rgb[3] = {0,0,0};
+IplImage frame_hist;
+IplImage* frame_gray;
+IplImage* channels[3];
+clock_t start,finish;
 
 void rectangle (Mat& rMat, const FloatRect& rRect, const Scalar& rColour)
 {
@@ -101,6 +112,13 @@ void ImageThread()
         pthread_exit(0);
         return;
     }
+
+	CvHistogram* gray_hist = cvCreateHist(1,&bins,CV_HIST_ARRAY,ranges,1);
+	CvHistogram* rgb_hist[3];
+	for(int i = 0;i < 3;i++)
+	{
+		rgb_hist[i] =  cvCreateHist(1,&bins,CV_HIST_ARRAY,ranges,1);
+	}
     
     Mat tmp;
     cap >> tmp;
@@ -114,6 +132,9 @@ void ImageThread()
     bool paused = false;
     bool doInitialise = false;
     srand(conf.seed);
+
+	
+
     while(true)
     {
         Mat frame;
@@ -151,6 +172,11 @@ void ImageThread()
         if(tracker.IsInitialised())
         {
             tracker.Track(frame);
+
+			frame_hist = IplImage(frame);
+			frame_gray = cvCreateImage(cvGetSize(&frame_hist), IPL_DEPTH_8U, 1);
+			
+			cvCvtColor(&frame_hist,frame_gray,CV_BGR2GRAY);
             
             if (!conf.quietMode && conf.debugMode)
 			{
@@ -158,8 +184,98 @@ void ImageThread()
 			}
             
             //fprintf(fp,"%.1f,%.1f\n", tracker.GetBB().XCentre(), tracker.GetBB().YCentre());
-			DJI_Pro_Get_Broadcast_Data(&msg1_info);
-			gimbal_info = msg1_info.gimbal;
+			//DJI_Pro_Get_Broadcast_Data(&msg1_info);
+			//gimbal_info = msg1_info.gimbal;
+			
+			const FloatRect& bo = tracker.GetBB();
+			cvSetImageROI(frame_gray,
+						  cvRect(bo.XMin(),
+								 bo.YMin(),
+								 bo.XMax() - bo.XMin(),
+							     bo.YMax() - bo.YMin())
+					     );
+			cvSetImageROI(&frame_hist,
+						  cvRect(bo.XMin(),
+								 bo.YMin(),
+								 bo.XMax() - bo.XMin(),
+							     bo.YMax() - bo.YMin())
+					     );
+
+			IplImage* img_hist = cvCreateImage(
+						  cvSize(bo.XMax() - bo.XMin(),
+                                 bo.YMax() - bo.YMin()),
+                                 frame_gray->depth, frame_gray->nChannels);
+			IplImage* img_hist_rgb = cvCreateImage(
+						  cvSize(bo.XMax() - bo.XMin(),
+                                 bo.YMax() - bo.YMin()),
+                                 *(&frame_hist.depth), *(&frame_hist.nChannels));
+
+			cvCopy(frame_gray,img_hist,0);
+			cvCopy(&frame_hist,img_hist_rgb,0);
+
+			for(int i = 0;i < 3 ;i++)
+			{
+				channels[i] = cvCreateImage(cvGetSize(&frame_hist), IPL_DEPTH_8U, 1);
+			}
+            cvSplit(img_hist_rgb,channels[0],channels[1],channels[2],0);
+			cvResetImageROI(frame_gray);
+
+			start = clock();
+
+			if(hist_count == 1)
+			{
+				cvCalcHist(&img_hist,gray_hist,0,0);
+				cvNormalizeHist(gray_hist,1.0);
+				hist_count ++;
+			}
+			else
+			{
+				CvHistogram* gray_hist_tracker = cvCreateHist(1,&bins,CV_HIST_ARRAY,ranges,1);
+				cvCalcHist(&img_hist,gray_hist_tracker,0,0);
+				cvNormalizeHist(gray_hist_tracker,1.0);
+				Compare = cvCompareHist(gray_hist,gray_hist_tracker,CV_COMP_BHATTACHARYYA);
+				if(Compare >= 0.3)
+				{
+					cout << Compare << endl;
+					doInitialise = true;
+					startTrack = !startTrack;
+				}
+				gray_hist = gray_hist_tracker;
+			}
+
+			/*if(hist_count == 1)
+			{
+				for(int i = 0;i < 3;i++)
+				{
+					cvCalcHist(&channels[i],rgb_hist[i],0,0);
+				}
+				hist_count ++;
+			}
+			else
+			{
+				CvHistogram* rgb_hist_tracker[3];
+				for(int i = 1; i < 3 ; i++)
+				{
+					rgb_hist_tracker[i] = cvCreateHist(1,&bins,CV_HIST_ARRAY,ranges,1);
+				}
+				for(int i = 1; i < 3 ; i++)
+				{
+					cvCalcHist(&channels[i],rgb_hist_tracker[i],0,0);
+					cvNormalizeHist(rgb_hist_tracker[i],1.0);
+					Compare_rgb[i] = cvCompareHist(rgb_hist[i],rgb_hist_tracker[i],CV_COMP_BHATTACHARYYA);
+					rgb_hist[i] = rgb_hist_tracker[i];
+				}
+				double result = (Compare_rgb[0] + Compare_rgb[1] + Compare_rgb[2])/3;
+				if(result >= 0.3)
+				{
+					cout << result << endl;
+					doInitialise = true;
+					startTrack = !startTrack;
+				}
+			}*/
+			
+			finish = clock();
+			cout << "                       Time: " << double(finish - start)/CLOCKS_PER_SEC << endl;
 
             target_location.x = tracker.GetBB().XCentre();
             target_location.y = tracker.GetBB().YCentre();
@@ -168,17 +284,29 @@ void ImageThread()
             target_width = tracker.GetBB().Width();
 			rectangle(result, tracker.GetBB(), CV_RGB(0, 255, 0));
 
-			Camera_angle1 = gimbal_info.z;
-			Camera_angle3 = 90 - gimbal_info.y;
-			v1 = (double)(target_location.y - 120)/120;
-			v2 = (double)(target_location.x - 160)/160;
-			angle_y = Camera_angle3 * Pi / 180 + atan(v1 * tan(Pi * 21.8/180));
-			length_y = 110 * tan(angle_y);
-			angle_x = atan(v2 * tan(Pi * 17.65/180));
-			cout << "angle_x: " << angle_x * 180 / Pi << " angle_y:" << angle_y * 180 / Pi << endl;
-			length_x = sqrt(pow(length_y,2) + pow(100,2)) * tan(angle_x);
+			//Camera_angle_yaw = gimbal_info.z;
+			//Camera_angle_pitch = 90 + gimbal_info.y;
+			//v1 = ((double)target_location.y - 120)/120;
+			//v2 = ((double)target_location.x - 160)/160;
+			//if(v2 < 0)
+				//v2 = -1 * v2;
+			//double yy_A = atan(v1 * tan(Pi * 17.65/180));
+			//double xx_A = atan(v2 * tan(Pi * 21.8/180));
 
-			cout<< "X: " << length_x << " Y: " << length_y<<endl;
+			//angle_y = Camera_angle_pitch * Pi / 180 - yy_A;
+
+			//double PT1 = 195 / cos(angle_y);
+			//double PN = PT1 * cos(-1 * yy_A);
+			//double NT2 = PN * tan(xx_A);
+			//double OT1 = 195 * tan(angle_y);
+			//double angle_xx = atan(NT2 / OT1);
+
+			//angle_x = angle_xx + abs(Camera_angle_yaw + 113) * Pi / 180;
+
+			//double OT = OT1 / cos(angle_xx);
+			//length_y = OT * cos(angle_x);
+			//length_x = OT * sin(angle_x);
+			//cout<< "OT: "<< OT <<" length_x: "<< length_x << " length_y: " << length_y << endl;
         }
 		
 		if (!conf.quietMode)  //keyboard event

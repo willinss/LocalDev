@@ -50,8 +50,8 @@ static void Display_Main_Menu(void)
 	printf("[h]  Gimbal right 1 degree //Draw circle sample\n");
 	printf("[i]  Gimbal left 1 degree //Draw square sample\n");
 	printf("[j]  Gimbal control sample\n");
-	printf("[k]  Gimbal down 1 degree //Take a picture\n");
-	printf("[l]  Gimbal up 1 degree //Start video\n");
+	printf("[k]  Gimbal down 10 degree //Take a picture\n");
+	printf("[l]  Gimbal up 5 degree //Start video\n");
 	printf("[m]  Stop video\n");
 	printf("[n]  Query UAV current status\n");
 	if(record_flag) 
@@ -193,6 +193,7 @@ int main(int argc,char **argv)
 	}
 
     Display_Main_Menu();
+
 	while(1)
 	{
 		temp32 = getchar();
@@ -264,7 +265,7 @@ int main(int argc,char **argv)
 			*/
 			break;
 		case 'i':
-			DJI_Sample_Gimbal_AngelCtrl(10, 0, 0, 5);  //left 1 degree
+			DJI_Sample_Gimbal_AngelCtrl(-10, 0, 0, 5);  //left 1 degree
 			/* draw square
 			if(DJI_Sample_Funny_Ctrl(DRAW_SQUARE_SAMPLE)< 0)
     		{
@@ -280,13 +281,13 @@ int main(int argc,char **argv)
 			break;
 		case 'k':
 		//	DJI_Sample_Camera_Shot();
-            DJI_Sample_Gimbal_AngelCtrl(0, 0, -10, 5); //down 1 degree
+            DJI_Sample_Gimbal_AngelCtrl(0, 0, -100, 5); //down 1 degree
 			break;
 		case 'l':
 		//	DJI_Sample_Camera_Video_Start();
         //  DJI_Sample_Gimbal_AngelCtrl(0, 0, 10, 10);
         //  Start_flag = true;
-            DJI_Sample_Gimbal_AngelCtrl(0, 0, 10, 5); //up 1 degree
+            DJI_Sample_Gimbal_AngelCtrl(0, 0, 50, 5); //up 1 degree
 			break;
 		case 'm':
 			DJI_Sample_Camera_Video_Stop();
