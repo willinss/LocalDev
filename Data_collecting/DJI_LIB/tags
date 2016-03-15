@@ -1,0 +1,720 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK_Callback_Func	DJI_Pro_Link.h	/^typedef void (*ACK_Callback_Func)(ProHeader *pHeader);$/;"	t
+ACK_SESSION_IDLE	DJI_Pro_Link.h	13;"	d
+ACK_SESSION_IDLE	DJI_Pro_Rmu.h	29;"	d
+ACK_SESSION_PROCESS	DJI_Pro_Link.h	14;"	d
+ACK_SESSION_PROCESS	DJI_Pro_Rmu.h	30;"	d
+ACK_SESSION_USING	DJI_Pro_Link.h	15;"	d
+ACK_SESSION_USING	DJI_Pro_Rmu.h	31;"	d
+ACK_Session_Tab	DJI_Pro_Rmu.h	/^typedef struct ACK_Session_Tab$/;"	s
+ACK_Session_Tab	DJI_Pro_Rmu.h	/^}ACK_Session_Tab;$/;"	t	typeref:struct:ACK_Session_Tab
+ACK_Session_Tab::mmu	DJI_Pro_Rmu.h	/^	MMU_Tab *mmu;$/;"	m	struct:ACK_Session_Tab	access:public
+ACK_Session_Tab::res	DJI_Pro_Rmu.h	/^	unsigned int res:25;$/;"	m	struct:ACK_Session_Tab	access:public
+ACK_Session_Tab::session_id	DJI_Pro_Rmu.h	/^	unsigned int session_id : 5;$/;"	m	struct:ACK_Session_Tab	access:public
+ACK_Session_Tab::session_status	DJI_Pro_Rmu.h	/^	unsigned int session_status:2;$/;"	m	struct:ACK_Session_Tab	access:public
+API_CAMERA_SHOT	DJI_Pro_App.h	44;"	d
+API_CAMERA_VIDEO_START	DJI_Pro_App.h	45;"	d
+API_CAMERA_VIDEO_STOP	DJI_Pro_App.h	46;"	d
+API_CMD_REQUEST	DJI_Pro_App.h	22;"	d
+API_CMD_STATUS_REQUEST	DJI_Pro_App.h	23;"	d
+API_CTRL_GIMBAL_SPEED	DJI_Pro_App.h	37;"	d
+API_CTRL_MANAGEMENT	DJI_Pro_App.h	19;"	d
+API_CTRL_REQUEST	DJI_Pro_App.h	24;"	d
+API_GIMBAL_CTRL_ANGLE_REQUEST	DJI_Pro_App.h	28;"	d
+API_GIMBAL_CTRL_SPEED_REQUEST	DJI_Pro_App.h	27;"	d
+API_INFO_QUERY	DJI_Pro_App.h	41;"	d
+API_MISSION_HP_CMD	DJI_Pro_App.h	35;"	d
+API_MISSION_HP_START	DJI_Pro_App.h	34;"	d
+API_MISSION_WP_CMD	DJI_Pro_App.h	32;"	d
+API_MISSION_WP_DATA	DJI_Pro_App.h	31;"	d
+API_MISSION_WP_INFO	DJI_Pro_App.h	30;"	d
+API_OPEN_SERIAL	DJI_Pro_App.h	20;"	d
+API_SIM_ECHO	DJI_Pro_App.h	42;"	d
+API_STD_DATA	DJI_Pro_App.h	21;"	d
+API_TRANSPARENT_DATA_TO_MOBILE	DJI_Pro_App.h	25;"	d
+API_TRANSPARENT_DATA_TO_OBOARD	DJI_Pro_App.h	26;"	d
+API_USER_ACTIVATION	DJI_Pro_App.h	40;"	d
+API_VERSION_QUERY	DJI_Pro_App.h	39;"	d
+API_VER_QUERY	DJI_Pro_App.h	18;"	d
+APP_Recv_Hook	DJI_Pro_Link.cpp	/^static Req_Callback_Func APP_Recv_Hook = 0;$/;"	v	file:
+Activate_API_Thread_Func	DJI_Pro_App.cpp	/^static void * Activate_API_Thread_Func(void * arg)$/;"	f	file:	signature:(void * arg)
+BACK_TO_TABLES	DJI_Pro_Codec.cpp	36;"	d	file:
+Baud_index	DJI_Pro_Hw.cpp	/^}Baud_index;$/;"	t	typeref:struct:__anon20	file:
+CMD_RECIEVE	DJI_Pro_App.h	231;"	d
+CMD_SESSION_0	DJI_Pro_Rmu.h	33;"	d
+CMD_SESSION_1	DJI_Pro_Rmu.h	34;"	d
+CMD_SESSION_AUTO	DJI_Pro_Rmu.h	35;"	d
+CMD_Session_Tab	DJI_Pro_Rmu.h	/^typedef struct CMD_Session_Tab$/;"	s
+CMD_Session_Tab	DJI_Pro_Rmu.h	/^}CMD_Session_Tab;$/;"	t	typeref:struct:CMD_Session_Tab
+CMD_Session_Tab::ack_callback	DJI_Pro_Rmu.h	/^	ACK_Callback_Func ack_callback;$/;"	m	struct:CMD_Session_Tab	access:public
+CMD_Session_Tab::ack_timeout	DJI_Pro_Rmu.h	/^	unsigned int ack_timeout : 16;$/;"	m	struct:CMD_Session_Tab	access:public
+CMD_Session_Tab::mmu	DJI_Pro_Rmu.h	/^	MMU_Tab *mmu;$/;"	m	struct:CMD_Session_Tab	access:public
+CMD_Session_Tab::pre_seq_num	DJI_Pro_Rmu.h	/^	unsigned int pre_seq_num;$/;"	m	struct:CMD_Session_Tab	access:public
+CMD_Session_Tab::pre_timestamp	DJI_Pro_Rmu.h	/^	unsigned int pre_timestamp;$/;"	m	struct:CMD_Session_Tab	access:public
+CMD_Session_Tab::retry_send_time	DJI_Pro_Rmu.h	/^	unsigned int retry_send_time : 5;$/;"	m	struct:CMD_Session_Tab	access:public
+CMD_Session_Tab::sent_time	DJI_Pro_Rmu.h	/^	unsigned int sent_time : 5;$/;"	m	struct:CMD_Session_Tab	access:public
+CMD_Session_Tab::session_id	DJI_Pro_Rmu.h	/^	unsigned int session_id : 5;$/;"	m	struct:CMD_Session_Tab	access:public
+CMD_Session_Tab::usage_flag	DJI_Pro_Rmu.h	/^	unsigned int usage_flag : 1;$/;"	m	struct:CMD_Session_Tab	access:public
+CRC_INIT	DJI_Pro_Codec.cpp	/^const unsigned short CRC_INIT = 0x3AA3;$/;"	v
+Call_APP_Func	DJI_Pro_Link.cpp	/^static ACK_Callback_Func Call_APP_Func = 0;$/;"	v	file:
+Command_Result_Notify	DJI_Pro_App.h	/^typedef void (*Command_Result_Notify)(unsigned short result);$/;"	t
+DATA_MAX_SIZE	DJI_Pro_App.h	221;"	d
+DJI_ACK_Session_Tab	DJI_Pro_Rmu.cpp	/^static ACK_Session_Tab DJI_ACK_Session_Tab[SESSION_TABLE_NUM - 1]; \/\/session 0 is a nak session id$/;"	v	file:
+DJI_CMD_Session_Tab	DJI_Pro_Rmu.cpp	/^static CMD_Session_Tab DJI_CMD_Session_Tab[SESSION_TABLE_NUM];$/;"	v	file:
+DJI_MMU_Tab	DJI_Pro_Rmu.cpp	/^static MMU_Tab DJI_MMU_Tab[MMU_TABLE_NUM];$/;"	v	file:
+DJI_PRO_HW_BUFFER_SIZE	DJI_Pro_Hw.h	19;"	d
+DJI_PRO_LINK_H_	DJI_Pro_Link.h	9;"	d
+DJI_PRO_RMU_H_	DJI_Pro_Rmu.h	9;"	d
+DJI_Pro_Activate_API	DJI_Pro_App.cpp	/^int DJI_Pro_Activate_API(activate_data_t *p_user_data,$/;"	f	signature:(activate_data_t *p_user_data, Command_Result_Notify user_notice_entrance)
+DJI_Pro_Activate_API	DJI_Pro_App.h	/^int DJI_Pro_Activate_API(activate_data_t *p_user_data,$/;"	p	signature:(activate_data_t *p_user_data, Command_Result_Notify user_notice_entrance)
+DJI_Pro_Activate_API_CallBack	DJI_Pro_App.cpp	/^static void DJI_Pro_Activate_API_CallBack(ProHeader *header)$/;"	f	file:	signature:(ProHeader *header)
+DJI_Pro_App_Recv_Req_Data	DJI_Pro_App.cpp	/^static void DJI_Pro_App_Recv_Req_Data(ProHeader *header)$/;"	f	file:	signature:(ProHeader *header)
+DJI_Pro_App_Send_Ack	DJI_Pro_App.cpp	/^void DJI_Pro_App_Send_Ack(req_id_t req_id, unsigned char *ack, int len)$/;"	f	signature:(req_id_t req_id, unsigned char *ack, int len)
+DJI_Pro_App_Send_Ack	DJI_Pro_App.h	/^void DJI_Pro_App_Send_Ack(req_id_t req_id, unsigned char *ack, int len);$/;"	p	signature:(req_id_t req_id, unsigned char *ack, int len)
+DJI_Pro_App_Send_Data	DJI_Pro_App.cpp	/^void DJI_Pro_App_Send_Data(unsigned char session_mode, unsigned char is_enc, unsigned char  cmd_set, unsigned char cmd_id,$/;"	f	signature:(unsigned char session_mode, unsigned char is_enc, unsigned char cmd_set, unsigned char cmd_id, unsigned char *pdata,int len,ACK_Callback_Func ack_callback, int timeout ,int retry_time)
+DJI_Pro_App_Send_Data	DJI_Pro_App.h	/^void DJI_Pro_App_Send_Data(unsigned char session_mode, unsigned char is_enc, unsigned char  cmd_set, unsigned char cmd_id,$/;"	p	signature:(unsigned char session_mode, unsigned char is_enc, unsigned char cmd_set, unsigned char cmd_id, unsigned char *pdata,int len,ACK_Callback_Func ack_callback, int timeout, int retry_time)
+DJI_Pro_Attitude_Control	DJI_Pro_App.cpp	/^int DJI_Pro_Attitude_Control(attitude_data_t *p_user_data)$/;"	f	signature:(attitude_data_t *p_user_data)
+DJI_Pro_Attitude_Control	DJI_Pro_App.h	/^int DJI_Pro_Attitude_Control(attitude_data_t *p_user_data);$/;"	p	signature:(attitude_data_t *p_user_data)
+DJI_Pro_Camera_Control	DJI_Pro_App.cpp	/^int DJI_Pro_Camera_Control(unsigned char camera_cmd)$/;"	f	signature:(unsigned char camera_cmd)
+DJI_Pro_Camera_Control	DJI_Pro_App.h	/^int DJI_Pro_Camera_Control(unsigned char camera_cmd);$/;"	p	signature:(unsigned char camera_cmd)
+DJI_Pro_Control_Management	DJI_Pro_App.cpp	/^int DJI_Pro_Control_Management(unsigned char cmd,Command_Result_Notify user_notice_entrance)$/;"	f	signature:(unsigned char cmd,Command_Result_Notify user_notice_entrance)
+DJI_Pro_Control_Management	DJI_Pro_App.h	/^int DJI_Pro_Control_Management(unsigned char cmd,$/;"	p	signature:(unsigned char cmd, Command_Result_Notify user_notice_entrance)
+DJI_Pro_Control_Management_CallBack	DJI_Pro_App.cpp	/^static void DJI_Pro_Control_Management_CallBack(ProHeader *header)$/;"	f	file:	signature:(ProHeader *header)
+DJI_Pro_Create_Thread	DJI_Pro_App.cpp	/^static int DJI_Pro_Create_Thread(void *(* func)(void *), void *arg)$/;"	f	file:	signature:(void *(* func)(void *), void *arg)
+DJI_Pro_Get_API_Version	DJI_Pro_App.cpp	/^int DJI_Pro_Get_API_Version(Get_API_Version_Notify user_notice_entrance)$/;"	f	signature:(Get_API_Version_Notify user_notice_entrance)
+DJI_Pro_Get_API_Version	DJI_Pro_App.h	/^int DJI_Pro_Get_API_Version(Get_API_Version_Notify user_notice_entrance);$/;"	p	signature:(Get_API_Version_Notify user_notice_entrance)
+DJI_Pro_Get_API_Version_CallBack	DJI_Pro_App.cpp	/^static void DJI_Pro_Get_API_Version_CallBack(ProHeader *header)$/;"	f	file:	signature:(ProHeader *header)
+DJI_Pro_Get_Bat_Capacity	DJI_Pro_App.cpp	/^int DJI_Pro_Get_Bat_Capacity(unsigned char *p_user_buf)$/;"	f	signature:(unsigned char *p_user_buf)
+DJI_Pro_Get_Bat_Capacity	DJI_Pro_App.h	/^int DJI_Pro_Get_Bat_Capacity(unsigned char *data);$/;"	p	signature:(unsigned char *data)
+DJI_Pro_Get_Broadcast_Data	DJI_Pro_App.cpp	/^int DJI_Pro_Get_Broadcast_Data(sdk_std_msg_t *p_user_buf) {$/;"	f	signature:(sdk_std_msg_t *p_user_buf)
+DJI_Pro_Get_Broadcast_Data	DJI_Pro_App.h	/^int DJI_Pro_Get_Broadcast_Data(sdk_std_msg_t *p_user_buf);$/;"	p	signature:(sdk_std_msg_t *p_user_buf)
+DJI_Pro_Get_CmdCode_Id	DJI_Pro_App.cpp	/^unsigned char DJI_Pro_Get_CmdCode_Id(ProHeader *header)$/;"	f	signature:(ProHeader *header)
+DJI_Pro_Get_CmdCode_Id	DJI_Pro_App.h	/^unsigned char DJI_Pro_Get_CmdCode_Id(ProHeader *header);$/;"	p	signature:(ProHeader *header)
+DJI_Pro_Get_CmdSet_Id	DJI_Pro_App.cpp	/^unsigned char DJI_Pro_Get_CmdSet_Id(ProHeader *header)$/;"	f	signature:(ProHeader *header)
+DJI_Pro_Get_CmdSet_Id	DJI_Pro_App.h	/^unsigned char DJI_Pro_Get_CmdSet_Id(ProHeader *header);$/;"	p	signature:(ProHeader *header)
+DJI_Pro_Get_CtrlInfo	DJI_Pro_App.cpp	/^int DJI_Pro_Get_CtrlInfo(api_ctrl_info_data_t *p_user_buf)$/;"	f	signature:(api_ctrl_info_data_t *p_user_buf)
+DJI_Pro_Get_CtrlInfo	DJI_Pro_App.h	/^int DJI_Pro_Get_CtrlInfo(api_ctrl_info_data_t *p_user_buf);$/;"	p	signature:(api_ctrl_info_data_t *p_user_buf)
+DJI_Pro_Get_GimbalInfo	DJI_Pro_App.cpp	/^int DJI_Pro_Get_GimbalInfo(api_common_data_t *p_user_buf)$/;"	f	signature:(api_common_data_t *p_user_buf)
+DJI_Pro_Get_GimbalInfo	DJI_Pro_App.h	/^int DJI_Pro_Get_GimbalInfo(api_common_data_t *p_user_buf);$/;"	p	signature:(api_common_data_t *p_user_buf)
+DJI_Pro_Get_GroundAcc	DJI_Pro_App.cpp	/^int DJI_Pro_Get_GroundAcc(api_common_data_t *p_user_buf)$/;"	f	signature:(api_common_data_t *p_user_buf)
+DJI_Pro_Get_GroundAcc	DJI_Pro_App.h	/^int DJI_Pro_Get_GroundAcc(api_common_data_t *p_user_buf);$/;"	p	signature:(api_common_data_t *p_user_buf)
+DJI_Pro_Get_GroundVo	DJI_Pro_App.cpp	/^int DJI_Pro_Get_GroundVo(api_vel_data_t *p_user_buf)$/;"	f	signature:(api_vel_data_t *p_user_buf)
+DJI_Pro_Get_GroundVo	DJI_Pro_App.h	/^int DJI_Pro_Get_GroundVo(api_vel_data_t *p_user_buf);$/;"	p	signature:(api_vel_data_t *p_user_buf)
+DJI_Pro_Get_Quaternion	DJI_Pro_App.cpp	/^int DJI_Pro_Get_Quaternion(api_quaternion_data_t *p_user_buf)$/;"	f	signature:(api_quaternion_data_t *p_user_buf)
+DJI_Pro_Get_Quaternion	DJI_Pro_App.h	/^int DJI_Pro_Get_Quaternion(api_quaternion_data_t *p_user_buf);$/;"	p	signature:(api_quaternion_data_t *p_user_buf)
+DJI_Pro_Gimbal_Angle_Control	DJI_Pro_App.cpp	/^int DJI_Pro_Gimbal_Angle_Control(gimbal_custom_control_angle_t *p_user_data)$/;"	f	signature:(gimbal_custom_control_angle_t *p_user_data)
+DJI_Pro_Gimbal_Angle_Control	DJI_Pro_App.h	/^int DJI_Pro_Gimbal_Angle_Control(gimbal_custom_control_angle_t *p_user_data);$/;"	p	signature:(gimbal_custom_control_angle_t *p_user_data)
+DJI_Pro_Gimbal_Speed_Control	DJI_Pro_App.cpp	/^int DJI_Pro_Gimbal_Speed_Control(gimbal_custom_speed_t *p_user_data)$/;"	f	signature:(gimbal_custom_speed_t *p_user_data)
+DJI_Pro_Gimbal_Speed_Control	DJI_Pro_App.h	/^int DJI_Pro_Gimbal_Speed_Control(gimbal_custom_speed_t *p_user_data);$/;"	p	signature:(gimbal_custom_speed_t *p_user_data)
+DJI_Pro_Hw	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw::DJI_Pro_Hw(QObject *parent) :$/;"	f	class:DJI_Pro_Hw	signature:(QObject *parent)
+DJI_Pro_Hw	DJI_Pro_Hw.h	/^    explicit DJI_Pro_Hw(QObject *parent = 0);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(QObject *parent = 0)
+DJI_Pro_Hw	DJI_Pro_Hw.h	/^    explicit DJI_Pro_Hw(QString name,int baudrate);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(QString name,int baudrate)
+DJI_Pro_Hw	DJI_Pro_Hw.h	/^class DJI_Pro_Hw : public QThread$/;"	c	inherits:QThread
+DJI_Pro_Hw::DJI_Pro_Hw	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw::DJI_Pro_Hw(QObject *parent) :$/;"	f	class:DJI_Pro_Hw	signature:(QObject *parent)
+DJI_Pro_Hw::DJI_Pro_Hw	DJI_Pro_Hw.h	/^    explicit DJI_Pro_Hw(QObject *parent = 0);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(QObject *parent = 0)
+DJI_Pro_Hw::DJI_Pro_Hw	DJI_Pro_Hw.h	/^    explicit DJI_Pro_Hw(QString name,int baudrate);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(QString name,int baudrate)
+DJI_Pro_Hw::Pro_Hw_Close	DJI_Pro_Hw.cpp	/^void DJI_Pro_Hw::Pro_Hw_Close()$/;"	f	class:DJI_Pro_Hw	signature:()
+DJI_Pro_Hw::Pro_Hw_Close	DJI_Pro_Hw.h	/^    void Pro_Hw_Close();$/;"	p	class:DJI_Pro_Hw	access:public	signature:()
+DJI_Pro_Hw::Pro_Hw_Create_Instance	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw * DJI_Pro_Hw::Pro_Hw_Create_Instance(void)$/;"	f	class:DJI_Pro_Hw	signature:(void)
+DJI_Pro_Hw::Pro_Hw_Create_Instance	DJI_Pro_Hw.h	/^    static DJI_Pro_Hw *Pro_Hw_Create_Instance(void);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(void)
+DJI_Pro_Hw::Pro_Hw_Flush	DJI_Pro_Hw.cpp	/^void DJI_Pro_Hw::Pro_Hw_Flush()$/;"	f	class:DJI_Pro_Hw	signature:()
+DJI_Pro_Hw::Pro_Hw_Flush	DJI_Pro_Hw.h	/^    void Pro_Hw_Flush();$/;"	p	class:DJI_Pro_Hw	access:public	signature:()
+DJI_Pro_Hw::Pro_Hw_Get_Instance	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw * DJI_Pro_Hw::Pro_Hw_Get_Instance(void)$/;"	f	class:DJI_Pro_Hw	signature:(void)
+DJI_Pro_Hw::Pro_Hw_Get_Instance	DJI_Pro_Hw.h	/^    static DJI_Pro_Hw *Pro_Hw_Get_Instance(void);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(void)
+DJI_Pro_Hw::Pro_Hw_Recv	DJI_Pro_Hw.cpp	/^void DJI_Pro_Hw::Pro_Hw_Recv()$/;"	f	class:DJI_Pro_Hw	signature:()
+DJI_Pro_Hw::Pro_Hw_Recv	DJI_Pro_Hw.h	/^    void Pro_Hw_Recv();$/;"	p	class:DJI_Pro_Hw	access:private	signature:()
+DJI_Pro_Hw::Pro_Hw_Send	DJI_Pro_Hw.cpp	/^int DJI_Pro_Hw::Pro_Hw_Send(unsigned char *buf, int len)$/;"	f	class:DJI_Pro_Hw	signature:(unsigned char *buf, int len)
+DJI_Pro_Hw::Pro_Hw_Send	DJI_Pro_Hw.h	/^    int Pro_Hw_Send(unsigned char *buf, int len);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(unsigned char *buf, int len)
+DJI_Pro_Hw::Pro_Hw_Setup	DJI_Pro_Hw.cpp	/^bool DJI_Pro_Hw::Pro_Hw_Setup(QString port_name,int baudrate)$/;"	f	class:DJI_Pro_Hw	signature:(QString port_name,int baudrate)
+DJI_Pro_Hw::Pro_Hw_Setup	DJI_Pro_Hw.h	/^    bool Pro_Hw_Setup(QString port_name,int baudrate);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(QString port_name,int baudrate)
+DJI_Pro_Hw::findindex	DJI_Pro_Hw.cpp	/^int DJI_Pro_Hw::findindex(int baudrate)$/;"	f	class:DJI_Pro_Hw	signature:(int baudrate)
+DJI_Pro_Hw::findindex	DJI_Pro_Hw.h	/^    int findindex(int);$/;"	p	class:DJI_Pro_Hw	access:private	signature:(int)
+DJI_Pro_Hw::load_con	DJI_Pro_Hw.h	/^    int load_con;$/;"	m	class:DJI_Pro_Hw	access:public
+DJI_Pro_Hw::pbuffer	DJI_Pro_Hw.h	/^    unsigned char *pbuffer;$/;"	m	class:DJI_Pro_Hw	access:private
+DJI_Pro_Hw::port	DJI_Pro_Hw.h	/^    QextSerialPort *port;$/;"	m	class:DJI_Pro_Hw	access:private
+DJI_Pro_Hw::run	DJI_Pro_Hw.cpp	/^void DJI_Pro_Hw::run()$/;"	f	class:DJI_Pro_Hw	signature:()
+DJI_Pro_Hw::run	DJI_Pro_Hw.h	/^    void run();$/;"	p	class:DJI_Pro_Hw	access:protected	signature:()
+DJI_Pro_Hw::serial_object	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw *DJI_Pro_Hw::serial_object = (DJI_Pro_Hw *)NULL;$/;"	m	class:DJI_Pro_Hw	file:
+DJI_Pro_Hw::serial_object	DJI_Pro_Hw.h	/^    static DJI_Pro_Hw *serial_object;$/;"	m	class:DJI_Pro_Hw	access:public
+DJI_Pro_Hw::~DJI_Pro_Hw	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw::~DJI_Pro_Hw()$/;"	f	class:DJI_Pro_Hw	signature:()
+DJI_Pro_Hw::~DJI_Pro_Hw	DJI_Pro_Hw.h	/^    ~DJI_Pro_Hw();$/;"	p	class:DJI_Pro_Hw	access:public	signature:()
+DJI_Pro_Parse_Broadcast_Data	DJI_Pro_App.cpp	/^static void DJI_Pro_Parse_Broadcast_Data(ProHeader *header)$/;"	f	file:	signature:(ProHeader *header)
+DJI_Pro_Register_Transparent_Transmission_Callback	DJI_Pro_App.cpp	/^int DJI_Pro_Register_Transparent_Transmission_Callback(Transparent_Transmission_Func user_rec_handler_entrance)$/;"	f	signature:(Transparent_Transmission_Func user_rec_handler_entrance)
+DJI_Pro_Register_Transparent_Transmission_Callback	DJI_Pro_App.h	/^int DJI_Pro_Register_Transparent_Transmission_Callback(Transparent_Transmission_Func user_rec_handler_entrance);$/;"	p	signature:(Transparent_Transmission_Func user_rec_handler_entrance)
+DJI_Pro_Rmu_Setup	DJI_Pro_Rmu.cpp	/^void DJI_Pro_Rmu_Setup(void)$/;"	f	signature:(void)
+DJI_Pro_Rmu_Setup	DJI_Pro_Rmu.h	/^extern void DJI_Pro_Rmu_Setup(void);$/;"	p	signature:(void)
+DJI_Pro_Send_To_Mobile_Device	DJI_Pro_App.cpp	/^int DJI_Pro_Send_To_Mobile_Device(unsigned char *data,unsigned char len,$/;"	f	signature:(unsigned char *data,unsigned char len, Command_Result_Notify user_notice_entrance)
+DJI_Pro_Send_To_Mobile_Device	DJI_Pro_App.h	/^int DJI_Pro_Send_To_Mobile_Device(unsigned char *data,unsigned char len,$/;"	p	signature:(unsigned char *data,unsigned char len, Command_Result_Notify user_notice_entrance)
+DJI_Pro_Send_To_Mobile_Device_CallBack	DJI_Pro_App.cpp	/^static void DJI_Pro_Send_To_Mobile_Device_CallBack(ProHeader *header)$/;"	f	file:	signature:(ProHeader *header)
+DJI_Pro_Setup	DJI_Pro_App.cpp	/^int DJI_Pro_Setup(User_Handler_Func user_cmd_handler_entrance)$/;"	f	signature:(User_Handler_Func user_cmd_handler_entrance)
+DJI_Pro_Setup	DJI_Pro_App.h	/^int DJI_Pro_Setup(User_Handler_Func user_cmd_handler_entrance);$/;"	p	signature:(User_Handler_Func user_cmd_handler_entrance)
+DJI_Pro_Status_Ctrl	DJI_Pro_App.cpp	/^int DJI_Pro_Status_Ctrl(unsigned char cmd,Command_Result_Notify user_notice_entrance)$/;"	f	signature:(unsigned char cmd,Command_Result_Notify user_notice_entrance)
+DJI_Pro_Status_Ctrl	DJI_Pro_App.h	/^int DJI_Pro_Status_Ctrl(unsigned char cmd,Command_Result_Notify user_notice_entrance);$/;"	p	signature:(unsigned char cmd,Command_Result_Notify user_notice_entrance)
+DJI_Pro_Status_Ctrl_CallBack	DJI_Pro_App.cpp	/^static void DJI_Pro_Status_Ctrl_CallBack(ProHeader *header)$/;"	f	file:	signature:(ProHeader *header)
+DJI_Pro_User_Activate_Callback	DJI_Pro_App.cpp	/^static void DJI_Pro_User_Activate_Callback(unsigned short ack)$/;"	f	file:	signature:(unsigned short ack)
+DJI_SDK_PRO_VER	DJI_Pro_Link.h	11;"	d
+Display_Memory_Info	DJI_Pro_Rmu.cpp	/^void Display_Memory_Info(void)$/;"	f	signature:(void)
+Display_Memory_Info	DJI_Pro_Rmu.h	/^extern void Display_Memory_Info(void);$/;"	p	signature:(void)
+ENABLE_MSG_A	DJI_Pro_App.h	79;"	d
+ENABLE_MSG_BATTERY	DJI_Pro_App.h	87;"	d
+ENABLE_MSG_DEVICE	DJI_Pro_App.h	88;"	d
+ENABLE_MSG_GIMBAL	DJI_Pro_App.h	85;"	d
+ENABLE_MSG_MAG	DJI_Pro_App.h	83;"	d
+ENABLE_MSG_POS	DJI_Pro_App.h	82;"	d
+ENABLE_MSG_Q	DJI_Pro_App.h	78;"	d
+ENABLE_MSG_RC	DJI_Pro_App.h	84;"	d
+ENABLE_MSG_STATUS	DJI_Pro_App.h	86;"	d
+ENABLE_MSG_TIME	DJI_Pro_App.h	77;"	d
+ENABLE_MSG_V	DJI_Pro_App.h	80;"	d
+ENABLE_MSG_W	DJI_Pro_App.h	81;"	d
+ERR_INDEX	DJI_Pro_App.h	222;"	d
+EXC_DATA_SIZE	DJI_Pro_App.h	223;"	d
+F	DJI_Pro_Codec.cpp	33;"	d	file:
+FD	DJI_Pro_Codec.cpp	34;"	d	file:
+Free_ACK_Session	DJI_Pro_Rmu.cpp	/^void Free_ACK_Session(ACK_Session_Tab * session)$/;"	f	signature:(ACK_Session_Tab * session)
+Free_ACK_Session	DJI_Pro_Rmu.h	/^extern void Free_ACK_Session(ACK_Session_Tab * session);$/;"	p	signature:(ACK_Session_Tab * session)
+Free_CMD_Session	DJI_Pro_Rmu.cpp	/^void Free_CMD_Session(CMD_Session_Tab * session)$/;"	f	signature:(CMD_Session_Tab * session)
+Free_CMD_Session	DJI_Pro_Rmu.h	/^extern void Free_CMD_Session(CMD_Session_Tab * session);$/;"	p	signature:(CMD_Session_Tab * session)
+Free_Memory	DJI_Pro_Rmu.cpp	/^void Free_Memory(MMU_Tab *mmu_tab)$/;"	f	signature:(MMU_Tab *mmu_tab)
+Free_Memory	DJI_Pro_Rmu.h	/^extern void Free_Memory(MMU_Tab *mmu_tab);$/;"	p	signature:(MMU_Tab *mmu_tab)
+Free_Memory_Lock	DJI_Pro_Rmu.cpp	/^void Free_Memory_Lock(void)$/;"	f	signature:(void)
+Free_Memory_Lock	DJI_Pro_Rmu.h	/^extern void Free_Memory_Lock(void);$/;"	p	signature:(void)
+Get_ACK_Session_Tab	DJI_Pro_Rmu.cpp	/^ACK_Session_Tab * Get_ACK_Session_Tab(void)$/;"	f	signature:(void)
+Get_ACK_Session_Tab	DJI_Pro_Rmu.h	/^extern ACK_Session_Tab * Get_ACK_Session_Tab(void);$/;"	p	signature:(void)
+Get_API_Version_Notify	DJI_Pro_App.h	/^typedef void (*Get_API_Version_Notify)(version_query_data_t *);$/;"	t
+Get_API_Version_Thread_Func	DJI_Pro_App.cpp	/^static void * Get_API_Version_Thread_Func(void * arg)$/;"	f	file:	signature:(void * arg)
+Get_CMD_Session_Tab	DJI_Pro_Rmu.cpp	/^CMD_Session_Tab * Get_CMD_Session_Tab(void)$/;"	f	signature:(void)
+Get_CMD_Session_Tab	DJI_Pro_Rmu.h	/^extern CMD_Session_Tab * Get_CMD_Session_Tab(void);$/;"	p	signature:(void)
+Get_Memory_Lock	DJI_Pro_Rmu.cpp	/^void Get_Memory_Lock(void)$/;"	f	signature:(void)
+Get_Memory_Lock	DJI_Pro_Rmu.h	/^extern void Get_Memory_Lock(void);$/;"	p	signature:(void)
+Get_Status_Ctrl_Return_Code	DJI_Pro_App.cpp	/^static unsigned short Get_Status_Ctrl_Return_Code(void)$/;"	f	file:	signature:(void)
+Get_TimeStamp	DJI_Pro_Link.cpp	/^unsigned int Get_TimeStamp(void)$/;"	f	signature:(void)
+Get_TimeStamp	DJI_Pro_Link.h	/^unsigned int Get_TimeStamp(void);$/;"	p	signature:(void)
+HORIZ_ATT	DJI_Pro_App.h	48;"	d
+HORIZ_BODY	DJI_Pro_App.h	60;"	d
+HORIZ_GND	DJI_Pro_App.h	59;"	d
+HORIZ_POS	DJI_Pro_App.h	50;"	d
+HORIZ_VEL	DJI_Pro_App.h	49;"	d
+MAKE_VERSION	DJI_Pro_App.h	65;"	d
+MEMORY_SIZE	DJI_Pro_Config.h	4;"	d
+MMU_Setup	DJI_Pro_Rmu.cpp	/^void MMU_Setup(void)$/;"	f	signature:(void)
+MMU_Setup	DJI_Pro_Rmu.h	/^extern void MMU_Setup(void);$/;"	p	signature:(void)
+MMU_TABLE_NUM	DJI_Pro_Rmu.h	18;"	d
+MMU_Tab	DJI_Pro_Rmu.h	/^typedef struct MMU_Tab$/;"	s
+MMU_Tab	DJI_Pro_Rmu.h	/^}MMU_Tab;$/;"	t	typeref:struct:MMU_Tab
+MMU_Tab::mem_size	DJI_Pro_Rmu.h	/^	unsigned int mem_size : 16;$/;"	m	struct:MMU_Tab	access:public
+MMU_Tab::pmem	DJI_Pro_Rmu.h	/^	unsigned char *pmem;$/;"	m	struct:MMU_Tab	access:public
+MMU_Tab::tab_index	DJI_Pro_Rmu.h	/^	unsigned int tab_index : 8;$/;"	m	struct:MMU_Tab	access:public
+MMU_Tab::usage_flag	DJI_Pro_Rmu.h	/^	unsigned int usage_flag : 8;$/;"	m	struct:MMU_Tab	access:public
+MSG_ENABLE_FLAG_LEN	DJI_Pro_App.h	75;"	d
+MY_ACTIVATION_SET	DJI_Pro_App.h	14;"	d
+MY_BROADCAST_CMD_SET	DJI_Pro_App.h	16;"	d
+MY_CTRL_CMD_SET	DJI_Pro_App.h	15;"	d
+MY_DEV_ID	DJI_Pro_App.h	13;"	d
+PARSE_STD_MSG	DJI_Pro_App.h	270;"	d
+POLL_TICK	DJI_Pro_Link.h	17;"	d
+PRO_PURE_DATA_MAX_SIZE	DJI_Pro_Rmu.h	14;"	d
+PollThread	DJI_Pro_Link.cpp	/^static void * PollThread(void * arg)$/;"	f	file:	signature:(void * arg)
+ProAckParameter	DJI_Pro_Link.h	/^typedef struct ProAckParameter$/;"	s
+ProAckParameter	DJI_Pro_Link.h	/^}ProAckParameter;$/;"	t	typeref:struct:ProAckParameter
+ProAckParameter::buf	DJI_Pro_Link.h	/^	unsigned char *buf;$/;"	m	struct:ProAckParameter	access:public
+ProAckParameter::length	DJI_Pro_Link.h	/^	unsigned int length;$/;"	m	struct:ProAckParameter	access:public
+ProAckParameter::need_encrypt	DJI_Pro_Link.h	/^	unsigned short need_encrypt : 8;$/;"	m	struct:ProAckParameter	access:public
+ProAckParameter::seq_num	DJI_Pro_Link.h	/^	unsigned short seq_num;$/;"	m	struct:ProAckParameter	access:public
+ProAckParameter::session_id	DJI_Pro_Link.h	/^	unsigned short session_id : 8;$/;"	m	struct:ProAckParameter	access:public
+ProHeader	DJI_Pro_Link.h	/^typedef struct ProHeader$/;"	s
+ProHeader	DJI_Pro_Link.h	/^}ProHeader;$/;"	t	typeref:struct:ProHeader
+ProHeader::enc_type	DJI_Pro_Link.h	/^	unsigned int enc_type : 3;$/;"	m	struct:ProHeader	access:public
+ProHeader::head_crc	DJI_Pro_Link.h	/^	unsigned int head_crc : 16;$/;"	m	struct:ProHeader	access:public
+ProHeader::is_ack	DJI_Pro_Link.h	/^	unsigned int is_ack : 1;$/;"	m	struct:ProHeader	access:public
+ProHeader::length	DJI_Pro_Link.h	/^	unsigned int length : 10;$/;"	m	struct:ProHeader	access:public
+ProHeader::magic	DJI_Pro_Link.h	/^	unsigned int magic[0];$/;"	m	struct:ProHeader	access:public
+ProHeader::padding	DJI_Pro_Link.h	/^	unsigned int padding : 5;$/;"	m	struct:ProHeader	access:public
+ProHeader::reversed0	DJI_Pro_Link.h	/^	unsigned int reversed0 : 2; 	\/\/ always 0$/;"	m	struct:ProHeader	access:public
+ProHeader::reversed1	DJI_Pro_Link.h	/^	unsigned int reversed1 : 24;$/;"	m	struct:ProHeader	access:public
+ProHeader::sequence_number	DJI_Pro_Link.h	/^	unsigned int sequence_number : 16;$/;"	m	struct:ProHeader	access:public
+ProHeader::session_id	DJI_Pro_Link.h	/^	unsigned int session_id : 5;$/;"	m	struct:ProHeader	access:public
+ProHeader::sof	DJI_Pro_Link.h	/^	unsigned int sof : 8; 			\/\/ 1byte$/;"	m	struct:ProHeader	access:public
+ProHeader::version	DJI_Pro_Link.h	/^	unsigned int version : 6; 		\/\/ 2byte$/;"	m	struct:ProHeader	access:public
+ProSendParameter	DJI_Pro_Link.h	/^typedef struct ProSendParameter$/;"	s
+ProSendParameter	DJI_Pro_Link.h	/^}ProSendParameter;$/;"	t	typeref:struct:ProSendParameter
+ProSendParameter::ack_callback	DJI_Pro_Link.h	/^	ACK_Callback_Func ack_callback;$/;"	m	struct:ProSendParameter	access:public
+ProSendParameter::ack_timeout	DJI_Pro_Link.h	/^	unsigned short ack_timeout;	\/\/unit is ms$/;"	m	struct:ProSendParameter	access:public
+ProSendParameter::buf	DJI_Pro_Link.h	/^	unsigned char *buf;$/;"	m	struct:ProSendParameter	access:public
+ProSendParameter::length	DJI_Pro_Link.h	/^	unsigned int length;$/;"	m	struct:ProSendParameter	access:public
+ProSendParameter::need_encrypt	DJI_Pro_Link.h	/^	unsigned short need_encrypt : 1;$/;"	m	struct:ProSendParameter	access:public
+ProSendParameter::retry_time	DJI_Pro_Link.h	/^	unsigned short retry_time : 13;$/;"	m	struct:ProSendParameter	access:public
+ProSendParameter::session_mode	DJI_Pro_Link.h	/^    unsigned short session_mode : 2;$/;"	m	struct:ProSendParameter	access:public
+Pro_Ack_Interface	DJI_Pro_Link.cpp	/^int Pro_Ack_Interface(ProAckParameter *parameter)$/;"	f	signature:(ProAckParameter *parameter)
+Pro_Ack_Interface	DJI_Pro_Link.h	/^int Pro_Ack_Interface(ProAckParameter *parameter);$/;"	p	signature:(ProAckParameter *parameter)
+Pro_App_Recv_Set_Hook	DJI_Pro_Link.cpp	/^void Pro_App_Recv_Set_Hook(Req_Callback_Func p_hook)$/;"	f	signature:(Req_Callback_Func p_hook)
+Pro_App_Recv_Set_Hook	DJI_Pro_Link.h	/^void Pro_App_Recv_Set_Hook(Req_Callback_Func p_hook);$/;"	p	signature:(Req_Callback_Func p_hook)
+Pro_Calc_Length	DJI_Pro_Link.cpp	/^static unsigned short Pro_Calc_Length(unsigned short size, unsigned short encrypt_flag)$/;"	f	file:	signature:(unsigned short size, unsigned short encrypt_flag)
+Pro_Config_Comm_Encrypt_Key	DJI_Pro_Link.cpp	/^void Pro_Config_Comm_Encrypt_Key(const char *key)$/;"	f	signature:(const char *key)
+Pro_Config_Comm_Encrypt_Key	DJI_Pro_Link.h	/^void Pro_Config_Comm_Encrypt_Key(const char *key);$/;"	p	signature:(const char *key)
+Pro_Encode_ACK	DJI_Pro_App.cpp	/^static unsigned char Pro_Encode_ACK[10];$/;"	v	file:
+Pro_Encode_Data	DJI_Pro_App.cpp	/^static unsigned char Pro_Encode_Data[1024];$/;"	v	file:
+Pro_Hw_Close	DJI_Pro_Hw.cpp	/^void DJI_Pro_Hw::Pro_Hw_Close()$/;"	f	class:DJI_Pro_Hw	signature:()
+Pro_Hw_Close	DJI_Pro_Hw.h	/^    void Pro_Hw_Close();$/;"	p	class:DJI_Pro_Hw	access:public	signature:()
+Pro_Hw_Create_Instance	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw * DJI_Pro_Hw::Pro_Hw_Create_Instance(void)$/;"	f	class:DJI_Pro_Hw	signature:(void)
+Pro_Hw_Create_Instance	DJI_Pro_Hw.h	/^    static DJI_Pro_Hw *Pro_Hw_Create_Instance(void);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(void)
+Pro_Hw_Flush	DJI_Pro_Hw.cpp	/^void DJI_Pro_Hw::Pro_Hw_Flush()$/;"	f	class:DJI_Pro_Hw	signature:()
+Pro_Hw_Flush	DJI_Pro_Hw.h	/^    void Pro_Hw_Flush();$/;"	p	class:DJI_Pro_Hw	access:public	signature:()
+Pro_Hw_Get_Instance	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw * DJI_Pro_Hw::Pro_Hw_Get_Instance(void)$/;"	f	class:DJI_Pro_Hw	signature:(void)
+Pro_Hw_Get_Instance	DJI_Pro_Hw.h	/^    static DJI_Pro_Hw *Pro_Hw_Get_Instance(void);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(void)
+Pro_Hw_Recv	DJI_Pro_Hw.cpp	/^int Pro_Hw_Recv(unsigned char *buf, int len)$/;"	f	signature:(unsigned char *buf, int len)
+Pro_Hw_Recv	DJI_Pro_Hw.cpp	/^void DJI_Pro_Hw::Pro_Hw_Recv()$/;"	f	class:DJI_Pro_Hw	signature:()
+Pro_Hw_Recv	DJI_Pro_Hw.h	/^    void Pro_Hw_Recv();$/;"	p	class:DJI_Pro_Hw	access:private	signature:()
+Pro_Hw_Recv	DJI_Pro_Hw.h	/^int Pro_Hw_Recv(unsigned char *buf, int len);$/;"	p	signature:(unsigned char *buf, int len)
+Pro_Hw_Send	DJI_Pro_Hw.cpp	/^int DJI_Pro_Hw::Pro_Hw_Send(unsigned char *buf, int len)$/;"	f	class:DJI_Pro_Hw	signature:(unsigned char *buf, int len)
+Pro_Hw_Send	DJI_Pro_Hw.cpp	/^int Pro_Hw_Send(unsigned char *buf, int len)$/;"	f	signature:(unsigned char *buf, int len)
+Pro_Hw_Send	DJI_Pro_Hw.h	/^    int Pro_Hw_Send(unsigned char *buf, int len);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(unsigned char *buf, int len)
+Pro_Hw_Send	DJI_Pro_Hw.h	/^int Pro_Hw_Send(unsigned char *buf, int len);$/;"	p	signature:(unsigned char *buf, int len)
+Pro_Hw_Setup	DJI_Pro_Hw.cpp	/^bool DJI_Pro_Hw::Pro_Hw_Setup(QString port_name,int baudrate)$/;"	f	class:DJI_Pro_Hw	signature:(QString port_name,int baudrate)
+Pro_Hw_Setup	DJI_Pro_Hw.cpp	/^int Pro_Hw_Setup(const char *device,int baudrate)$/;"	f	signature:(const char *device,int baudrate)
+Pro_Hw_Setup	DJI_Pro_Hw.h	/^    bool Pro_Hw_Setup(QString port_name,int baudrate);$/;"	p	class:DJI_Pro_Hw	access:public	signature:(QString port_name,int baudrate)
+Pro_Hw_Setup	DJI_Pro_Hw.h	/^int Pro_Hw_Setup(const char *device,int baudrate);$/;"	p	signature:(const char *device,int baudrate)
+Pro_Link_Recv_Hook	DJI_Pro_Link.cpp	/^void Pro_Link_Recv_Hook(ProHeader *header)$/;"	f	signature:(ProHeader *header)
+Pro_Link_Recv_Hook	DJI_Pro_Link.h	/^void Pro_Link_Recv_Hook(ProHeader *header);$/;"	p	signature:(ProHeader *header)
+Pro_Link_Setup	DJI_Pro_Link.cpp	/^void Pro_Link_Setup(void)$/;"	f	signature:(void)
+Pro_Link_Setup	DJI_Pro_Link.h	/^void Pro_Link_Setup(void);$/;"	p	signature:(void)
+Pro_Request_Interface	DJI_Pro_Link.cpp	/^void Pro_Request_Interface(ProHeader *header)$/;"	f	signature:(ProHeader *header)
+Pro_Request_Interface	DJI_Pro_Link.h	/^void Pro_Request_Interface(ProHeader *header);$/;"	p	signature:(ProHeader *header)
+Pro_Send_Interface	DJI_Pro_Link.cpp	/^int Pro_Send_Interface(ProSendParameter *parameter)$/;"	f	signature:(ProSendParameter *parameter)
+Pro_Send_Interface	DJI_Pro_Link.h	/^int  Pro_Send_Interface(ProSendParameter *parameter);$/;"	p	signature:(ProSendParameter *parameter)
+Pro_Send_Interface	DJI_Pro_Link.h	/^int Pro_Send_Interface(ProSendParameter *parameter);$/;"	p	signature:(ProSendParameter *parameter)
+REQ_REFUSE	DJI_Pro_App.h	230;"	d
+REQ_TIME_OUT	DJI_Pro_App.h	229;"	d
+Req_Callback_Func	DJI_Pro_Link.h	/^typedef void (*Req_Callback_Func)(ProHeader *pHeader);$/;"	t
+Request_ACK_Session	DJI_Pro_Rmu.cpp	/^ACK_Session_Tab * Request_ACK_Session(unsigned short session_id,unsigned short size)$/;"	f	signature:(unsigned short session_id,unsigned short size)
+Request_ACK_Session	DJI_Pro_Rmu.h	/^extern ACK_Session_Tab * Request_ACK_Session(unsigned short session_id,unsigned short size);$/;"	p	signature:(unsigned short session_id,unsigned short size)
+Request_CMD_Session	DJI_Pro_Rmu.cpp	/^CMD_Session_Tab * Request_CMD_Session(unsigned short session_id,unsigned short size)$/;"	f	signature:(unsigned short session_id,unsigned short size)
+Request_CMD_Session	DJI_Pro_Rmu.h	/^extern CMD_Session_Tab * Request_CMD_Session(unsigned short session_id,unsigned short size);$/;"	p	signature:(unsigned short session_id,unsigned short size)
+Request_Memory	DJI_Pro_Rmu.cpp	/^MMU_Tab * Request_Memory(unsigned short size)$/;"	f	signature:(unsigned short size)
+Request_Memory	DJI_Pro_Rmu.h	/^extern MMU_Tab * Request_Memory(unsigned short size);$/;"	p	signature:(unsigned short size)
+SDKFilter	DJI_Pro_Codec.h	/^} SDKFilter;$/;"	t	typeref:struct:__anon19
+SDKHeader	DJI_Pro_Codec.h	/^} SDKHeader;$/;"	t	typeref:struct:__anon18
+SDK_ACTIVATE_DATA_ENC_ERROR	DJI_Pro_App.h	262;"	d
+SDK_ACTIVATE_DIJ_APP_NO_INTERNET	DJI_Pro_App.h	265;"	d
+SDK_ACTIVATE_DJI_APP_NOT_CONNECT	DJI_Pro_App.h	264;"	d
+SDK_ACTIVATE_LEVEL_ERROR	DJI_Pro_App.h	267;"	d
+SDK_ACTIVATE_NEW_DEVICE	DJI_Pro_App.h	263;"	d
+SDK_ACTIVATE_PARAM_ERROR	DJI_Pro_App.h	261;"	d
+SDK_ACTIVATE_SDK_VERSION_ERROR	DJI_Pro_App.h	268;"	d
+SDK_ACTIVATE_SERVER_REFUSED	DJI_Pro_App.h	266;"	d
+SDK_ACTIVATE_SUCCESS	DJI_Pro_App.h	260;"	d
+SDK_ERR_COMMAND_NOT_SUPPORTED	DJI_Pro_App.h	255;"	d
+SDK_ERR_NO_AUTHORIZED	DJI_Pro_App.h	256;"	d
+SDK_ERR_NO_RESPONSE	DJI_Pro_App.h	258;"	d
+SDK_ERR_NO_RIGHTS	DJI_Pro_App.h	257;"	d
+SDK_ERR_SUCCESS	DJI_Pro_App.h	254;"	d
+SDK_VERSION	DJI_Pro_App.h	66;"	d
+SESSION_TABLE_NUM	DJI_Pro_Rmu.h	32;"	d
+SET_CMD_SIZE	DJI_Pro_App.h	224;"	d
+STATIC_MEMORY_SIZE	DJI_Pro_Rmu.h	17;"	d
+STATUS_CMD_EXECUTING	DJI_Pro_App.h	232;"	d
+STATUS_CMD_EXE_FAIL	DJI_Pro_App.h	233;"	d
+STATUS_CMD_EXE_SUCCESS	DJI_Pro_App.h	234;"	d
+Save_Status_Ctrl_Return_Code	DJI_Pro_App.cpp	/^static void Save_Status_Ctrl_Return_Code(unsigned short ret_code)$/;"	f	file:	signature:(unsigned short ret_code)
+Send_Poll	DJI_Pro_Link.cpp	/^static void Send_Poll(void)$/;"	f	file:	signature:(void)
+Send_Pro_Data	DJI_Pro_Link.cpp	/^static void Send_Pro_Data(unsigned char *buf)$/;"	f	file:	signature:(unsigned char *buf)
+SerialClose	DJI_Pro_Hw.cpp	/^int SerialClose()$/;"	f	signature:()
+SerialConfig	DJI_Pro_Hw.cpp	/^int SerialConfig(int baudrate,char data_bits,char parity_bits,char stop_bits)$/;"	f	signature:(int baudrate,char data_bits,char parity_bits,char stop_bits)
+SerialFlush	DJI_Pro_Hw.cpp	/^int SerialFlush()$/;"	f	signature:()
+SerialOpen	DJI_Pro_Hw.cpp	/^int SerialOpen(const char *port_str)$/;"	f	signature:(const char *port_str)
+SerialRead	DJI_Pro_Hw.cpp	/^static int SerialRead(unsigned char *buf,int len)$/;"	f	file:	signature:(unsigned char *buf,int len)
+SerialRecvThread	DJI_Pro_Hw.cpp	/^static void * SerialRecvThread(void * arg)$/;"	f	file:	signature:(void * arg)
+SerialStart	DJI_Pro_Hw.cpp	/^static int SerialStart(const char *dev_name,int baud_rate)$/;"	f	file:	signature:(const char *dev_name,int baud_rate)
+SerialStartThread	DJI_Pro_Hw.cpp	/^int SerialStartThread(void)$/;"	f	signature:(void)
+SerialWrite	DJI_Pro_Hw.cpp	/^static int SerialWrite(unsigned char *buf,int len)$/;"	f	file:	signature:(unsigned char *buf,int len)
+Session_Setup	DJI_Pro_Rmu.cpp	/^void Session_Setup(void)$/;"	f	signature:(void)
+Session_Setup	DJI_Pro_Rmu.h	/^extern void Session_Setup(void);$/;"	p	signature:(void)
+Start_PollThread	DJI_Pro_Link.cpp	/^static int Start_PollThread(void)$/;"	f	file:	signature:(void)
+Static_Memory	DJI_Pro_Rmu.cpp	/^static unsigned char Static_Memory[STATIC_MEMORY_SIZE];$/;"	v	file:
+Status_Ctrl_Thread_Func	DJI_Pro_App.cpp	/^static void * Status_Ctrl_Thread_Func(void * arg)$/;"	f	file:	signature:(void * arg)
+Test_ACK_Callback	DJI_Pro_Link.cpp	/^void Test_ACK_Callback(ProHeader *header)$/;"	f	signature:(ProHeader *header)
+Test_Pro_Link	DJI_Pro_Link.cpp	/^void Test_Pro_Link(void)$/;"	f	signature:(void)
+Test_Pro_Link	DJI_Pro_Link.h	/^void Test_Pro_Link(void);$/;"	p	signature:(void)
+Transparent_Transmission_Func	DJI_Pro_App.h	/^typedef void (*Transparent_Transmission_Func)(unsigned char *buf,unsigned char len);$/;"	t
+User_Handler_Func	DJI_Pro_App.h	/^typedef void (*User_Handler_Func)(ProHeader *pHeader);$/;"	t
+VERT_POS	DJI_Pro_App.h	53;"	d
+VERT_TRU	DJI_Pro_App.h	54;"	d
+VERT_VEL	DJI_Pro_App.h	52;"	d
+YAW_ANG	DJI_Pro_App.h	56;"	d
+YAW_BODY	DJI_Pro_App.h	63;"	d
+YAW_GND	DJI_Pro_App.h	62;"	d
+YAW_RATE	DJI_Pro_App.h	57;"	d
+_SDK_CALC_CRC_HEAD	DJI_Pro_Codec.h	20;"	d
+_SDK_CALC_CRC_TAIL	DJI_Pro_Codec.h	21;"	d
+_SDK_CRC_DATA_SIZE	DJI_Pro_Codec.h	13;"	d
+_SDK_CRC_HEAD_SIZE	DJI_Pro_Codec.h	12;"	d
+_SDK_FULL_DATA_SIZE_MIN	DJI_Pro_Codec.h	15;"	d
+_SDK_HEAD_DATA_LEN	DJI_Pro_Codec.h	14;"	d
+_SDK_MAX_RECV_SIZE	DJI_Pro_Codec.h	10;"	d
+_SDK_SOF	DJI_Pro_Codec.h	11;"	d
+_SDK_U16_SET	DJI_Pro_Codec.h	18;"	d
+_SDK_U32_SET	DJI_Pro_Codec.h	17;"	d
+__DJI_PRO_APP_H__	DJI_Pro_App.h	8;"	d
+__DJI_PRO_CODEC_H__	DJI_Pro_Codec.h	2;"	d
+__DJI_PRO_CONFIG_H__	DJI_Pro_Config.h	2;"	d
+__DJI_PRO_HW_H__	DJI_Pro_Hw.h	2;"	d
+__anon10::x	DJI_Pro_App.h	/^    signed short x;$/;"	m	struct:__anon10	access:public
+__anon10::y	DJI_Pro_App.h	/^    signed short y;$/;"	m	struct:__anon10	access:public
+__anon10::z	DJI_Pro_App.h	/^    signed short z;$/;"	m	struct:__anon10	access:public
+__anon11::cur_ctrl_dev_in_navi_mode	DJI_Pro_App.h	/^    unsigned char cur_ctrl_dev_in_navi_mode   :3;\/*0->rc  1->app  2->serial*\/$/;"	m	struct:__anon11	access:public
+__anon11::reserved	DJI_Pro_App.h	/^    unsigned char reserved                    :4;$/;"	m	struct:__anon11	access:public
+__anon11::serial_req_status	DJI_Pro_App.h	/^    unsigned char serial_req_status           :1;\/*1->opensd  0->close*\/$/;"	m	struct:__anon11	access:public
+__anon12::a	DJI_Pro_App.h	/^    api_common_data_t a;$/;"	m	struct:__anon12	access:public
+__anon12::activation	DJI_Pro_App.h	/^	 uint8_t activation;$/;"	m	struct:__anon12	access:public
+__anon12::battery_remaining_capacity	DJI_Pro_App.h	/^    unsigned char battery_remaining_capacity;$/;"	m	struct:__anon12	access:public
+__anon12::ctrl_info	DJI_Pro_App.h	/^    api_ctrl_info_data_t ctrl_info;$/;"	m	struct:__anon12	access:public
+__anon12::gimbal	DJI_Pro_App.h	/^    api_common_data_t gimbal;$/;"	m	struct:__anon12	access:public
+__anon12::mag	DJI_Pro_App.h	/^    api_mag_data_t mag;$/;"	m	struct:__anon12	access:public
+__anon12::obtained_control	DJI_Pro_App.h	/^    uint8_t obtained_control;$/;"	m	struct:__anon12	access:public
+__anon12::pos	DJI_Pro_App.h	/^    api_pos_data_t pos;$/;"	m	struct:__anon12	access:public
+__anon12::q	DJI_Pro_App.h	/^    api_quaternion_data_t q;$/;"	m	struct:__anon12	access:public
+__anon12::rc	DJI_Pro_App.h	/^    api_rc_data_t rc;$/;"	m	struct:__anon12	access:public
+__anon12::status	DJI_Pro_App.h	/^    unsigned char status;$/;"	m	struct:__anon12	access:public
+__anon12::time_stamp	DJI_Pro_App.h	/^    unsigned int time_stamp;$/;"	m	struct:__anon12	access:public
+__anon12::v	DJI_Pro_App.h	/^    api_vel_data_t v;$/;"	m	struct:__anon12	access:public
+__anon12::w	DJI_Pro_App.h	/^    api_common_data_t w;$/;"	m	struct:__anon12	access:public
+__anon13::need_encrypt	DJI_Pro_App.h	/^    unsigned char	need_encrypt	: 1;$/;"	m	struct:__anon13	access:public
+__anon13::reserve	DJI_Pro_App.h	/^    unsigned char	reserve	   	: 2;$/;"	m	struct:__anon13	access:public
+__anon13::sequence_number	DJI_Pro_App.h	/^    unsigned short	sequence_number;$/;"	m	struct:__anon13	access:public
+__anon13::session_id	DJI_Pro_App.h	/^    unsigned char	session_id 	: 5;$/;"	m	struct:__anon13	access:public
+__anon14::cmd_data	DJI_Pro_App.h	/^    unsigned char cmd_data;$/;"	m	struct:__anon14	access:public
+__anon14::cmd_sequence	DJI_Pro_App.h	/^    unsigned char cmd_sequence;$/;"	m	struct:__anon14	access:public
+__anon15::app_api_level	DJI_Pro_App.h	/^    unsigned int	app_api_level;$/;"	m	struct:__anon15	access:public
+__anon15::app_bundle_id	DJI_Pro_App.h	/^    unsigned char	app_bundle_id[32];$/;"	m	struct:__anon15	access:public
+__anon15::app_id	DJI_Pro_App.h	/^    unsigned int	app_id;$/;"	m	struct:__anon15	access:public
+__anon15::app_key	DJI_Pro_App.h	/^    char *app_key;$/;"	m	struct:__anon15	access:public
+__anon15::app_ver	DJI_Pro_App.h	/^    unsigned int	app_ver;$/;"	m	struct:__anon15	access:public
+__anon16::version_ack	DJI_Pro_App.h	/^    unsigned short	version_ack;$/;"	m	struct:__anon16	access:public
+__anon16::version_crc	DJI_Pro_App.h	/^    unsigned int	version_crc;$/;"	m	struct:__anon16	access:public
+__anon16::version_name	DJI_Pro_App.h	/^    char     	version_name[32];$/;"	m	struct:__anon16	access:public
+__anon17::ctrl_flag	DJI_Pro_App.h	/^    unsigned char ctrl_flag;$/;"	m	struct:__anon17	access:public
+__anon17::pitch_or_y	DJI_Pro_App.h	/^    float	pitch_or_y;$/;"	m	struct:__anon17	access:public
+__anon17::roll_or_x	DJI_Pro_App.h	/^    float 	roll_or_x;$/;"	m	struct:__anon17	access:public
+__anon17::thr_z	DJI_Pro_App.h	/^    float	thr_z;$/;"	m	struct:__anon17	access:public
+__anon17::yaw	DJI_Pro_App.h	/^    float	yaw;$/;"	m	struct:__anon17	access:public
+__anon18::enc_type	DJI_Pro_Codec.h	/^	unsigned int enc_type : 3;$/;"	m	struct:__anon18	access:public
+__anon18::head_crc	DJI_Pro_Codec.h	/^	unsigned int head_crc : 16;$/;"	m	struct:__anon18	access:public
+__anon18::is_ack	DJI_Pro_Codec.h	/^	unsigned int is_ack : 1;$/;"	m	struct:__anon18	access:public
+__anon18::length	DJI_Pro_Codec.h	/^	unsigned int length : 10;$/;"	m	struct:__anon18	access:public
+__anon18::magic	DJI_Pro_Codec.h	/^	unsigned int magic[0];$/;"	m	struct:__anon18	access:public
+__anon18::padding	DJI_Pro_Codec.h	/^	unsigned int padding : 5;$/;"	m	struct:__anon18	access:public
+__anon18::reversed0	DJI_Pro_Codec.h	/^	unsigned int reversed0 : 2; \/\/ always 0$/;"	m	struct:__anon18	access:public
+__anon18::reversed1	DJI_Pro_Codec.h	/^	unsigned int reversed1 : 24;$/;"	m	struct:__anon18	access:public
+__anon18::sequence_number	DJI_Pro_Codec.h	/^	unsigned int sequence_number : 16;$/;"	m	struct:__anon18	access:public
+__anon18::session_id	DJI_Pro_Codec.h	/^	unsigned int session_id : 5;$/;"	m	struct:__anon18	access:public
+__anon18::sof	DJI_Pro_Codec.h	/^	unsigned int sof : 8; \/\/ 1byte$/;"	m	struct:__anon18	access:public
+__anon18::version	DJI_Pro_Codec.h	/^	unsigned int version : 6; \/\/ 2byte$/;"	m	struct:__anon18	access:public
+__anon19::comm_key	DJI_Pro_Codec.h	/^    unsigned char         comm_key[32];$/;"	m	struct:__anon19	access:public
+__anon19::comm_recv_buf	DJI_Pro_Codec.h	/^	unsigned char comm_recv_buf[_SDK_MAX_RECV_SIZE];$/;"	m	struct:__anon19	access:public
+__anon19::enc_enabled	DJI_Pro_Codec.h	/^    unsigned char         enc_enabled;$/;"	m	struct:__anon19	access:public
+__anon19::recv_index	DJI_Pro_Codec.h	/^	unsigned short recv_index;$/;"	m	struct:__anon19	access:public
+__anon19::reuse_count	DJI_Pro_Codec.h	/^	unsigned short reuse_count;$/;"	m	struct:__anon19	access:public
+__anon19::reuse_index	DJI_Pro_Codec.h	/^	unsigned short reuse_index;$/;"	m	struct:__anon19	access:public
+__anon1::__anon2::base	DJI_Pro_App.h	/^        unsigned char base : 1;$/;"	m	struct:__anon1::__anon2	access:public
+__anon1::__anon2::pitch_cmd_ignore	DJI_Pro_App.h	/^        unsigned char pitch_cmd_ignore : 1;$/;"	m	struct:__anon1::__anon2	access:public
+__anon1::__anon2::reserve	DJI_Pro_App.h	/^        unsigned char reserve : 4;$/;"	m	struct:__anon1::__anon2	access:public
+__anon1::__anon2::roll_cmd_ignore	DJI_Pro_App.h	/^        unsigned char roll_cmd_ignore : 1;$/;"	m	struct:__anon1::__anon2	access:public
+__anon1::__anon2::yaw_cmd_ignore	DJI_Pro_App.h	/^        unsigned char yaw_cmd_ignore : 1;$/;"	m	struct:__anon1::__anon2	access:public
+__anon1::ctrl_byte	DJI_Pro_App.h	/^    }ctrl_byte;$/;"	m	struct:__anon1	typeref:struct:__anon1::__anon2	access:public
+__anon1::duration	DJI_Pro_App.h	/^    unsigned char duration;$/;"	m	struct:__anon1	access:public
+__anon1::pitch_angle	DJI_Pro_App.h	/^    signed short pitch_angle;$/;"	m	struct:__anon1	access:public
+__anon1::roll_angle	DJI_Pro_App.h	/^    signed short roll_angle;$/;"	m	struct:__anon1	access:public
+__anon1::yaw_angle	DJI_Pro_App.h	/^    signed short yaw_angle;$/;"	m	struct:__anon1	access:public
+__anon20::baudrate	DJI_Pro_Hw.cpp	/^    int baudrate;$/;"	m	struct:__anon20	file:	access:public
+__anon20::index	DJI_Pro_Hw.cpp	/^    int index;$/;"	m	struct:__anon20	file:	access:public
+__anon3::__anon4::ctrl_switch	DJI_Pro_App.h	/^        unsigned char ctrl_switch : 1;\/\/decide increment mode or absolute mode$/;"	m	struct:__anon3::__anon4	access:public
+__anon3::__anon4::reserve	DJI_Pro_App.h	/^        unsigned char reserve : 7;$/;"	m	struct:__anon3::__anon4	access:public
+__anon3::ctrl_byte	DJI_Pro_App.h	/^    }ctrl_byte;$/;"	m	struct:__anon3	typeref:struct:__anon3::__anon4	access:public
+__anon3::pitch_angle_rate	DJI_Pro_App.h	/^    signed short pitch_angle_rate;$/;"	m	struct:__anon3	access:public
+__anon3::roll_angle_rate	DJI_Pro_App.h	/^    signed short roll_angle_rate;$/;"	m	struct:__anon3	access:public
+__anon3::yaw_angle_rate	DJI_Pro_App.h	/^    signed short yaw_angle_rate;$/;"	m	struct:__anon3	access:public
+__anon5::q0	DJI_Pro_App.h	/^    fp32 q0;$/;"	m	struct:__anon5	access:public
+__anon5::q1	DJI_Pro_App.h	/^    fp32 q1;$/;"	m	struct:__anon5	access:public
+__anon5::q2	DJI_Pro_App.h	/^    fp32 q2;$/;"	m	struct:__anon5	access:public
+__anon5::q3	DJI_Pro_App.h	/^    fp32 q3;$/;"	m	struct:__anon5	access:public
+__anon6::x	DJI_Pro_App.h	/^    fp32 x;$/;"	m	struct:__anon6	access:public
+__anon6::y	DJI_Pro_App.h	/^    fp32 y;$/;"	m	struct:__anon6	access:public
+__anon6::z	DJI_Pro_App.h	/^    fp32 z;$/;"	m	struct:__anon6	access:public
+__anon7::feedback_sensor_id	DJI_Pro_App.h	/^    unsigned char feedback_sensor_id  :4;$/;"	m	struct:__anon7	access:public
+__anon7::health_flag	DJI_Pro_App.h	/^    unsigned char health_flag         :1;$/;"	m	struct:__anon7	access:public
+__anon7::reserve	DJI_Pro_App.h	/^    unsigned char reserve             :3;$/;"	m	struct:__anon7	access:public
+__anon7::x	DJI_Pro_App.h	/^    fp32 x;$/;"	m	struct:__anon7	access:public
+__anon7::y	DJI_Pro_App.h	/^    fp32 y;$/;"	m	struct:__anon7	access:public
+__anon7::z	DJI_Pro_App.h	/^    fp32 z;$/;"	m	struct:__anon7	access:public
+__anon8::alti	DJI_Pro_App.h	/^    fp32 alti;$/;"	m	struct:__anon8	access:public
+__anon8::health_flag	DJI_Pro_App.h	/^    unsigned char health_flag;$/;"	m	struct:__anon8	access:public
+__anon8::height	DJI_Pro_App.h	/^    fp32 height;$/;"	m	struct:__anon8	access:public
+__anon8::lati	DJI_Pro_App.h	/^    fp64 lati;$/;"	m	struct:__anon8	access:public
+__anon8::longti	DJI_Pro_App.h	/^    fp64 longti;$/;"	m	struct:__anon8	access:public
+__anon9::gear	DJI_Pro_App.h	/^    signed short gear;$/;"	m	struct:__anon9	access:public
+__anon9::mode	DJI_Pro_App.h	/^    signed short mode;$/;"	m	struct:__anon9	access:public
+__anon9::pitch	DJI_Pro_App.h	/^    signed short pitch;$/;"	m	struct:__anon9	access:public
+__anon9::roll	DJI_Pro_App.h	/^    signed short roll;$/;"	m	struct:__anon9	access:public
+__anon9::throttle	DJI_Pro_App.h	/^    signed short throttle;$/;"	m	struct:__anon9	access:public
+__anon9::yaw	DJI_Pro_App.h	/^    signed short yaw;$/;"	m	struct:__anon9	access:public
+a	DJI_Pro_App.h	/^    api_common_data_t a;$/;"	m	struct:__anon12	access:public
+ack_callback	DJI_Pro_Link.h	/^	ACK_Callback_Func ack_callback;$/;"	m	struct:ProSendParameter	access:public
+ack_callback	DJI_Pro_Rmu.h	/^	ACK_Callback_Func ack_callback;$/;"	m	struct:CMD_Session_Tab	access:public
+ack_timeout	DJI_Pro_Link.h	/^	unsigned short ack_timeout;	\/\/unit is ms$/;"	m	struct:ProSendParameter	access:public
+ack_timeout	DJI_Pro_Rmu.h	/^	unsigned int ack_timeout : 16;$/;"	m	struct:CMD_Session_Tab	access:public
+activate_api_lock	DJI_Pro_App.cpp	/^static int activate_api_lock = -1;$/;"	v	file:
+activate_data_t	DJI_Pro_App.h	/^}activate_data_t;$/;"	t	typeref:struct:__anon15
+activation	DJI_Pro_App.h	/^	 uint8_t activation;$/;"	m	struct:__anon12	access:public
+aes256_context	DJI_Pro_Codec.cpp	/^} aes256_context;$/;"	t	typeref:struct:tagAES256Context	file:
+aes256_decrypt_ecb	DJI_Pro_Codec.cpp	/^void aes256_decrypt_ecb(aes256_context *ctx, unsigned char *buf)$/;"	f	signature:(aes256_context *ctx, unsigned char *buf)
+aes256_done	DJI_Pro_Codec.cpp	/^void aes256_done(aes256_context *ctx)$/;"	f	signature:(aes256_context *ctx)
+aes256_encrypt_ecb	DJI_Pro_Codec.cpp	/^void aes256_encrypt_ecb(aes256_context *ctx, unsigned char *buf)$/;"	f	signature:(aes256_context *ctx, unsigned char *buf)
+aes256_init	DJI_Pro_Codec.cpp	/^void aes256_init(aes256_context *ctx, unsigned char *k)$/;"	f	signature:(aes256_context *ctx, unsigned char *k)
+aes_addRoundKey	DJI_Pro_Codec.cpp	/^void aes_addRoundKey(unsigned char *buf, unsigned char *key)$/;"	f	signature:(unsigned char *buf, unsigned char *key)
+aes_addRoundKey_cpy	DJI_Pro_Codec.cpp	/^void aes_addRoundKey_cpy(unsigned char *buf, unsigned char *key, unsigned char *cpk)$/;"	f	signature:(unsigned char *buf, unsigned char *key, unsigned char *cpk)
+aes_expandDecKey	DJI_Pro_Codec.cpp	/^void aes_expandDecKey(unsigned char *k, unsigned char *rc)$/;"	f	signature:(unsigned char *k, unsigned char *rc)
+aes_expandEncKey	DJI_Pro_Codec.cpp	/^void aes_expandEncKey(unsigned char *k, unsigned char *rc)$/;"	f	signature:(unsigned char *k, unsigned char *rc)
+aes_mixColumns	DJI_Pro_Codec.cpp	/^void aes_mixColumns(unsigned char *buf)$/;"	f	signature:(unsigned char *buf)
+aes_mixColumns_inv	DJI_Pro_Codec.cpp	/^void aes_mixColumns_inv(unsigned char *buf)$/;"	f	signature:(unsigned char *buf)
+aes_shiftRows	DJI_Pro_Codec.cpp	/^void aes_shiftRows(unsigned char *buf)$/;"	f	signature:(unsigned char *buf)
+aes_shiftRows_inv	DJI_Pro_Codec.cpp	/^void aes_shiftRows_inv(unsigned char *buf)$/;"	f	signature:(unsigned char *buf)
+aes_subBytes	DJI_Pro_Codec.cpp	/^void aes_subBytes(unsigned char *buf)$/;"	f	signature:(unsigned char *buf)
+aes_subBytes_inv	DJI_Pro_Codec.cpp	/^void aes_subBytes_inv(unsigned char *buf)$/;"	f	signature:(unsigned char *buf)
+alti	DJI_Pro_App.h	/^    fp32 alti;$/;"	m	struct:__anon8	access:public
+api_common_data_t	DJI_Pro_App.h	/^}api_common_data_t;$/;"	t	typeref:struct:__anon6
+api_ctrl_info_data_t	DJI_Pro_App.h	/^}api_ctrl_info_data_t;$/;"	t	typeref:struct:__anon11
+api_mag_data_t	DJI_Pro_App.h	/^}api_mag_data_t;$/;"	t	typeref:struct:__anon10
+api_pos_data_t	DJI_Pro_App.h	/^}api_pos_data_t;$/;"	t	typeref:struct:__anon8
+api_quaternion_data_t	DJI_Pro_App.h	/^}api_quaternion_data_t;$/;"	t	typeref:struct:__anon5
+api_rc_data_t	DJI_Pro_App.h	/^}api_rc_data_t;$/;"	t	typeref:struct:__anon9
+api_vel_data_t	DJI_Pro_App.h	/^}api_vel_data_t;$/;"	t	typeref:struct:__anon7
+app_api_level	DJI_Pro_App.h	/^    unsigned int	app_api_level;$/;"	m	struct:__anon15	access:public
+app_bundle_id	DJI_Pro_App.h	/^    unsigned char	app_bundle_id[32];$/;"	m	struct:__anon15	access:public
+app_id	DJI_Pro_App.h	/^    unsigned int	app_id;$/;"	m	struct:__anon15	access:public
+app_key	DJI_Pro_App.h	/^    char *app_key;$/;"	m	struct:__anon15	access:public
+app_ver	DJI_Pro_App.h	/^    unsigned int	app_ver;$/;"	m	struct:__anon15	access:public
+attitude_data_t	DJI_Pro_App.h	/^}attitude_data_t;$/;"	t	typeref:struct:__anon17
+base	DJI_Pro_App.h	/^        unsigned char base : 1;$/;"	m	struct:__anon1::__anon2	access:public
+battery_remaining_capacity	DJI_Pro_App.h	/^    unsigned char battery_remaining_capacity;$/;"	m	struct:__anon12	access:public
+baud_index_t	DJI_Pro_Hw.cpp	/^Baud_index baud_index_t[] =$/;"	v
+baudrate	DJI_Pro_Hw.cpp	/^    int baudrate;$/;"	m	struct:__anon20	file:	access:public
+buf	DJI_Pro_Link.h	/^	unsigned char *buf;$/;"	m	struct:ProAckParameter	access:public
+buf	DJI_Pro_Link.h	/^	unsigned char *buf;$/;"	m	struct:ProSendParameter	access:public
+cmd_agency_data_t	DJI_Pro_App.h	/^}cmd_agency_data_t;$/;"	t	typeref:struct:__anon14
+cmd_data	DJI_Pro_App.h	/^    unsigned char cmd_data;$/;"	m	struct:__anon14	access:public
+cmd_sequence	DJI_Pro_App.h	/^    unsigned char cmd_sequence;$/;"	m	struct:__anon14	access:public
+comm_key	DJI_Pro_Codec.h	/^    unsigned char         comm_key[32];$/;"	m	struct:__anon19	access:public
+comm_recv_buf	DJI_Pro_Codec.h	/^	unsigned char comm_recv_buf[_SDK_MAX_RECV_SIZE];$/;"	m	struct:__anon19	access:public
+crc16_update	DJI_Pro_Codec.cpp	/^unsigned short crc16_update(unsigned short crc, unsigned char ch)$/;"	f	signature:(unsigned short crc, unsigned char ch)
+crc32_update	DJI_Pro_Codec.cpp	/^unsigned int crc32_update(unsigned int crc, unsigned char ch)$/;"	f	signature:(unsigned int crc, unsigned char ch)
+crc_tab16	DJI_Pro_Codec.cpp	/^unsigned short crc_tab16[] =$/;"	v
+crc_tab32	DJI_Pro_Codec.cpp	/^unsigned int crc_tab32[] =$/;"	v
+ctrl_byte	DJI_Pro_App.h	/^    }ctrl_byte;$/;"	m	struct:__anon1	typeref:struct:__anon1::__anon2	access:public
+ctrl_byte	DJI_Pro_App.h	/^    }ctrl_byte;$/;"	m	struct:__anon3	typeref:struct:__anon3::__anon4	access:public
+ctrl_flag	DJI_Pro_App.h	/^    unsigned char ctrl_flag;$/;"	m	struct:__anon17	access:public
+ctrl_info	DJI_Pro_App.h	/^    api_ctrl_info_data_t ctrl_info;$/;"	m	struct:__anon12	access:public
+ctrl_switch	DJI_Pro_App.h	/^        unsigned char ctrl_switch : 1;\/\/decide increment mode or absolute mode$/;"	m	struct:__anon3::__anon4	access:public
+cur_ctrl_dev_in_navi_mode	DJI_Pro_App.h	/^    unsigned char cur_ctrl_dev_in_navi_mode   :3;\/*0->rc  1->app  2->serial*\/$/;"	m	struct:__anon11	access:public
+deckey	DJI_Pro_Codec.cpp	/^    unsigned char deckey[32];$/;"	m	struct:tagAES256Context	file:	access:public
+duration	DJI_Pro_App.h	/^    unsigned char duration;$/;"	m	struct:__anon1	access:public
+enc_enabled	DJI_Pro_Codec.h	/^    unsigned char         enc_enabled;$/;"	m	struct:__anon19	access:public
+enc_type	DJI_Pro_Codec.h	/^	unsigned int enc_type : 3;$/;"	m	struct:__anon18	access:public
+enc_type	DJI_Pro_Link.h	/^	unsigned int enc_type : 3;$/;"	m	struct:ProHeader	access:public
+enckey	DJI_Pro_Codec.cpp	/^    unsigned char enckey[32];$/;"	m	struct:tagAES256Context	file:	access:public
+feedback_sensor_id	DJI_Pro_App.h	/^    unsigned char feedback_sensor_id  :4;$/;"	m	struct:__anon7	access:public
+findindex	DJI_Pro_Hw.cpp	/^int DJI_Pro_Hw::findindex(int baudrate)$/;"	f	class:DJI_Pro_Hw	signature:(int baudrate)
+findindex	DJI_Pro_Hw.h	/^    int findindex(int);$/;"	p	class:DJI_Pro_Hw	access:private	signature:(int)
+fp32	DJI_Pro_App.h	/^typedef float 	fp32;$/;"	t
+fp64	DJI_Pro_App.h	/^typedef double	fp64;$/;"	t
+from_user_account_data	DJI_Pro_App.cpp	/^static activate_data_t from_user_account_data;$/;"	v	file:
+gear	DJI_Pro_App.h	/^    signed short gear;$/;"	m	struct:__anon9	access:public
+get_api_ver_lock	DJI_Pro_App.cpp	/^static int get_api_ver_lock = -1;$/;"	v	file:
+gf_alog	DJI_Pro_Codec.cpp	/^unsigned char gf_alog(unsigned char x) \/\/ calculate anti-logarithm gen 3$/;"	f	signature:(unsigned char x)
+gf_log	DJI_Pro_Codec.cpp	/^unsigned char gf_log(unsigned char x) \/\/ calculate logarithm gen 3$/;"	f	signature:(unsigned char x)
+gf_mulinv	DJI_Pro_Codec.cpp	/^unsigned char gf_mulinv(unsigned char x) \/\/ calculate multiplicative inverse$/;"	f	signature:(unsigned char x)
+gimbal	DJI_Pro_App.h	/^    api_common_data_t gimbal;$/;"	m	struct:__anon12	access:public
+gimbal_custom_control_angle_t	DJI_Pro_App.h	/^}gimbal_custom_control_angle_t;$/;"	t	typeref:struct:__anon1
+gimbal_custom_speed_t	DJI_Pro_App.h	/^}gimbal_custom_speed_t;$/;"	t	typeref:struct:__anon3
+head_crc	DJI_Pro_Codec.h	/^	unsigned int head_crc : 16;$/;"	m	struct:__anon18	access:public
+head_crc	DJI_Pro_Link.h	/^	unsigned int head_crc : 16;$/;"	m	struct:ProHeader	access:public
+health_flag	DJI_Pro_App.h	/^    unsigned char health_flag         :1;$/;"	m	struct:__anon7	access:public
+health_flag	DJI_Pro_App.h	/^    unsigned char health_flag;$/;"	m	struct:__anon8	access:public
+height	DJI_Pro_App.h	/^    fp32 height;$/;"	m	struct:__anon8	access:public
+index	DJI_Pro_Hw.cpp	/^    int index;$/;"	m	struct:__anon20	file:	access:public
+is_ack	DJI_Pro_Codec.h	/^	unsigned int is_ack : 1;$/;"	m	struct:__anon18	access:public
+is_ack	DJI_Pro_Link.h	/^	unsigned int is_ack : 1;$/;"	m	struct:ProHeader	access:public
+key	DJI_Pro_Codec.cpp	/^    unsigned char key[32];$/;"	m	struct:tagAES256Context	file:	access:public
+lati	DJI_Pro_App.h	/^    fp64 lati;$/;"	m	struct:__anon8	access:public
+length	DJI_Pro_Codec.h	/^	unsigned int length : 10;$/;"	m	struct:__anon18	access:public
+length	DJI_Pro_Link.h	/^	unsigned int length : 10;$/;"	m	struct:ProHeader	access:public
+length	DJI_Pro_Link.h	/^	unsigned int length;$/;"	m	struct:ProAckParameter	access:public
+length	DJI_Pro_Link.h	/^	unsigned int length;$/;"	m	struct:ProSendParameter	access:public
+load_con	DJI_Pro_Hw.h	/^    int load_con;$/;"	m	class:DJI_Pro_Hw	access:public
+longti	DJI_Pro_App.h	/^    fp64 longti;$/;"	m	struct:__anon8	access:public
+mag	DJI_Pro_App.h	/^    api_mag_data_t mag;$/;"	m	struct:__anon12	access:public
+magic	DJI_Pro_Codec.h	/^	unsigned int magic[0];$/;"	m	struct:__anon18	access:public
+magic	DJI_Pro_Link.h	/^	unsigned int magic[0];$/;"	m	struct:ProHeader	access:public
+mem_size	DJI_Pro_Rmu.h	/^	unsigned int mem_size : 16;$/;"	m	struct:MMU_Tab	access:public
+mmu	DJI_Pro_Rmu.h	/^	MMU_Tab *mmu;$/;"	m	struct:ACK_Session_Tab	access:public
+mmu	DJI_Pro_Rmu.h	/^	MMU_Tab *mmu;$/;"	m	struct:CMD_Session_Tab	access:public
+mmu_lock	DJI_Pro_Rmu.cpp	/^static pthread_mutex_t mmu_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+mode	DJI_Pro_App.h	/^    signed short mode;$/;"	m	struct:__anon9	access:public
+need_encrypt	DJI_Pro_App.h	/^    unsigned char	need_encrypt	: 1;$/;"	m	struct:__anon13	access:public
+need_encrypt	DJI_Pro_Link.h	/^	unsigned short need_encrypt : 1;$/;"	m	struct:ProSendParameter	access:public
+need_encrypt	DJI_Pro_Link.h	/^	unsigned short need_encrypt : 8;$/;"	m	struct:ProAckParameter	access:public
+obtained_control	DJI_Pro_App.h	/^    uint8_t obtained_control;$/;"	m	struct:__anon12	access:public
+p_activate_api_interface	DJI_Pro_App.cpp	/^static Command_Result_Notify p_activate_api_interface = 0;$/;"	v	file:
+p_control_management_interface	DJI_Pro_App.cpp	/^static Command_Result_Notify p_control_management_interface = 0;$/;"	v	file:
+p_get_api_ver_interface	DJI_Pro_App.cpp	/^static Get_API_Version_Notify p_get_api_ver_interface = 0;$/;"	v	file:
+p_status_ctrl_interface	DJI_Pro_App.cpp	/^static Command_Result_Notify p_status_ctrl_interface = 0;$/;"	v	file:
+p_transparent_data_interface	DJI_Pro_App.cpp	/^static Command_Result_Notify p_transparent_data_interface = 0;$/;"	v	file:
+p_user_handler_func	DJI_Pro_App.cpp	/^static User_Handler_Func p_user_handler_func = 0;$/;"	v	file:
+p_user_rec_func	DJI_Pro_App.cpp	/^static Transparent_Transmission_Func p_user_rec_func = 0;$/;"	v	file:
+padding	DJI_Pro_Codec.h	/^	unsigned int padding : 5;$/;"	m	struct:__anon18	access:public
+padding	DJI_Pro_Link.h	/^	unsigned int padding : 5;$/;"	m	struct:ProHeader	access:public
+pbuffer	DJI_Pro_Hw.h	/^    unsigned char *pbuffer;$/;"	m	class:DJI_Pro_Hw	access:private
+pitch	DJI_Pro_App.h	/^    signed short pitch;$/;"	m	struct:__anon9	access:public
+pitch_angle	DJI_Pro_App.h	/^    signed short pitch_angle;$/;"	m	struct:__anon1	access:public
+pitch_angle_rate	DJI_Pro_App.h	/^    signed short pitch_angle_rate;$/;"	m	struct:__anon3	access:public
+pitch_cmd_ignore	DJI_Pro_App.h	/^        unsigned char pitch_cmd_ignore : 1;$/;"	m	struct:__anon1::__anon2	access:public
+pitch_or_y	DJI_Pro_App.h	/^    float	pitch_or_y;$/;"	m	struct:__anon17	access:public
+pmem	DJI_Pro_Rmu.h	/^	unsigned char *pmem;$/;"	m	struct:MMU_Tab	access:public
+port	DJI_Pro_Hw.h	/^    QextSerialPort *port;$/;"	m	class:DJI_Pro_Hw	access:private
+pos	DJI_Pro_App.h	/^    api_pos_data_t pos;$/;"	m	struct:__anon12	access:public
+pre_seq_num	DJI_Pro_Rmu.h	/^	unsigned int pre_seq_num;$/;"	m	struct:CMD_Session_Tab	access:public
+pre_timestamp	DJI_Pro_Rmu.h	/^	unsigned int pre_timestamp;$/;"	m	struct:CMD_Session_Tab	access:public
+ptr_aes256_codec	DJI_Pro_Codec.cpp	/^typedef void(*ptr_aes256_codec)(aes256_context *ctx, unsigned char *buf);$/;"	t	file:
+ptr_filter_hook	DJI_Pro_Codec.h	/^typedef void(*ptr_filter_hook)(SDKHeader* p_head);$/;"	t
+q	DJI_Pro_App.h	/^    api_quaternion_data_t q;$/;"	m	struct:__anon12	access:public
+q0	DJI_Pro_App.h	/^    fp32 q0;$/;"	m	struct:__anon5	access:public
+q1	DJI_Pro_App.h	/^    fp32 q1;$/;"	m	struct:__anon5	access:public
+q2	DJI_Pro_App.h	/^    fp32 q2;$/;"	m	struct:__anon5	access:public
+q3	DJI_Pro_App.h	/^    fp32 q3;$/;"	m	struct:__anon5	access:public
+rc	DJI_Pro_App.h	/^    api_rc_data_t rc;$/;"	m	struct:__anon12	access:public
+recv_index	DJI_Pro_Codec.h	/^	unsigned short recv_index;$/;"	m	struct:__anon19	access:public
+req_id_t	DJI_Pro_App.h	/^}req_id_t;$/;"	t	typeref:struct:__anon13
+res	DJI_Pro_Rmu.h	/^	unsigned int res:25;$/;"	m	struct:ACK_Session_Tab	access:public
+reserve	DJI_Pro_App.h	/^        unsigned char reserve : 4;$/;"	m	struct:__anon1::__anon2	access:public
+reserve	DJI_Pro_App.h	/^        unsigned char reserve : 7;$/;"	m	struct:__anon3::__anon4	access:public
+reserve	DJI_Pro_App.h	/^    unsigned char	reserve	   	: 2;$/;"	m	struct:__anon13	access:public
+reserve	DJI_Pro_App.h	/^    unsigned char reserve             :3;$/;"	m	struct:__anon7	access:public
+reserved	DJI_Pro_App.h	/^    unsigned char reserved                    :4;$/;"	m	struct:__anon11	access:public
+retry_send_time	DJI_Pro_Rmu.h	/^	unsigned int retry_send_time : 5;$/;"	m	struct:CMD_Session_Tab	access:public
+retry_time	DJI_Pro_Link.h	/^	unsigned short retry_time : 13;$/;"	m	struct:ProSendParameter	access:public
+reuse_count	DJI_Pro_Codec.h	/^	unsigned short reuse_count;$/;"	m	struct:__anon19	access:public
+reuse_index	DJI_Pro_Codec.h	/^	unsigned short reuse_index;$/;"	m	struct:__anon19	access:public
+reversed0	DJI_Pro_Codec.h	/^	unsigned int reversed0 : 2; \/\/ always 0$/;"	m	struct:__anon18	access:public
+reversed0	DJI_Pro_Link.h	/^	unsigned int reversed0 : 2; 	\/\/ always 0$/;"	m	struct:ProHeader	access:public
+reversed1	DJI_Pro_Codec.h	/^	unsigned int reversed1 : 24;$/;"	m	struct:__anon18	access:public
+reversed1	DJI_Pro_Link.h	/^	unsigned int reversed1 : 24;$/;"	m	struct:ProHeader	access:public
+rj_sbox	DJI_Pro_Codec.cpp	/^unsigned char rj_sbox(unsigned char x)$/;"	f	signature:(unsigned char x)
+rj_sbox	DJI_Pro_Codec.cpp	108;"	d	file:
+rj_sbox_inv	DJI_Pro_Codec.cpp	/^unsigned char rj_sbox_inv(unsigned char x)$/;"	f	signature:(unsigned char x)
+rj_sbox_inv	DJI_Pro_Codec.cpp	109;"	d	file:
+rj_xtime	DJI_Pro_Codec.cpp	/^unsigned char rj_xtime(unsigned char x)$/;"	f	signature:(unsigned char x)
+roll	DJI_Pro_App.h	/^    signed short roll;$/;"	m	struct:__anon9	access:public
+roll_angle	DJI_Pro_App.h	/^    signed short roll_angle;$/;"	m	struct:__anon1	access:public
+roll_angle_rate	DJI_Pro_App.h	/^    signed short roll_angle_rate;$/;"	m	struct:__anon3	access:public
+roll_cmd_ignore	DJI_Pro_App.h	/^        unsigned char roll_cmd_ignore : 1;$/;"	m	struct:__anon1::__anon2	access:public
+roll_or_x	DJI_Pro_App.h	/^    float 	roll_or_x;$/;"	m	struct:__anon17	access:public
+run	DJI_Pro_Hw.cpp	/^void DJI_Pro_Hw::run()$/;"	f	class:DJI_Pro_Hw	signature:()
+run	DJI_Pro_Hw.h	/^    void run();$/;"	p	class:DJI_Pro_Hw	access:protected	signature:()
+sbox	DJI_Pro_Codec.cpp	/^const unsigned char sbox[256] ={$/;"	v
+sboxinv	DJI_Pro_Codec.cpp	/^const unsigned char sboxinv[256] ={$/;"	v
+sdk_byte_stream_handler	DJI_Pro_Codec.cpp	/^void sdk_byte_stream_handler(SDKFilter* p_filter, unsigned char in_data)$/;"	f	signature:(SDKFilter* p_filter, unsigned char in_data)
+sdk_call_data_app	DJI_Pro_Codec.cpp	/^void sdk_call_data_app(SDKFilter* p_filter)$/;"	f	signature:(SDKFilter* p_filter)
+sdk_check_stream_state	DJI_Pro_Codec.cpp	/^void sdk_check_stream_state(SDKFilter* p_filter)$/;"	f	signature:(SDKFilter* p_filter)
+sdk_comm_set_key	DJI_Pro_Codec.cpp	/^void sdk_comm_set_key(SDKFilter* p_filter, const char* sz_key)$/;"	f	signature:(SDKFilter* p_filter, const char* sz_key)
+sdk_encrypt_interface	DJI_Pro_Codec.cpp	/^unsigned short sdk_encrypt_interface(unsigned char *pdest, const unsigned char *psrc,$/;"	f	signature:(unsigned char *pdest, const unsigned char *psrc, unsigned short w_len,unsigned char is_ack,unsigned char is_enc,unsigned char session_id, unsigned short seq_num)
+sdk_encrypt_interface	DJI_Pro_Codec.h	/^unsigned short sdk_encrypt_interface(unsigned char *pdest, const unsigned char *psrc,$/;"	p	signature:(unsigned char *pdest, const unsigned char *psrc, unsigned short w_len,unsigned char is_ack,unsigned char is_enc,unsigned char session_id,unsigned short seq_num)
+sdk_serial_byte_handle	DJI_Pro_Codec.cpp	/^void sdk_serial_byte_handle(unsigned char in_data)$/;"	f	signature:(unsigned char in_data)
+sdk_serial_byte_handle	DJI_Pro_Codec.h	/^void sdk_serial_byte_handle(unsigned char in_data);$/;"	p	signature:(unsigned char in_data)
+sdk_serial_set_hook	DJI_Pro_Codec.cpp	/^void sdk_serial_set_hook(ptr_filter_hook p_hook)$/;"	f	signature:(ptr_filter_hook p_hook)
+sdk_serial_set_hook	DJI_Pro_Codec.h	/^void sdk_serial_set_hook(ptr_filter_hook p_hook);$/;"	p	signature:(ptr_filter_hook p_hook)
+sdk_set_encrypt_key_interface	DJI_Pro_Codec.cpp	/^void sdk_set_encrypt_key_interface(const char* sz_key)$/;"	f	signature:(const char* sz_key)
+sdk_set_encrypt_key_interface	DJI_Pro_Codec.h	/^void sdk_set_encrypt_key_interface(const char* sz_key);$/;"	p	signature:(const char* sz_key)
+sdk_std_msg_t	DJI_Pro_App.h	/^}sdk_std_msg_t;$/;"	t	typeref:struct:__anon12
+sdk_stream_codec	DJI_Pro_Codec.cpp	/^void sdk_stream_codec(SDKFilter* p_filter, SDKHeader* p_head, ptr_aes256_codec codec_func)$/;"	f	signature:(SDKFilter* p_filter, SDKHeader* p_head, ptr_aes256_codec codec_func)
+sdk_stream_crc16_calc	DJI_Pro_Codec.cpp	/^unsigned short sdk_stream_crc16_calc(const unsigned char* pMsg, unsigned int nLen)$/;"	f	signature:(const unsigned char* pMsg, unsigned int nLen)
+sdk_stream_crc16_calc	DJI_Pro_Codec.h	/^unsigned short sdk_stream_crc16_calc(const unsigned char* pMsg, unsigned int nLen);$/;"	p	signature:(const unsigned char* pMsg, unsigned int nLen)
+sdk_stream_crc32_calc	DJI_Pro_Codec.cpp	/^unsigned int sdk_stream_crc32_calc(const unsigned char* pMsg, unsigned int nLen)$/;"	f	signature:(const unsigned char* pMsg, unsigned int nLen)
+sdk_stream_crc32_calc	DJI_Pro_Codec.h	/^unsigned int sdk_stream_crc32_calc(const unsigned char* pMsg, unsigned int nLen);$/;"	p	signature:(const unsigned char* pMsg, unsigned int nLen)
+sdk_stream_prepare	DJI_Pro_Codec.cpp	/^void sdk_stream_prepare(SDKFilter* p_filter, SDKHeader* p_head)$/;"	f	signature:(SDKFilter* p_filter, SDKHeader* p_head)
+sdk_stream_recalc_crc	DJI_Pro_Codec.cpp	/^void sdk_stream_recalc_crc(void* p_data)$/;"	f	signature:(void* p_data)
+sdk_stream_recalc_crc	DJI_Pro_Codec.h	/^void sdk_stream_recalc_crc(void* p_data);$/;"	p	signature:(void* p_data)
+sdk_stream_shift_data	DJI_Pro_Codec.cpp	/^void sdk_stream_shift_data(SDKFilter* p_filter)$/;"	f	signature:(SDKFilter* p_filter)
+sdk_stream_store_data	DJI_Pro_Codec.cpp	/^void sdk_stream_store_data(SDKFilter* p_filter, unsigned char in_data)$/;"	f	signature:(SDKFilter* p_filter, unsigned char in_data)
+sdk_stream_update_reuse_part	DJI_Pro_Codec.cpp	/^void sdk_stream_update_reuse_part(SDKFilter* p_filter)$/;"	f	signature:(SDKFilter* p_filter)
+sdk_stream_verify_data	DJI_Pro_Codec.cpp	/^void sdk_stream_verify_data(SDKFilter* p_filter)$/;"	f	signature:(SDKFilter* p_filter)
+sdk_stream_verify_head	DJI_Pro_Codec.cpp	/^void sdk_stream_verify_head(SDKFilter* p_filter)$/;"	f	signature:(SDKFilter* p_filter)
+sdk_transform2byte	DJI_Pro_Codec.cpp	/^static void sdk_transform2byte(const char *pstr,unsigned char *pdata)$/;"	f	file:	signature:(const char *pstr,unsigned char *pdata)
+sent_time	DJI_Pro_Rmu.h	/^	unsigned int sent_time : 5;$/;"	m	struct:CMD_Session_Tab	access:public
+seq_num	DJI_Pro_Link.h	/^	unsigned short seq_num;$/;"	m	struct:ProAckParameter	access:public
+sequence_number	DJI_Pro_App.h	/^    unsigned short	sequence_number;$/;"	m	struct:__anon13	access:public
+sequence_number	DJI_Pro_Codec.h	/^	unsigned int sequence_number : 16;$/;"	m	struct:__anon18	access:public
+sequence_number	DJI_Pro_Link.h	/^	unsigned int sequence_number : 16;$/;"	m	struct:ProHeader	access:public
+serial_fd	DJI_Pro_Hw.cpp	/^static int serial_fd = -1;$/;"	v	file:
+serial_fd_set	DJI_Pro_Hw.cpp	/^static fd_set serial_fd_set;$/;"	v	file:
+serial_hook	DJI_Pro_Codec.cpp	/^ptr_filter_hook serial_hook = (ptr_filter_hook)Pro_Link_Recv_Hook;$/;"	v
+serial_object	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw *DJI_Pro_Hw::serial_object = (DJI_Pro_Hw *)NULL;$/;"	m	class:DJI_Pro_Hw	file:
+serial_object	DJI_Pro_Hw.h	/^    static DJI_Pro_Hw *serial_object;$/;"	m	class:DJI_Pro_Hw	access:public
+serial_req_status	DJI_Pro_App.h	/^    unsigned char serial_req_status           :1;\/*1->opensd  0->close*\/$/;"	m	struct:__anon11	access:public
+serial_sdk	DJI_Pro_Codec.cpp	/^SDKFilter serial_sdk = { 0 };$/;"	v
+session_id	DJI_Pro_App.h	/^    unsigned char	session_id 	: 5;$/;"	m	struct:__anon13	access:public
+session_id	DJI_Pro_Codec.h	/^	unsigned int session_id : 5;$/;"	m	struct:__anon18	access:public
+session_id	DJI_Pro_Link.h	/^	unsigned int session_id : 5;$/;"	m	struct:ProHeader	access:public
+session_id	DJI_Pro_Link.h	/^	unsigned short session_id : 8;$/;"	m	struct:ProAckParameter	access:public
+session_id	DJI_Pro_Rmu.h	/^	unsigned int session_id : 5;$/;"	m	struct:ACK_Session_Tab	access:public
+session_id	DJI_Pro_Rmu.h	/^	unsigned int session_id : 5;$/;"	m	struct:CMD_Session_Tab	access:public
+session_mode	DJI_Pro_Link.h	/^    unsigned short session_mode : 2;$/;"	m	struct:ProSendParameter	access:public
+session_status	DJI_Pro_Rmu.h	/^	unsigned int session_status:2;$/;"	m	struct:ACK_Session_Tab	access:public
+sof	DJI_Pro_Codec.h	/^	unsigned int sof : 8; \/\/ 1byte$/;"	m	struct:__anon18	access:public
+sof	DJI_Pro_Link.h	/^	unsigned int sof : 8; 			\/\/ 1byte$/;"	m	struct:ProHeader	access:public
+status	DJI_Pro_App.h	/^    unsigned char status;$/;"	m	struct:__anon12	access:public
+status_ctrl_cmd_data	DJI_Pro_App.cpp	/^static cmd_agency_data_t status_ctrl_cmd_data = {0,0};$/;"	v	file:
+status_ctrl_lock	DJI_Pro_App.cpp	/^static int status_ctrl_lock = -1;$/;"	v	file:
+status_ctrl_return_code	DJI_Pro_App.cpp	/^static unsigned short status_ctrl_return_code = SDK_ERR_NO_RESPONSE;$/;"	v	file:
+std_broadcast_data	DJI_Pro_App.cpp	/^static sdk_std_msg_t std_broadcast_data;$/;"	v	file:
+std_msg_flag	DJI_Pro_App.cpp	/^static unsigned short std_msg_flag = 0;$/;"	v	file:
+std_msg_lock	DJI_Pro_App.cpp	/^static pthread_mutex_t std_msg_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+tab_index	DJI_Pro_Rmu.h	/^	unsigned int tab_index : 8;$/;"	m	struct:MMU_Tab	access:public
+tagAES256Context	DJI_Pro_Codec.cpp	/^typedef struct tagAES256Context {$/;"	s	file:
+tagAES256Context::deckey	DJI_Pro_Codec.cpp	/^    unsigned char deckey[32];$/;"	m	struct:tagAES256Context	file:	access:public
+tagAES256Context::enckey	DJI_Pro_Codec.cpp	/^    unsigned char enckey[32];$/;"	m	struct:tagAES256Context	file:	access:public
+tagAES256Context::key	DJI_Pro_Codec.cpp	/^    unsigned char key[32];$/;"	m	struct:tagAES256Context	file:	access:public
+thr_z	DJI_Pro_App.h	/^    float	thr_z;$/;"	m	struct:__anon17	access:public
+throttle	DJI_Pro_App.h	/^    signed short throttle;$/;"	m	struct:__anon9	access:public
+time_stamp	DJI_Pro_App.h	/^    unsigned int time_stamp;$/;"	m	struct:__anon12	access:public
+to_user_activation_result	DJI_Pro_App.cpp	/^static unsigned short to_user_activation_result;$/;"	v	file:
+to_user_version_data	DJI_Pro_App.cpp	/^static version_query_data_t to_user_version_data;$/;"	v	file:
+usage_flag	DJI_Pro_Rmu.h	/^	unsigned int usage_flag : 1;$/;"	m	struct:CMD_Session_Tab	access:public
+usage_flag	DJI_Pro_Rmu.h	/^	unsigned int usage_flag : 8;$/;"	m	struct:MMU_Tab	access:public
+v	DJI_Pro_App.h	/^    api_vel_data_t v;$/;"	m	struct:__anon12	access:public
+version	DJI_Pro_Codec.h	/^	unsigned int version : 6; \/\/ 2byte$/;"	m	struct:__anon18	access:public
+version	DJI_Pro_Link.h	/^	unsigned int version : 6; 		\/\/ 2byte$/;"	m	struct:ProHeader	access:public
+version_ack	DJI_Pro_App.h	/^    unsigned short	version_ack;$/;"	m	struct:__anon16	access:public
+version_crc	DJI_Pro_App.h	/^    unsigned int	version_crc;$/;"	m	struct:__anon16	access:public
+version_name	DJI_Pro_App.h	/^    char     	version_name[32];$/;"	m	struct:__anon16	access:public
+version_query_data_t	DJI_Pro_App.h	/^}version_query_data_t;$/;"	t	typeref:struct:__anon16
+w	DJI_Pro_App.h	/^    api_common_data_t w;$/;"	m	struct:__anon12	access:public
+x	DJI_Pro_App.h	/^    fp32 x;$/;"	m	struct:__anon6	access:public
+x	DJI_Pro_App.h	/^    fp32 x;$/;"	m	struct:__anon7	access:public
+x	DJI_Pro_App.h	/^    signed short x;$/;"	m	struct:__anon10	access:public
+y	DJI_Pro_App.h	/^    fp32 y;$/;"	m	struct:__anon6	access:public
+y	DJI_Pro_App.h	/^    fp32 y;$/;"	m	struct:__anon7	access:public
+y	DJI_Pro_App.h	/^    signed short y;$/;"	m	struct:__anon10	access:public
+yaw	DJI_Pro_App.h	/^    float	yaw;$/;"	m	struct:__anon17	access:public
+yaw	DJI_Pro_App.h	/^    signed short yaw;$/;"	m	struct:__anon9	access:public
+yaw_angle	DJI_Pro_App.h	/^    signed short yaw_angle;$/;"	m	struct:__anon1	access:public
+yaw_angle_rate	DJI_Pro_App.h	/^    signed short yaw_angle_rate;$/;"	m	struct:__anon3	access:public
+yaw_cmd_ignore	DJI_Pro_App.h	/^        unsigned char yaw_cmd_ignore : 1;$/;"	m	struct:__anon1::__anon2	access:public
+z	DJI_Pro_App.h	/^    fp32 z;$/;"	m	struct:__anon6	access:public
+z	DJI_Pro_App.h	/^    fp32 z;$/;"	m	struct:__anon7	access:public
+z	DJI_Pro_App.h	/^    signed short z;$/;"	m	struct:__anon10	access:public
+~DJI_Pro_Hw	DJI_Pro_Hw.cpp	/^DJI_Pro_Hw::~DJI_Pro_Hw()$/;"	f	class:DJI_Pro_Hw	signature:()
+~DJI_Pro_Hw	DJI_Pro_Hw.h	/^    ~DJI_Pro_Hw();$/;"	p	class:DJI_Pro_Hw	access:public	signature:()
